@@ -1,0 +1,45 @@
+#!/bin/bash
+
+#program to output a system information page
+TITLE="System Information Report For $HOSTNAME"
+CURRENT_TIME=$(date +"%x %r %Z")
+TIME_STAMP="generated $CURRENT_TIME,by $USER"
+#if <<- ,then ignore "tab"s below
+report_uptime(){
+	#echo "Function report_uptime executed"
+	cat <<- _EOF_
+		<H2>System Uptime<H2>
+		<PRE>$(uptime)</PRE>
+		_EOF_
+	return
+}
+report_disk_space(){
+	echo "Function report_disk_space executed"
+	cat <<- _EOF_
+		<H2>Disk Space Utilization</H2>
+		<PRE>$(df -h)</PRE>
+		_EOF_
+	return
+}
+report_home_space(){
+	echo "Function report_home_space executed"
+	cat <<- _EOF_
+		<H2>Home Space Utilization</H2>
+		<PRE>$(du -sh /home/*)</PRE>
+		_EOF_
+	return
+}
+cat <<- _EOF_
+<HTML>
+	<HEAD>
+		<TITLE>$TITLE</TITLE>
+	<HEAD>
+	<BODY>
+		<h1>$TITLE</h1>
+		<p>$TIME_STAMP</p>
+		$(report_uptime)
+		$(report_disk_space)
+		$(report_home_space)	
+	</BODY>
+</HTML>
+_EOF_

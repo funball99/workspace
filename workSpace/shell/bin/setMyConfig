@@ -1,0 +1,43 @@
+#!/bin/bash
+
+## function
+function my(){
+PS1="(╯°Д °)╯︵(不努力的\u@\W)\$ "
+}
+function you(){
+PS1="[\u@\W]\$ "
+}
+function ..(){
+cd ..
+}
+function vimbash(){
+vim ~/.bash_profile
+}
+function srcbash(){
+source ~/.bash_profile
+}
+function apacherestart(){
+service httpd restart
+}
+function apacheconfig(){
+vim /etc/httpd/conf/httpd.conf	
+}
+function workspace(){
+if [ ! -d ~/workSpace ]; then
+	mkdir -p ~/workSpace
+fi
+	cd ~/workSpace
+}
+function bin(){
+if [ ! -d ~/workSpace/shell/bin ]; then
+	mkdir -p ~/workSpace/shell/bin
+fi
+	cd ~/workSpace/shell/bin
+}
+function cdls(){
+builtin cd $* && ls
+}
+
+## alias 
+alias cd='cdls'
+

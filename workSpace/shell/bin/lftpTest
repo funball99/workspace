@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#Scropt to retrieve a file via FTP
+
+FTP_SERVER=cvmftp.tencentyun.com:53000
+FTP_PATH=/weisongli_Linux/
+REMOTE_FILE=hello_world
+USER=app31182
+PASSWORD=Ldap@31182
+
+lftp  << _EOF_
+open $FTP_SERVER
+user $USER $PASSWORD
+cd $FTP_PATH
+get $REMOTE_FILE
+bye
+_EOF_
+ls -l $REMOTE_FILE
