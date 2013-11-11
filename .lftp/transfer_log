@@ -1,0 +1,4 @@
+2013-10-28 15:39:51 /myDisk/wilson/workSpace/shell/bin/hello_world -> ftp://app31182:Ldap%4031182@cvmftp.tencentyun.com:53000/weisongli_Linux/hello_world 0-60 19b/s
+2013-10-28 15:41:37 ftp://app31182:Ldap%4031182@cvmftp.tencentyun.com:53000/weisongli_Linux/hello_world -> /myDisk/wilson/workSpace/shell/hello_world 0-60 64b/s
+2013-10-28 15:46:31 ftp://app31182:Ldap%4031182@cvmftp.tencentyun.com:53000/weisongli_Linux/hello_world -> /myDisk/wilson/workSpace/shell/hello_world 0-60 86b/s
+2013-10-30 15:36:08 /myDisk/wilson/bak/powerbase.bak.tar -> ftp://app1101061243:Ldap%401101061243@cvmftp.tencentyun.com:53000/powerbase.bak.tar 0-14858240 1.02M/s

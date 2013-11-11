@@ -1,0 +1,113 @@
+lftp -u app31182,Ldap@31182 cvmftp.tencentyun.com:53000
+ls
+bye
+lftp -u app1101061243,Ldap@1101061243 cvmftp.tencentyun.com:53000
+ls
+mv ftp lftp
+ls
+by
+open cvmftp.tencentyun.com:53000
+user app31182
+ls
+bye
+open cvmftp.tencentyun.com:53000
+user app31182,Ldap@31182
+user app31182 password Ldap31182
+user app31182 Ldap31182
+ls
+user app31182 Ldap@31182
+ls
+vim lftp 
+bye
+lftp cvmftp.tencentyun.com:53000
+user app31182 Ldap@31182
+hash
+bye
+lftp -u app31182,Ldap@31182 cvmftp.tencentyun.com:53000
+ls
+cd weisongli_Linux
+ls
+cd ..
+cd weisongli_windows
+ls
+cd ..
+get weisongli_Linux
+get weisongli_windows
+get weisongli_windows -r
+get -r weisongli_windows 
+ls
+lls
+~ls
+!ls
+cd weisongli_Linux/
+put hello_world 
+ls
+get hello_world 
+!cd ..
+!pwd
+get hello_world 
+!ls
+!cd ..
+!ls
+bye
+lftp -u app31182,Ldap@31182 cvmftp.tencentyun.com:53000
+ls
+cd weisongli_Linux
+ls
+get hello_world 
+ls
+bye
+lftp -u app31182,Ldap@31182 cvmftp.tencentyun.com:53000
+ls
+cd weisongli_
+!ls
+put -r bak
+put bak
+bye
+lftp cvmftp.tencentyun.com:53000 app1101061243,Ldap@1101061243
+ls
+bye
+lftp cvmftp.tencentyun.com:53000 -u app1101061243,Ldap@1101061243
+ls
+bye
+lftp -u app31182,Ldap@31182 cvmftp.tencentyun.com:53000
+lftp -u app1101061243,Ldap@1101061243 cvmftp.tencentyun.com:53000
+ls
+put bak
+put -r bak
+help put
+!cd kab
+!cd bak
+!ls
+lcd bak
+lls
+!ls
+put powerbase.bak.tar 
+bye
+lftp -u app31182,Ldap@31182 cvmftp.tencentyun.com:53000
+ls
+lls
+!ls
+!cd bak
+!ls
+lcd bak
+!ls
+put powerbase.bak.tar 
+by
+lftp -u tenc2014,tenc2014 203.195.142.94:21
+ls
+bye
+lftp -u tenc2014,toone 203.195.142.94:21
+ls
+lftp -u tenc2014,toone 203.195.142.94:21 utf-8
+bye
+lftp -u tenc2014,toone 203.195.142.94:21 utf-8
+ls
+bye
+lftp -u tenc2014,toone 10.221.44.157:21
+ls
+ping 10.221.44.157
+bye
+lftp -u tenc2014,toone 10.221.44.157:21
+ls
+bye
