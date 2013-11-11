@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ /home/ftp1/imcoming -nt /myDisk/wilson/workSpace/shell/bin/setMyConfig ]; then
+	if [ -e /myDisk/wilson/workSpace/shell/bin/setMyConfig.bak ]; then
+		bakWorkSpace &&	rm /myDisk/wilson/workSpace/shell/bin/setMyConfig.bak && cp /myDisk/wilson/workSpace/shell/bin/setMyConfig /myDisk/wilson/workSpace/shell/bin/setMyConfig.bak && cd ~ && git add -A && git commit -m "$(date +%Y%m%d%H%M)" && git push git@github.com:funball99/workspace.git && echo "sync succeed!"
+	fi
+else
+	echo "no"
+fi

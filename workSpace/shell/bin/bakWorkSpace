@@ -1,0 +1,3 @@
+#!/bin/bash
+
+tar -cf ~/bak/workspace.tar ~/workSpace && echo "workSpace bakup succeed!!!"

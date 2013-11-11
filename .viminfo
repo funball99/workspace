@@ -9,8 +9,9 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-:q!
 :Wq
+:q!
+:q1
 :w
 :q!\
 :wq!
@@ -35,40 +36,59 @@
 # 寄存器:
 "0	LINE	0
 	PATH=~/workSpace/shell/bin:"$PATH"
-"1	LINE	0
-	f
+""1	LINE	0
+	
 "2	LINE	0
-			
+		
 "3	LINE	0
-		<br/>
+	echo "aaa"
 "4	LINE	0
-		v1.1  ¿?¿?LC_ALL¿?¿?
+	d
 "5	LINE	0
-		v1.0  ¿?¿?PS1¿?¿?
+	f
 "6	LINE	0
-	export LC_ALL="zh_CN.UTF-8"
+			
 "7	LINE	0
-	export PS1="\[\e[32m\][\u@\h \W]\\$\[\e[m\] "
+		<br/>
 "8	LINE	0
-	export PS1="\[\e[32m\][\u@\h \W]\\$\[\e[m\] "
+		v1.1  ¿?¿?LC_ALL¿?¿?
 "9	LINE	0
-	export LC_ALL="zh_CN.UTF-8"
-""-	CHAR	0
-	#
+		v1.0  ¿?¿?PS1¿?¿?
+"-	CHAR	0
+	！
 
 # 文件标记:
-'0  10  0  /etc/resolv.conf
-'1  12  17  ~/.bash_profile
-'2  7  60  /etc/fstab
-'3  1  0  /etc/fstag
-'4  3  6  ~/workSpace/shell/bin/bak
-'5  8  0  ~/workSpace/shell/bin/temp
-'6  6  0  ~/workSpace/shell/bin/temp
-'7  9  0  ~/workSpace/shell/bin/temp
-'8  6  0  ~/workSpace/shell/bin/hello_world
-'9  19  24  ~/workSpace/apacheDocument/index.html
+'0  5  310  /home/exec/check
+'1  6  1  /home/exec/check
+'2  3  74  ~/workSpace/shell/bin/bakWorkSpace
+'3  8  9  /home/exec/check
+'4  2  1  /home/ftp1/imcoming
+'5  9  1  /home/exec/check
+'6  2  0  /home/exec/check
+'7  6  9  ~/workSpace/shell/bin/checkUpdate
+'8  7  9  ~/workSpace/shell/bin/checkUpdate
+'9  1  0  ~/workSpace/shell/bin/checkUpdate
 
 # 跳转列表 (从新到旧):
+-'  5  310  /home/exec/check
+-'  6  1  /home/exec/check
+-'  8  1  /home/exec/check
+-'  3  74  ~/workSpace/shell/bin/bakWorkSpace
+-'  1  0  ~/workSpace/shell/bin/bakWorkSpace
+-'  4  64  /home/exec/check
+-'  9  0  /home/exec/check
+-'  2  1  /home/ftp1/imcoming
+-'  1  0  /home/ftp1/imcoming
+-'  2  0  /home/exec/check
+-'  1  0  /home/exec/check
+-'  6  9  ~/workSpace/shell/bin/checkUpdate
+-'  7  0  ~/workSpace/shell/bin/checkUpdate
+-'  1  0  ~/workSpace/shell/bin/checkUpdate
+-'  3  21  /home/ftp1/a
+-'  32  13  /etc/vsftpd/vsftpd.conf
+-'  84  0  /etc/vsftpd/vsftpd.conf
+-'  1  0  /home/ftp1/a
+-'  1  0  /etc/vsftpd/vsftpd.conf
 -'  10  0  /etc/resolv.conf
 -'  12  17  ~/.bash_profile
 -'  15  0  ~/.bash_profile
@@ -149,26 +169,75 @@
 -'  11  0  ~/workSpace/shell/bin/if
 -'  1  10  ~/workSpace/shell/bin/sys_info_page
 -'  29  2  ~/workSpace/shell/bin/sys_info_page
--'  25  1  ~/workSpace/shell/bin/sys_info_page
--'  31  0  ~/workSpace/shell/bin/sys_info_page
--'  28  6  ~/workSpace/shell/bin/variable
--'  10  1  ~/workSpace/shell/bin/variable
--'  26  0  ~/workSpace/shell/bin/variable
--'  1  0  ~/workSpace/shell/bin/variable
--'  42  2  ~/workSpace/shell/bin/sys_info_page
--'  5  15  ~/workSpace/shell/bin/functionDemo
--'  6  1  ~/workSpace/shell/bin/functionDemo
--'  3  0  ~/workSpace/shell/bin/temp
--'  4  0  ~/workSpace/shell/bin/temp
--'  1  0  ~/workSpace/shell/bin/temp
--'  7  0  ~/workSpace/shell/bin/functionDemo
--'  13  0  ~/workSpace/shell/bin/functionDemo
--'  8  0  ~/.bashrc
--'  14  0  ~/workSpace/shell/bin/functionDemo
--'  1  0  ~/workSpace/shell/bin/functionDemo
--'  22  0  ~/.bash_profile
 
 # 文件内的标记历史记录 (从新到旧):
+
+> /home/exec/check
+	"	5	310
+	^	5	311
+	.	5	310
+	+	9	1
+	+	4	67
+	+	6	2
+	+	5	2
+	+	4	0
+	+	5	13
+	+	5	173
+	+	6	0
+	+	5	16
+	+	5	71
+	+	5	18
+	+	6	0
+	+	5	74
+	+	5	310
+
+> ~/workSpace/shell/bin/bakWorkSpace
+	"	3	74
+	^	3	75
+	.	3	74
+	+	3	74
+
+> ~/workSpace/shell/bin/bak
+	"	3	66
+	^	3	67
+	.	3	66
+	+	3	66
+
+> /home/ftp1/imcoming
+	"	2	1
+	^	2	2
+	.	2	1
+	+	2	1
+
+> ~/workSpace/shell/bin/checkUpdate
+	"	6	9
+	^	6	10
+	.	6	9
+	+	7	0
+	+	2	0
+	+	4	11
+	+	6	9
+
+> /home/ftp1/a
+	"	3	21
+	^	3	22
+	.	3	22
+	+	3	7
+	+	4	0
+	+	3	22
+
+> /etc/vsftpd/vsftpd.conf
+	"	32	13
+	^	32	14
+	.	32	13
+	+	12	0
+	+	27	0
+	+	31	0
+	+	32	12
+	+	22	14
+	+	32	13
+	+	22	14
+	+	32	13
 
 > /etc/resolv.conf
 	"	10	0
@@ -272,12 +341,6 @@
 
 > /etc/fstag
 	"	1	0
-
-> ~/workSpace/shell/bin/bak
-	"	3	6
-	^	3	24
-	.	3	6
-	+	3	6
 
 > ~/workSpace/shell/bin/temp
 	"	8	0
