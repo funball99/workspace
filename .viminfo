@@ -8,8 +8,8 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
-:q!
 :wq
+:q!
 :Wq
 :WQ
 :s
@@ -37,41 +37,50 @@
 # 寄存器:
 "0	LINE	0
 	            "x-txc-cloud-nonce":random.randint(1,(1<<31) - 1),
-"1	LINE	0
-	    	}
+""1	LINE	0
+	. imcoming
 "2	LINE	0
-	    		]
+	    	}
 "3	LINE	0
-	       
+	    		]
 "4	LINE	0
-	        		}
+	       
 "5	LINE	0
-	        		    "port":8008
+	        		}
 "6	LINE	0
-	         		   "lanIp":"10.190.165.228",
+	        		    "port":8008
 "7	LINE	0
-	        		{
+	         		   "lanIp":"10.190.165.228",
 "8	LINE	0
-	    		[
+	        		{
 "9	LINE	0
-	    	    "devicesList":
-""-	CHAR	0
-	E
+	    		[
+"-	CHAR	0
+	#
 
 # 文件标记:
-'0  8  1  /home/exec/check
-'1  4  4  ~/workSpace/shell/bin/needUpdate
-'2  7  1  ~/workSpace/shell/bin/needUpdate
-'3  3  0  ~/workSpace/shell/bin/needUpdate
-'4  11  5  ~/workSpace/tmp/sha1.py
-'5  12  71  ~/workSpace/tmp/sha1.py
-'6  4  28  ~/workSpace/tmp/sha1.py
-'7  30  10  ~/workSpace/tmp/sha1.py
-'8  26  45  ~/workSpace/tmp/sha1.py
-'9  16  38  ~/workSpace/tmp/sha1.py
+'0  2  20  /home/exec/check
+'1  6  7  /home/exec/check
+'2  3  0  /home/ftp1/imcoming
+'3  50  0  ~/workSpace/shell/bin/setMyConfig
+'4  15  10  ~/.bash_profile
+'5  16  9  ~/.bash_profile
+'6  9  1  /home/exec/check
+'7  4  4  ~/workSpace/shell/bin/needUpdate
+'8  7  1  ~/workSpace/shell/bin/needUpdate
+'9  3  0  ~/workSpace/shell/bin/needUpdate
 
 # 跳转列表 (从新到旧):
--'  8  1  /home/exec/check
+-'  2  20  /home/exec/check
+-'  6  2  /home/exec/check
+-'  7  0  /home/exec/check
+-'  9  1  /home/exec/check
+-'  3  0  /home/ftp1/imcoming
+-'  50  0  ~/workSpace/shell/bin/setMyConfig
+-'  24  0  ~/workSpace/shell/bin/setMyConfig
+-'  15  10  ~/.bash_profile
+-'  16  0  ~/.bash_profile
+-'  12  0  ~/.bash_profile
 -'  4  4  ~/workSpace/shell/bin/needUpdate
 -'  7  0  ~/workSpace/shell/bin/needUpdate
 -'  3  0  ~/workSpace/shell/bin/needUpdate
@@ -98,23 +107,19 @@
 -'  36  0  ~/workSpace/tmp/sha1.py
 -'  3  16  /home/exec/test
 -'  1  0  /home/exec/test
--'  3  0  /home/ftp1/imcoming
 -'  2  0  /home/ftp1/imcoming
--'  5  2  /home/exec/check
--'  24  0  ~/workSpace/shell/bin/setMyConfig
 -'  18  0  ~/workSpace/shell/bin/setMyConfig
 -'  2  0  ~/workSpace/shell/bin/unsetMyConfig
 -'  1  0  ~/workSpace/shell/bin/unsetMyConfig
 -'  1  0  ~/workSpace/shell/bin/vim
 -'  6  1  ~/workSpace/shell/bin/checkUpdate
--'  9  1  /home/exec/check
--'  6  1  /home/exec/check
+-'  10  1  /home/exec/check
 -'  3  74  ~/workSpace/shell/bin/bakWorkSpace
 -'  1  0  ~/workSpace/shell/bin/bakWorkSpace
--'  4  64  /home/exec/check
--'  10  0  /home/exec/check
+-'  5  64  /home/exec/check
+-'  11  0  /home/exec/check
 -'  1  0  /home/ftp1/imcoming
--'  2  0  /home/exec/check
+-'  3  0  /home/exec/check
 -'  1  0  /home/exec/check
 -'  7  0  ~/workSpace/shell/bin/checkUpdate
 -'  1  0  ~/workSpace/shell/bin/checkUpdate
@@ -124,8 +129,6 @@
 -'  1  0  /home/ftp1/a
 -'  1  0  /etc/vsftpd/vsftpd.conf
 -'  10  0  /etc/resolv.conf
--'  12  17  ~/.bash_profile
--'  15  0  ~/.bash_profile
 -'  7  60  /etc/fstab
 -'  1  0  /etc/fstab
 -'  1  0  /etc/fstag
@@ -151,7 +154,6 @@
 -'  23  0  ~/.bash_profile
 -'  17  0  ~/.bash_profile
 -'  18  0  ~/.bash_profile
--'  16  0  ~/.bash_profile
 -'  3  0  ~/workSpace/shell/bin/myConfig
 -'  1  0  ~/workSpace/shell/bin/myConfig
 -'  2  0  ~/workSpace/shell/bin/cdsh
@@ -167,108 +169,37 @@
 -'  1  0  /etc/pr
 -'  1  0  /etc/profil
 -'  6  0  ~/workSpace/shell/bin/fix.sh
--'  1  0  ~/workSpace/shell/bin/fix.sh
--'  11  0  ~/workSpace/shell/bin/weisongli.sh
 
 # 文件内的标记历史记录 (从新到旧):
 
 > /home/exec/check
-	"	8	1
-	^	8	70
-	.	8	51
-	+	10	1
-	+	4	67
+	"	2	20
+	^	2	21
+	.	2	20
+	+	11	1
+	+	5	67
+	+	7	2
 	+	6	2
-	+	5	2
-	+	4	0
-	+	5	13
-	+	5	173
-	+	6	0
-	+	5	16
-	+	5	71
-	+	5	18
-	+	6	0
-	+	5	74
-	+	5	310
-	+	5	301
-	+	6	0
-	+	9	22
-	+	5	381
-	+	6	0
-	+	8	51
-
-> ~/workSpace/shell/bin/needUpdate
-	"	4	4
-	^	4	5
-	.	4	5
-	+	2	0
-	+	7	1
-	+	4	5
-
-> ~/workSpace/tmp/sha1.py
-	"	11	5
-	.	11	0
-	+	1	18
-	+	1	4
-	+	1	0
-	+	1	23
-	+	36	0
-	+	47	6
-	+	27	12
-	+	47	0
-	+	38	58
-	+	46	1
-	+	38	17
-	+	41	38
-	+	42	18
-	+	46	1
-	+	38	0
-	+	38	2
-	+	38	17
-	+	38	12
-	+	38	18
-	+	38	38
-	+	38	0
-	+	37	55
-	+	14	0
-	+	11	48
-	+	10	15
-	+	2	37
-	+	29	3
-	+	3	0
-	+	4	30
-	+	18	0
-	+	17	11
-	+	18	45
-	+	29	8
-	+	29	5
-	+	29	9
-	+	29	10
-	+	29	9
-	+	29	9
-	+	29	5
-	+	29	5
-	+	13	0
-	+	29	0
-	+	16	0
-	+	15	11
-	+	16	36
-	+	13	0
-	+	13	0
-	+	12	68
-	+	4	28
-	+	16	32
-	+	18	43
-	+	30	11
-	+	4	29
-	+	12	71
-	+	11	0
-
-> /home/exec/test
-	"	3	16
-	^	3	17
-	.	3	16
-	+	3	16
+	+	5	0
+	+	6	13
+	+	6	173
+	+	7	0
+	+	6	16
+	+	6	71
+	+	6	18
+	+	7	0
+	+	6	74
+	+	6	310
+	+	6	301
+	+	7	0
+	+	10	22
+	+	6	381
+	+	7	0
+	+	9	51
+	+	6	36
+	+	7	0
+	+	6	7
+	+	2	20
 
 > /home/ftp1/imcoming
 	"	3	0
@@ -280,7 +211,7 @@
 	+	3	0
 
 > ~/workSpace/shell/bin/setMyConfig
-	"	24	0
+	"	50	0
 	^	24	1
 	.	24	0
 	+	1	0
@@ -292,72 +223,10 @@
 	+	20	22
 	+	24	0
 
-> ~/workSpace/shell/bin/unsetMyConfig
-	"	2	0
-	.	3	0
-	+	2	0
-	+	2	0
-	+	3	0
-
-> ~/workSpace/shell/bin/vim
-	"	1	0
-
-> ~/workSpace/shell/bin/checkUpdate
-	"	6	1
-	^	6	10
-	.	6	9
-	+	7	0
-	+	2	0
-	+	4	11
-	+	6	9
-
-> ~/workSpace/shell/bin/bakWorkSpace
-	"	3	74
-	^	3	75
-	.	3	74
-	+	3	74
-
-> ~/workSpace/shell/bin/bak
-	"	3	66
-	^	3	67
-	.	3	66
-	+	3	66
-
-> /home/ftp1/a
-	"	3	21
-	^	3	22
-	.	3	22
-	+	3	7
-	+	4	0
-	+	3	22
-
-> /etc/vsftpd/vsftpd.conf
-	"	32	13
-	^	32	14
-	.	32	13
-	+	12	0
-	+	27	0
-	+	31	0
-	+	32	12
-	+	22	14
-	+	32	13
-	+	22	14
-	+	32	13
-
-> /etc/resolv.conf
-	"	10	0
-	^	10	1
-	.	10	0
-	+	10	0
-	+	11	0
-	+	12	0
-	+	13	0
-	+	10	0
-
 > ~/.bash_profile
-	"	12	17
-	^	12	18
-	.	12	14
+	"	15	10
+	^	15	11
+	.	15	0
 	+	10	0
 	+	17	27
 	+	17	9
@@ -435,8 +304,145 @@
 	+	23	0
 	+	22	0
 	+	24	0
-	+	15	0
+	+	16	0
 	+	12	14
+	+	16	0
+	+	15	0
+
+> ~/workSpace/shell/bin/needUpdate
+	"	4	4
+	^	4	5
+	.	4	5
+	+	2	0
+	+	7	1
+	+	4	5
+
+> ~/workSpace/tmp/sha1.py
+	"	11	5
+	.	11	0
+	+	1	18
+	+	1	4
+	+	1	0
+	+	1	23
+	+	36	0
+	+	47	6
+	+	27	12
+	+	47	0
+	+	38	58
+	+	46	1
+	+	38	17
+	+	41	38
+	+	42	18
+	+	46	1
+	+	38	0
+	+	38	2
+	+	38	17
+	+	38	12
+	+	38	18
+	+	38	38
+	+	38	0
+	+	37	55
+	+	14	0
+	+	11	48
+	+	10	15
+	+	2	37
+	+	29	3
+	+	3	0
+	+	4	30
+	+	18	0
+	+	17	11
+	+	18	45
+	+	29	8
+	+	29	5
+	+	29	9
+	+	29	10
+	+	29	9
+	+	29	9
+	+	29	5
+	+	29	5
+	+	13	0
+	+	29	0
+	+	16	0
+	+	15	11
+	+	16	36
+	+	13	0
+	+	13	0
+	+	12	68
+	+	4	28
+	+	16	32
+	+	18	43
+	+	30	11
+	+	4	29
+	+	12	71
+	+	11	0
+
+> /home/exec/test
+	"	3	16
+	^	3	17
+	.	3	16
+	+	3	16
+
+> ~/workSpace/shell/bin/unsetMyConfig
+	"	2	0
+	.	3	0
+	+	2	0
+	+	2	0
+	+	3	0
+
+> ~/workSpace/shell/bin/vim
+	"	1	0
+
+> ~/workSpace/shell/bin/checkUpdate
+	"	6	1
+	^	6	10
+	.	6	9
+	+	7	0
+	+	2	0
+	+	4	11
+	+	6	9
+
+> ~/workSpace/shell/bin/bakWorkSpace
+	"	3	74
+	^	3	75
+	.	3	74
+	+	3	74
+
+> ~/workSpace/shell/bin/bak
+	"	3	66
+	^	3	67
+	.	3	66
+	+	3	66
+
+> /home/ftp1/a
+	"	3	21
+	^	3	22
+	.	3	22
+	+	3	7
+	+	4	0
+	+	3	22
+
+> /etc/vsftpd/vsftpd.conf
+	"	32	13
+	^	32	14
+	.	32	13
+	+	12	0
+	+	27	0
+	+	31	0
+	+	32	12
+	+	22	14
+	+	32	13
+	+	22	14
+	+	32	13
+
+> /etc/resolv.conf
+	"	10	0
+	^	10	1
+	.	10	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	10	0
 
 > /etc/fstab
 	"	7	60

@@ -1,8 +1,9 @@
 #!/bin/bash
+source /myDisk/wilson/.bash_profile
 
 if [ /home/ftp1/imcoming -nt /myDisk/wilson/workSpace/shell/bin/setMyConfig ]; then
 	if [ -e /myDisk/wilson/workSpace/shell/bin/setMyConfig.bak ]; then
-		bakWorkSpace &&	rm /myDisk/wilson/workSpace/shell/bin/setMyConfig.bak && cp /myDisk/wilson/workSpace/shell/bin/setMyConfig /myDisk/wilson/workSpace/shell/bin/setMyConfig.bak && rm /myDisk/wilson/workSpace/shell/bin/setMyConfig && cp /home/ftp1/imcoming /myDisk/wilson/workSpace/shell/bin/setMyConfig && chmod 755 /home/ftp1/imcoming /myDisk/wilson/workSpace/shell/bin/setMyConfig && cd ~ && git add -A && git commit -m "$(date +%Y%m%d%H%M)" && git push git@github.com:funball99/workspace.git && echo "sync succeed!"
+		source	/myDisk/wilson/workSpace/shell/bin/bakWorkSpace &&	rm /myDisk/wilson/workSpace/shell/bin/setMyConfig.bak && cp /myDisk/wilson/workSpace/shell/bin/setMyConfig /myDisk/wilson/workSpace/shell/bin/setMyConfig.bak && rm /myDisk/wilson/workSpace/shell/bin/setMyConfig && cp /home/ftp1/imcoming /myDisk/wilson/workSpace/shell/bin/setMyConfig && chmod 755 /home/ftp1/imcoming /myDisk/wilson/workSpace/shell/bin/setMyConfig && cd ~ && git add -A && git commit -m "$(date +%Y%m%d%H%M)" && git push git@github.com:funball99/workspace.git && echo "sync succeed!"
 	fi
 else
 	cp /myDisk/wilson/workSpace/shell/bin/setMyConfig /home/ftp1/imcoming
