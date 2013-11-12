@@ -35,9 +35,9 @@
 # Input Line History (newest to oldest):
 
 # 寄存器:
-"0	LINE	0
-	            "x-txc-cloud-nonce":random.randint(1,(1<<31) - 1),
-""1	LINE	0
+""0	LINE	0
+			echo "========================================================================="
+"1	LINE	0
 	. imcoming
 "2	LINE	0
 	    	}
@@ -59,22 +59,23 @@
 	#
 
 # 文件标记:
-'0  2  20  /home/exec/check
-'1  6  7  /home/exec/check
-'2  3  0  /home/ftp1/imcoming
-'3  50  0  ~/workSpace/shell/bin/setMyConfig
-'4  15  10  ~/.bash_profile
-'5  16  9  ~/.bash_profile
-'6  9  1  /home/exec/check
-'7  4  4  ~/workSpace/shell/bin/needUpdate
-'8  7  1  ~/workSpace/shell/bin/needUpdate
-'9  3  0  ~/workSpace/shell/bin/needUpdate
+'0  11  33  /home/exec/check
+'1  2  20  /home/exec/check
+'2  6  7  /home/exec/check
+'3  3  0  /home/ftp1/imcoming
+'4  50  0  ~/workSpace/shell/bin/setMyConfig
+'5  15  10  ~/.bash_profile
+'6  16  9  ~/.bash_profile
+'7  10  1  /home/exec/check
+'8  4  4  ~/workSpace/shell/bin/needUpdate
+'9  7  1  ~/workSpace/shell/bin/needUpdate
 
 # 跳转列表 (从新到旧):
--'  2  20  /home/exec/check
+-'  11  33  /home/exec/check
+-'  2  0  /home/exec/check
 -'  6  2  /home/exec/check
--'  7  0  /home/exec/check
--'  9  1  /home/exec/check
+-'  8  0  /home/exec/check
+-'  10  1  /home/exec/check
 -'  3  0  /home/ftp1/imcoming
 -'  50  0  ~/workSpace/shell/bin/setMyConfig
 -'  24  0  ~/workSpace/shell/bin/setMyConfig
@@ -113,11 +114,10 @@
 -'  1  0  ~/workSpace/shell/bin/unsetMyConfig
 -'  1  0  ~/workSpace/shell/bin/vim
 -'  6  1  ~/workSpace/shell/bin/checkUpdate
--'  10  1  /home/exec/check
 -'  3  74  ~/workSpace/shell/bin/bakWorkSpace
 -'  1  0  ~/workSpace/shell/bin/bakWorkSpace
 -'  5  64  /home/exec/check
--'  11  0  /home/exec/check
+-'  13  0  /home/exec/check
 -'  1  0  /home/ftp1/imcoming
 -'  3  0  /home/exec/check
 -'  1  0  /home/exec/check
@@ -173,33 +173,38 @@
 # 文件内的标记历史记录 (从新到旧):
 
 > /home/exec/check
-	"	2	20
-	^	2	21
-	.	2	20
-	+	11	1
+	"	11	33
+	^	11	34
+	.	12	0
+	+	13	1
 	+	5	67
-	+	7	2
+	+	8	2
 	+	6	2
 	+	5	0
 	+	6	13
 	+	6	173
-	+	7	0
+	+	8	0
 	+	6	16
 	+	6	71
 	+	6	18
-	+	7	0
+	+	8	0
 	+	6	74
 	+	6	310
 	+	6	301
-	+	7	0
-	+	10	22
+	+	8	0
+	+	11	22
 	+	6	381
-	+	7	0
-	+	9	51
+	+	8	0
+	+	10	51
 	+	6	36
-	+	7	0
+	+	8	0
 	+	6	7
 	+	2	20
+	+	6	561
+	+	7	81
+	+	12	1
+	+	11	44
+	+	12	0
 
 > /home/ftp1/imcoming
 	"	3	0
