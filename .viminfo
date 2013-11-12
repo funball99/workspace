@@ -9,8 +9,9 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-:Wq
 :q!
+:s
+:Wq
 :q1
 :w
 :q!\
@@ -23,7 +24,6 @@
 :nuon
 :setno
 :setnum
-:s
 
 # Search String History (newest to oldest):
 
@@ -37,51 +37,58 @@
 "0	LINE	0
 	PATH=~/workSpace/shell/bin:"$PATH"
 ""1	LINE	0
-	
+	##
 "2	LINE	0
-		
+	ssh exec@10.221.4.141 -p 22 -P 0450278329e
 "3	LINE	0
-	echo "aaa"
+	
 "4	LINE	0
-	d
+		
 "5	LINE	0
-	f
+	echo "aaa"
 "6	LINE	0
-			
+	d
 "7	LINE	0
-		<br/>
+	f
 "8	LINE	0
-		v1.1  ¿?¿?LC_ALL¿?¿?
+			
 "9	LINE	0
-		v1.0  ¿?¿?PS1¿?¿?
+		<br/>
 "-	CHAR	0
 	！
 
 # 文件标记:
-'0  5  297  /home/exec/check
-'1  5  310  /home/exec/check
-'2  6  1  /home/exec/check
-'3  3  74  ~/workSpace/shell/bin/bakWorkSpace
-'4  8  9  /home/exec/check
-'5  2  1  /home/ftp1/imcoming
-'6  9  1  /home/exec/check
-'7  2  0  /home/exec/check
-'8  6  9  ~/workSpace/shell/bin/checkUpdate
-'9  7  9  ~/workSpace/shell/bin/checkUpdate
+'0  2  0  /home/ftp1/imcoming
+'1  3  0  /home/ftp1/imcoming
+'2  8  69  /home/exec/check
+'3  24  0  ~/workSpace/shell/bin/setMyConfig
+'4  2  0  ~/workSpace/shell/bin/unsetMyConfig
+'5  18  0  ~/workSpace/shell/bin/setMyConfig
+'6  1  0  ~/workSpace/shell/bin/vim
+'7  6  1  ~/workSpace/shell/bin/checkUpdate
+'8  5  381  /home/exec/check
+'9  9  22  /home/exec/check
 
 # 跳转列表 (从新到旧):
--'  5  297  /home/exec/check
+-'  2  0  /home/ftp1/imcoming
+-'  3  0  /home/ftp1/imcoming
+-'  8  69  /home/exec/check
+-'  5  2  /home/exec/check
+-'  24  0  ~/workSpace/shell/bin/setMyConfig
+-'  18  0  ~/workSpace/shell/bin/setMyConfig
+-'  2  0  ~/workSpace/shell/bin/unsetMyConfig
+-'  1  0  ~/workSpace/shell/bin/unsetMyConfig
+-'  1  0  ~/workSpace/shell/bin/vim
+-'  6  1  ~/workSpace/shell/bin/checkUpdate
+-'  9  1  /home/exec/check
 -'  6  1  /home/exec/check
--'  8  1  /home/exec/check
 -'  3  74  ~/workSpace/shell/bin/bakWorkSpace
 -'  1  0  ~/workSpace/shell/bin/bakWorkSpace
 -'  4  64  /home/exec/check
--'  9  0  /home/exec/check
--'  2  1  /home/ftp1/imcoming
+-'  10  0  /home/exec/check
 -'  1  0  /home/ftp1/imcoming
 -'  2  0  /home/exec/check
 -'  1  0  /home/exec/check
--'  6  9  ~/workSpace/shell/bin/checkUpdate
 -'  7  0  ~/workSpace/shell/bin/checkUpdate
 -'  1  0  ~/workSpace/shell/bin/checkUpdate
 -'  3  21  /home/ftp1/a
@@ -113,7 +120,6 @@
 -'  84  0  /etc/profile
 -'  83  0  /etc/profile
 -'  8  3  ~/workSpace/apacheDocument/index.html
--'  18  0  ~/workSpace/shell/bin/setMyConfig
 -'  1  0  ~/workSpace/shell/bin/setMyConfig
 -'  23  0  ~/.bash_profile
 -'  17  0  ~/.bash_profile
@@ -163,18 +169,22 @@
 -'  7  2  ~/workSpace/shell/bin/if
 -'  8  0  ~/workSpace/shell/bin/if
 -'  6  0  ~/workSpace/shell/bin/if
--'  1  5  /home/a/aaa
--'  1  3  /data/home/a
--'  1  0  ~/workSpace/shell/bin/if
--'  11  0  ~/workSpace/shell/bin/if
 
 # 文件内的标记历史记录 (从新到旧):
 
+> /home/ftp1/imcoming
+	"	2	0
+	^	2	0
+	.	1	11
+	+	3	0
+	+	4	0
+	+	1	11
+
 > /home/exec/check
-	"	5	297
-	^	5	298
-	.	6	0
-	+	9	1
+	"	8	69
+	^	8	70
+	.	8	51
+	+	10	1
 	+	4	67
 	+	6	2
 	+	5	2
@@ -190,6 +200,42 @@
 	+	5	310
 	+	5	301
 	+	6	0
+	+	9	22
+	+	5	381
+	+	6	0
+	+	8	51
+
+> ~/workSpace/shell/bin/setMyConfig
+	"	24	0
+	^	24	1
+	.	24	0
+	+	1	0
+	+	3	0
+	+	1	10
+	+	18	0
+	+	21	0
+	+	23	41
+	+	20	22
+	+	24	0
+
+> ~/workSpace/shell/bin/unsetMyConfig
+	"	2	0
+	.	3	0
+	+	2	0
+	+	2	0
+	+	3	0
+
+> ~/workSpace/shell/bin/vim
+	"	1	0
+
+> ~/workSpace/shell/bin/checkUpdate
+	"	6	1
+	^	6	10
+	.	6	9
+	+	7	0
+	+	2	0
+	+	4	11
+	+	6	9
 
 > ~/workSpace/shell/bin/bakWorkSpace
 	"	3	74
@@ -202,21 +248,6 @@
 	^	3	67
 	.	3	66
 	+	3	66
-
-> /home/ftp1/imcoming
-	"	2	1
-	^	2	2
-	.	2	1
-	+	2	1
-
-> ~/workSpace/shell/bin/checkUpdate
-	"	6	9
-	^	6	10
-	.	6	9
-	+	7	0
-	+	2	0
-	+	4	11
-	+	6	9
 
 > /home/ftp1/a
 	"	3	21
@@ -429,15 +460,6 @@
 	+	84	0
 	+	84	0
 	+	84	0
-
-> ~/workSpace/shell/bin/setMyConfig
-	"	18	0
-	^	1	11
-	.	18	0
-	+	1	0
-	+	3	0
-	+	1	10
-	+	18	0
 
 > ~/workSpace/shell/bin/myConfig
 	"	3	0

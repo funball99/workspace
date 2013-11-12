@@ -1,6 +1,7 @@
 #!/bin/bash
-##
+
 ## function
+
 function my(){
 PS1="(╯°Д °)╯︵(不努力的\u@\W)\$ "
 }
@@ -15,6 +16,12 @@ vim ~/.bash_profile
 }
 function srcbash(){
 source ~/.bash_profile
+}
+function vimcommon(){
+vim /home/ftp1/imcoming
+}
+function srccommon(){
+source /home/ftp1/imcoming
 }
 function apacherestart(){
 service httpd restart
