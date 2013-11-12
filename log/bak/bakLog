@@ -295,3 +295,16 @@ latest version at 201311122305 !
 =========================================================================
 tar: Removing leading `/' from member names
 workSpace bakup succeed!!!
+[master 14dd64a] 201311122306
+ 2 files changed, 12 insertions(+)
+Warning: Permanently added the RSA host key for IP address '192.30.252.131' to the list of known hosts.
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+=========================================================================
+latest version at 201311122307 !
+=========================================================================
+tar: Removing leading `/' from member names
+workSpace bakup succeed!!!
