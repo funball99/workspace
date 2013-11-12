@@ -1,800 +1,3 @@
-ls
-ifconfig
-ls
-exit
-ls
-su wilson
-exit
-ls
-id
-sudo su -
-yum list
-sudo yum list
-ll /etc/sudoers
-exit
-#1381988074
-ls
-#1381988077
-pwd
-#1381988077
-ls
-#1381988080
-ls -a
-#1381988089
-vi .bashrc 
-#1381988102
-ls
-#1381988112
-echo $ps1_bak
-#1381988129
-ls
-#1381988193
- (╯°Д��; 
-#1381988199
- (╯°Д °)╯︵ （丁丁）
-#1381988248
-PS1="(╯°Д °)╯︵ （\u@\W)\$"
-#1381988251
-ls
-#1381988292
-pwd
-#1381988293
-cd ~wilson
-#1381988301
-PS1="(╯°Д °)╯︵ （\u@\W)\$ "
-#1381988302
-ls
-#1381988304
-pwd
-#1381988306
-ls -a
-#1381988311
-vi .bash_profile 
-#1381988351
-ls
-#1381988366
-ping 10.142.8.126
-#1381988408
-ls
-#1381988432
-ls -a
-#1381988437
-vi .bash_profile 
-#1381988450
-ls
-#1381988458
-PS1="(╯°Д °)╯︵ （\u@\W)\$ "
-#1381988463
-vi .bash_profile 
-#1381988471
-ls
-exit
-#1381988676
-su root
-#1381988688
-ls
-#1381988837
-cd ..
-#1381988843
-cd ~wilson
-#1381990622
-ls
-#1381990827
-ssh app31182@10.142.8.126 -p 36000
-#1381990840
-ping 10.142.8.126
-#1381990842
-ls
-#1381990843
-cd ..
-#1381990844
-lsc
-#1381990846
-cd pwd
-#1381991754
-cd /
-#1381991755
-ls
-#1381991756
-pwd
-#1381991772
-cd /
-#1381991773
-ls
-#1381991773
-cd .
-#1381991774
-cd ..
-#1381991776
-ls
-#1381992295
-df -h
-#1381992385
-fdisk -l
-#1381992392
-su -
-#1381995178
-ls
-#1381995182
-pwd
-#1381995182
-ls
-#1381995185
-df -h
-#1381995270
-ls
-#1381995271
-cd ..
-#1381997575
-ls
-#1381997581
-cd wilson/
-#1381997581
-kls
-#1381997582
-ls
-#1381998061
-cd ..
-#1381998062
-ls
-#1381998064
-cd wilson/
-#1381998065
-ls
-#1381998079
-ffffffffffffffffffffffffffffffff
-#1381998081
-ffffffffffffff
-#1381998082
-f
-#1381998085
-ff
-#1381998086
-f
-#1381998086
-ff
-#1381998086
-f
-#1381998098
-echo $ps1_bak
-#1381998108
-screen
-#1381998141
-echo $PS1
-#1381998148
-screen -r
-#1381998161
-ls
-#1381998170
-echo $PS1
-#1381998175
-(╯°Д °)╯︵ （\u@\W)$
-#1381998179
-screen -r
-echo PS1
-echo $PS1
-PS1="(╯°Д °)╯︵ （\u@\W)$"
-PS1="(�
-
-
-
-
-
-
-
-ls
-pwd
-ls -a
-vi .bash_profile 
-PS1="(m~Um~T °)m~U 0m~H\u@\W)\$ "
-./ .bash_profile .
-./.bash_profile 
-ll
-;; -a
-ll -a
-chmod 711 .bash_profile 
-./bash_profile
-./.bash_profile 
-PS1="(╯°Д
-
-
-
-
-
-
-
-
-
-
-
-
-
-LS
-ls
-(╯°; 
-ls
-PS1="(╯°Д (â¯Â°Ð Â°)â¯ï¸µ ï¼(â¯Â°Ð Â°)â¯ï¸µ ï¼\u@\W)$"
-PS1="(â¯Â°Ð Â°)â¯ï¸µ ï�(â¯Â°Ð Â°)â¯ï¸µ
-
-
-#1381999445
-ls
-#1381999448
-screen -ls
-#1381999453
-screen -r
-#1381999463
-ps |grep screen
-#1381999465
-ps
-#1381999470
-screen -ls
-#1381999484
-man screen
-#1381999534
-q
-#1381999536
-screen -r
-#1381999542
-screen -ls
-#1381999550
-screen -U
-#1381999574
-echo $PS1
-#1381999581
-screen -r
-#1381999641
-screen -U
-#1381999661
-screen -rU
-#1381999666
-screen -r
-#1381999671
-screen -rU
-#1381999685
-ls
-#1381999688
-ls -la
-#1381999695
-vi .bash_profile 
-PS1="(╯°Д °)╯︵ （\u@\W)$ "
-ls
-sudo id
-id
-ls
-top
-ls
-ll
-cd ...
-pwd
-uname -a
-ls
-cd ..
-ls
-cd lost+found/
-ls
-cd wilson/
-ls
-cd ..
-ll
-chmod 777 lost+found/
-cd ..
-cd w
-cd m
-cd myDisk/
-lks
-cd 
-cd ls
-cd m
-cd myD
-ls
-cd ..
-ls
-cd w*
-ping 119.147.
-ping 119.147.19.43
-ls
-pwd
-mkdir bak
-ls
-cd bak
-cd ..
-ls
-mv bak .bak
-ls
-ls -a
-mv .bak bak
-ls
-cd bak
-ls
-ll
-cd ..
-ls
-pwd
-mkdir workSpace
-ls
-cd workSpace/
-ls
-ps |grep yum
-yum list
-ps|grep yum
-killall -9 24311
-ps|grep yum
-killall  24311
-\
-kill 24311 -9
-kill -9 24311
-ps|grep yum
-yum list jdk*
-wget -q http://mirrors.tencentyun.com/install/softinst.sh && chmod +x softinst.sh && ./softinst.sh
-sudo su -
-su -
-yum list jdk*
-yum install jdk
-su -
-#1382331067
-screen -r
-#1382331072
-ls
-#1382331085
-rz
-#1382331094
-ls
-#1382331101
-rm Egoist\ -\ All\ Alone\ With\ You.mp3 
-#1382331102
-ls
-#1382334773
-yum list apache*
-#1382334788
-yum list httpd*
-#1382337086
-ls
-#1382337089
-screen -ls
-#1382338862
-ls
-#1382338864
-cd workSpace/
-#1382338864
-ls
-#1382338869
-cat softinst.sh 
-#1382338884
-ls
-#1382338900
-echo $OS
-#1382338927
-cd /etc/
-#1382338928
-ls
-#1382338936
-ls *release
-#1382338947
-cat *
-#1382338952
-ls
-#1382338953
-cd ..
-#1382338954
-ls
-#1382338956
-cd ~
-#1382338958
-cd ~wilson
-#1382338960
-ls
-#1382338961
-cd workSpace/
-#1382338962
-ls
-#1382338964
-cat *
-#1382338979
-ls
-#1382338990
-mkdir shell
-#1382338991
-ls
-#1382338992
-cd s
-#1382338993
-ls
-#1382338998
-cd shell/
-#1382338998
-ls
-#1382339908
-echo $CC
-#1382340482
-vim a
-#1382340485
-ls
-#1382340600
-vim HelloWorld.sh
-#1382340675
-ls
-#1382340690
-mv HelloWorld.sh hello_world.sh
-#1382340690
-ls
-#1382340694
-./*
-#1382340697
-ll
-#1382340706
-chmod 711 hello_world.sh 
-#1382340706
-ll
-#1382340711
-./hello_world.sh 
-#1382356094
-sh hello_world.sh 
-#1382356095
-ls
-#1382356106
-chmod 111 hello_world.sh 
-#1382356107
-ll
-#1382356126
-chmod 222 hello_world.sh 
-#1382356126
-ll
-#1382356132
-vi hello_world.sh 
-#1382356135
-ll
-#1382356172
-sh hello_world.sh 
-#1382356192
-chmod 400 hello_world.sh 
-#1382356193
-ll
-#1382356203
-vi hello_world.sh q
-#1382356207
-ll
-#1382356211
-./hq
-#1382356216
-./ hello_world.sh 
-#1382356226
-./hello_wolrd.sh
-#1382356262
-./hello_world.sh
-#1382356268
-sh hello_world.sh 
-#1382356277
-chmod 111 hello_world.sh 
-#1382356281
-./hello_world.sh 
-#1382356285
-ll
-#1382356288
-./hello_world.sh 
-#1382356307
-sh hello_world.sh 
-#1382356310
-./hello_world.sh 
-#1382356317
-chmod 311 hello_world.sh 
-#1382356318
-ll
-#1382356322
-./hello_world.sh 
-#1382356331
-chmod 411 hello_world.sh 
-#1382356331
-ll
-#1382356342
-./hello_world.sh
-#1382356354
-chmod +x hello_world.sh
-#1382356355
-ll
-#1382356360
-./hello_world.sh 
-#1382356383
-$PATH
-#1382356418
-vi a
-#1382356422
-;;
-#1382356424
-ll
-#1382356448
-umask 741
-#1382356452
-umask
-#1382356456
-vi aa
-#1382356460
-ll
-#1382356642
-umask 7777
-#1382356654
-umask 4444
-#1382356662
-umask 0022
-#1382356666
-umask
-#1382356787
-touch c
-#1382356788
-ll
-#1382356823
-umask 0003
-#1382356827
-umask
-#1382356833
-touch d
-#1382356834
-ll
-#1382356848
-umask 0004
-#1382356851
-touch e
-#1382356852
-ll
-#1382356906
-umask 4000
-#1382356973
-chmod 4111 a
-#1382356974
-ll
-#1382356981
-a
-#1382356995
-chmod 4111 hello_world.sh 
-#1382356997
-ll
-#1382357002
-./hello_world.sh 
-#1382357015
-chmod 4511 hello_world.sh 
-#1382357016
-ll
-#1382357019
-./hello_world.sh 
-#1382357032
-chmod 2511 hello_world.sh 
-#1382357033
-ll
-#1382357114
-umask 0777
-#1382357121
-touch f
-#1382357122
-l
-#1382357123
-ll
-#1382357137
-umask 7777
-#1382357146
-umask 7000
-#1382357154
-umask 4000
-#1382357157
-umask 2000
-#1382357161
-umask 1000
-#1382357171
-su -
-#1382357213
-umask
-#1382357217
-umask 002
-#1382357220
-umask
-#1382357223
-umask 0022
-#1382357384
-umask 4022
-#1382357471
-umask -S
-#1382357558
-umask 777
-#1382357560
-umask 
-#1382357564
-touch g
-#1382357564
-ll
-#1382357570
-umask 0022
-#1382357576
-rm a aa c d e f g
-#1382357579
-y
-#1382357583
-ll
-#1382357667
-umask 1002
-#1382357710
-umask 0022
-#1382357716
-touch a
-#1382357716
-ll
-#1382357723
-mkdir aa
-#1382357724
-ll
-#1382357730
-umask
-#1382357743
-rm aa -r
-#1382357744
-rm a
-#1382357745
-ls
-#1382409200
-w
-#1382404429
-screen -ls
-#1382404430
-w
-#1382404434
-top
-#1382404445
-iotop
-#1382406524
-echo $PATH
-#1382406650
-cd ..
-#1382406653
-cd ~wilson
-#1382406654
-ls
-#1382406656
-ls -a
-#1382406659
-cd workSpace/
-#1382406660
-ls
-#1382406665
-cd s
-#1382406666
-cd shell/
-#1382406667
-ls
-#1382406671
-mkdir bin
-#1382406671
-ls
-#1382406672
-cd .
-#1382406673
-cd ..
-#1382406674
-cd .
-#1382406676
-cd ..
-#1382406676
-ls
-#1382406679
-ls -a
-#1382406682
-vi .bashrc 
-#1382406688
-ll
-#1382406690
-ls -a
-#1382406697
-vi .bashrc 
-#1382406701
-ll
-#1382406706
-cd ~wilson
-#1382406708
-ll
-#1382406711
-ls -a
-#1382406719
-vi .bash_profile 
-#1382406771
-. .bash_profile 
-#1382406776
-ll
-#1382406783
-echo $PATH
-#1382407575
-vi .bash_profile 
-#1382407594
-echo $PATH
-#1382407620
-ls
-#1382407623
-cd workSpace/
-#1382407626
-cd shell/
-#1382407627
-ls
-#1382407636
-mv hello_world.sh  bin/
-#1382407636
-ll
-#1382407638
-cd bin/
-#1382407638
-ls
-#1382407640
-cd ..
-#1382407648
-hello_world.sh 
-#1382407652
-cd bin
-#1382407652
-ls
-#1382407660
-mv hello_world.sh hello_world
-#1382407661
-ll
-#1382407662
-cd ..
-#1382407665
-hello_world 
-#1382408257
-find * "centos*" -name
-#1382408268
-find * -name "centos*"
-#1382408279
-find /* -name "centos*"
-#1382408286
-su - 
-#1382411541
-ls
-#1382411544
-cd ..
-#1382411545
-ls
-#1382411547
-cd shell/
-#1382411548
-ls
-#1382411550
-cd ..
-#1382411550
-ls
-#1382411554
-mkdir tmp
-#1382411555
-cd tmp
-#1382411555
-ls
-#1382411560
-vi temp
-#1382412802
-cd ..
-#1382412803
-lsc
-#1382412806
-cd ..
-#1382412807
-lsc
-#1382412808
-pwd
-#1382412810
-cd sh
-#1382412814
-cd workSpace/
-#1382412816
-cd shell/
-#1382412817
-ls
-#1382412818
-cd vin 
-#1382412819
-cd bin
-#1382412819
-ls
-#1382412929
-vim hello_world 
-#1382414049
-su -
-#1382414865
-ifconfig 
-#1382417497
 su -
 #1382428128
 ping 203.195.182.75
@@ -5750,3 +4953,941 @@ vim /etc/fstag
 vim /etc/fstab
 #1384153837
 reboot
+#1384153969
+last
+#1384153975
+uptime
+#1384153981
+top
+#1384153986
+ls
+#1384153995
+mkdir tmp
+#1384153997
+cd tmp/
+#1384153998
+ls
+#1384154002
+you
+#1384154051
+git clone https://github.com/funball99/ErrorLog.git
+#1384154080
+ls
+#1384154083
+cd ErrorLog/
+#1384154083
+ls
+#1384154085
+cd ..
+#1384154086
+rm ErrorLog/
+#1384154089
+rm ErrorLog/ -r
+#1384154089
+ls
+#1384154090
+cd ..
+#1384154091
+ls
+#1384154093
+rm tmp/ -r
+#1384154094
+ls
+#1384154104
+mkdir tmp
+#1384154110
+git clone https://github.com/funball99/ErrorLog.git
+#1384154140
+ls
+#1384154142
+cd tmp/
+#1384154143
+cd ..
+#1384154148
+rm ErrorLog/ -r
+#1384154150
+cd tmp/
+#1384154151
+ls
+#1384154154
+git clone https://github.com/funball99/ErrorLog.git
+#1384154184
+ls
+#1384154185
+cd ErrorLog/
+#1384154192
+TOUCH TEMP.TXT
+#1384154193
+ls
+#1384154196
+touch a
+#1384154196
+ls
+#1384154200
+git add a
+#1384154201
+git status
+#1384154207
+git commit -m "a"
+#1384154210
+git push
+#1384154220
+git commit
+#1384154227
+git push
+#1384154281
+ping www.github.com
+#1384154448
+ps -aux|grep go
+#1384154459
+ps aux|grep go
+#1384154466
+ps aux|grep Agent
+#1384154688
+cd ..
+#1384154689
+ls
+#1384154690
+cd ..
+#1384154691
+ls
+#1384154696
+git status
+#1384154723
+git push -u origin master
+#1384155153
+yum install zlib-devel  openssl-devel perl cpio expat-devel gettext-devel
+#1384155183
+yum install autoconf 
+#1384155191
+ls
+#1384155196
+cd tmp/
+#1384155196
+ls
+#1384155201
+wget http://www.codemonkey.org.uk/projects/git-snapshots/git/git-latest.tar.gz 
+#1384155264
+yum -y remove git
+#1384155269
+git 
+#1384155284
+ls
+#1384155289
+tar xzvf git-latest.tar.gz 
+#1384155294
+cd git-{date} 
+#1384155295
+ls
+#1384155301
+cd git-2013-11-11/
+#1384155307
+autoconf 
+#1384155312
+./configure --with-curl=/usr/local 
+#1384155318
+make
+#1384155393
+make install
+#1384155401
+git --version
+#1384155406
+git
+#1384155425
+ls
+#1384155451
+./git
+#1384155455
+./git status
+#1384155481
+git
+#1384155490
+ln -s ./git /usr/bin/git
+#1384155491
+git
+#1384155504
+rm /usr/bin/git
+#1384155505
+ls
+#1384155512
+ll git*
+#1384155515
+ll
+#1384155519
+ll |grep git
+#1384155536
+git
+#1384155540
+./git
+#1384155564
+cd /usr/local
+#1384155567
+cd bin
+#1384155570
+git
+#1384155574
+pwd
+#1384155600
+cd ~
+#1384155601
+ls
+#1384155602
+ls -a
+#1384155608
+vim .bash_profile 
+#1384155643
+srcbash 
+#1384155646
+git 
+#1384155648
+git status
+#1384155650
+ls
+#1384155669
+git push -u origin master
+#1384155680
+ls
+#1384155681
+ls -a
+#1384155683
+rm .git -r
+#1384155688
+git init
+#1384155693
+git add README.md
+#1384155696
+git commit -m "first commit"
+#1384155700
+git remote add origin https://github.com/funball99/workspace.git
+#1384155703
+git push -u origin master
+#1384155751
+yum list curl*
+#1384155778
+yum install curl-dev
+#1384155787
+yum install curlpp-devel.x86_64
+#1384155794
+ls
+#1384155812
+yum lista
+#1384155819
+yum list curl-dev*
+#1384155872
+ls
+#1384155874
+cd tmp/
+#1384155875
+ls
+#1384155880
+cd git-2013-11-11/
+#1384155889
+autoconf
+#1384155894
+./configure --with-curl=/usr/local 
+#1384155955
+yum install curl
+#1384155962
+yum install curl*
+#1384155999
+ping www.github.com
+#1384156038
+cat /etc/resolv.conf
+#1384156044
+vim /etc/resolv.conf
+#1384156063
+yum install curl*
+#1384156078
+ls
+#1384156083
+cd ..
+#1384156084
+ls
+#1384156086
+git status
+#1384156100
+git push -u origin master
+#1384156120
+ls
+#1384156121
+cd tmp/
+#1384156125
+cd git-2013-11-11/
+#1384156135
+ls |grep git-cor
+#1384156150
+yum install zlib-devel 
+#1384156157
+yum install openssl-devel 
+#1384156163
+yum install perl 
+#1384156172
+yum install cpio
+#1384156176
+yum install expat-devel 
+#1384156180
+yum install gettext-devel 
+#1384156188
+ls
+#1384156189
+cd ..
+#1384156190
+ls
+#1384156194
+rm * -r
+#1384156195
+ls
+#1384156195
+cd ..
+#1384156196
+ls
+#1384156204
+cd ..
+#1384156207
+df -h
+#1384156213
+cd /etc/
+#1384156222
+ls |grep my
+#1384156231
+cd /usr
+#1384156232
+ls
+#1384156698
+pwd
+#1384156701
+cd l
+#1384156705
+cd local
+#1384156723
+wget http://www.codemonkey.org.uk/projects/git-snapshots/git/git-latest.tar.gz 
+#1384156738
+tar xzvf git-latest.tar.gz 
+#1384156743
+ls
+#1384156747
+cd git-2013-11-11/
+#1384156830
+autoconf
+#1384156835
+cd ~
+#1384156837
+ls
+#1384156838
+cd tmp/
+#1384156839
+ls
+#1384156841
+cd ..
+#1384156844
+rm tmp -r
+#1384156851
+cd /usr/local
+#1384156851
+ls
+#1384156855
+rm git-latest.tar.gz 
+#1384156856
+ls
+#1384156859
+cd git-2013-11-11/
+#1384156889
+curl
+#1384156894
+whereis curl
+#1384156927
+cd sr/include/curl
+#1384156936
+cd /usr/include/curl
+#1384157016
+./configure --with-curl=/usr/include
+#1384157023
+cd ..
+#1384157025
+ls
+#1384157027
+cd local
+#1384157029
+cd git-2013-11-11/
+#1384157031
+./configure --with-curl=/usr/include
+#1384157083
+make 
+#1384157233
+make install
+#1384157241
+git 
+#1384157245
+git --version
+#1384157246
+ls
+#1384157248
+cd ..
+#1384157249
+cd ~
+#1384157249
+ls
+#1384157252
+git status
+#1384157258
+git push -u origin master
+#1384157328
+ls
+#1384157333
+git add bak
+#1384157337
+git add workSpace/
+#1384157349
+git commit -m "2013-11-11-16:12"
+#1384157352
+git push
+#1384157391
+git config --global username
+#1384157472
+git config --global user.name "funball99"
+#1384157483
+git config --global user.email "281579218@qq.com"
+#1384157486
+git push
+#1384157515
+git help config
+#1384157724
+ls
+#1384157732
+git config --global push.default simple
+#1384157734
+git push
+#1384157936
+git push git@github.com:funball99/workspace.git
+#1384158035
+whoami
+#1384158054
+cd /root
+#1384158055
+ls
+#1384158057
+ls -a
+#1384158063
+cd .ssh
+#1384158067
+ls
+#1384158079
+cat id_rsa
+#1384158091
+ls
+#1384158100
+cat id_rsa.pub
+#1384158116
+mv id_rsa.pub id_rsa.pub.bak
+#1384158130
+ls
+#1384158131
+cd ~
+#1384158132
+ls
+#1384158150
+ssh-keygen -t rsa -C "281579218@qq.com"
+#1384158215
+ls
+#1384158222
+cd ~
+#1384158226
+mkdir .ssh
+#1384158232
+ssh-keygen -t rsa -C "281579218@qq.com"
+#1384158258
+cat ~/.ssh/id_rsa.pub
+#1384158271
+ssh-add id_rsa
+#1384158295
+cd ~/.ssh/
+#1384158297
+ls
+#1384158302
+touch id_rsa
+#1384158306
+ssh-keygen -t rsa -C "281579218@qq.com"
+#1384158347
+cd ~/.ssh
+#1384158372
+ssh-keygen -t rsa -C "281579218@qq.com"
+#1384158411
+cat /root/.ssh/id_rsa.pub
+#1384158445
+cd ~
+#1384158446
+ls
+#1384158449
+git status
+#1384158452
+git push
+#1384158467
+git push git@github.com:funball99/workspace.git
+#1384158502
+git add *
+#1384158505
+git status
+#1384158515
+git commit -m "2013-11-16:32"
+#1384158534
+git push git@github.com:funball99/workspace.git
+#1384158542
+git status
+#1384158556
+git add .*
+#1384158568
+git add .bash_history 
+#1384158570
+git status
+#1384158577
+git add .b*
+#1384158579
+git status
+#1384158587
+git add *
+#1384158589
+git status
+#1384158605
+git add .*s*
+#1384158608
+git status
+#1384158613
+git add .l*
+#1384158618
+git add .v*
+#1384158624
+git add .g*
+#1384158626
+git status
+#1384158644
+git commit -m "2013-11-11-16:34"
+#1384158657
+git push git@github.com:funball99/workspace.git
+#1384158674
+ls
+#1384159065
+sftp 
+#1384159104
+lftp
+#1384159114
+ftp
+#1384159195
+ifconfig
+#1384159881
+vim /etc/vsftpd/vsftpd.conf
+#1384159941
+cat /etc/vsftpd/vsftpd.conf |grep ^[^#] 
+#1384159967
+service vsftpd start
+#1384159992
+useradd -d /home/ftp1 -s /sbin/nologin ftp1
+#1384159997
+passwd ftp1
+#1384160022
+ls
+#1384160109
+cd ~
+#1384160111
+cd /home
+#1384160111
+ls
+#1384160113
+cd ftp1/
+#1384160113
+ls
+#1384160116
+vim a
+#1384160132
+chmod 777 a
+#1384160133
+ll
+#1384160137
+. a
+#1384160142
+vim a
+#1384160150
+. /a
+#1384160152
+. a
+#1384160153
+ls
+#1384160186
+vim a
+#1384160200
+ls
+#1384160201
+a
+#1384160204
+. a
+#1384160209
+ls
+#1384160211
+vim a
+#1384160225
+. a
+#1384160226
+ls
+#1384160237
+cat a
+#1384160238
+ls
+#1384160245
+vim a
+#1384160257
+. a
+#1384160258
+ls
+#1384160259
+cat tmp
+#1384160272
+ls
+#1384160275
+cat tmp
+#1384160284
+. a
+#1384160286
+cat tmp 
+#1384160298
+vim /etc/vsftpd/vsftpd.conf
+#1384160591
+ls
+#1384160636
+ll
+#1384160641
+ll -h
+#1384160677
+vim /etc/vsftpd/vsftpd.conf
+#1384160699
+ls
+#1384160701
+rm file.img 
+#1384160717
+ls
+#1384160719
+ll
+#1384160742
+service vsftpd start
+#1384160750
+service vsftpd restart
+#1384160757
+ls
+#1384160761
+rm file.img 
+#1384160780
+ls
+#1384160784
+ll
+#1384160830
+vim /etc/vsftpd/vsftpd.conf
+#1384160846
+service vsftpd start
+#1384160852
+service vsftpd restart
+#1384160858
+ls
+#1384160860
+rm file.img 
+#1384160873
+ls
+#1384160874
+ll
+#1384160881
+ls
+#1384160882
+ll
+#1384160945
+useradd -d /home/exec -m exec
+#1384160948
+su exec
+#1384160955
+passwd exec
+#1384160998
+ls
+#1384160999
+cd ..
+#1384161001
+ll
+#1384161033
+chmod 777 ftp1/
+#1384161034
+ls
+#1384161035
+ll
+#1384161038
+cd ftp1/
+#1384161040
+ll
+#1384161118
+ls
+#1384161120
+cat tmp
+#1384161181
+vim a
+#1384161212
+pwd
+#1384161214
+lls
+#1384161214
+ls
+#1384161218
+vim a
+#1384161229
+ls
+#1384161231
+ll
+#1384161246
+chmod 007 tmp
+#1384161247
+ll
+#1384161257
+cat tmp
+#1384161296
+cd /
+#1384161297
+ls
+#1384161301
+cd bin
+#1384161304
+cd ..
+#1384161305
+ls
+#1384162294
+cd home
+#1384162295
+ls
+#1384162301
+cd exec/
+#1384162309
+bin
+#1384162316
+vim checkUpdate
+#1384162320
+ls
+#1384162325
+chmod 755 checkUpdate 
+#1384162327
+cd -
+#1384162328
+ls
+#1384162333
+cd +
+#1384162336
+cd -
+#1384162358
+ln -s /myDisk/wilson/workSpace/shell/bin/checkUpdate ./check
+#1384162358
+ls
+#1384162359
+ll
+#1384162366
+bin 
+#1384162383
+vim checkUpdate 
+#1384162513
+ls
+#1384162525
+vim checkUpdate 
+#1384162718
+ls
+#1384162720
+cd -
+#1384162721
+ls
+#1384162728
+cd ..
+#1384162731
+cd ftp1/
+#1384162734
+rm *
+#1384162755
+wget -q http://203.195.180.126/imcoming
+#1384162756
+ls
+#1384162770
+wget http://203.195.180.126/imcoming
+#1384162779
+apacherestart 
+#1384162784
+get -q http://203.195.180.126/imcoming
+#1384162790
+wget -q http://203.195.180.126/imcoming
+#1384162791
+ls
+#1384162799
+cd ..
+#1384162799
+ls
+#1384162801
+cd exec/
+#1384162806
+. ./check 
+#1384162812
+vim check 
+#1384162840
+. ./check 
+#1384162844
+ls
+#1384162845
+cd ..
+#1384162846
+cd ftp1/
+#1384162850
+vim imcoming 
+#1384162857
+cd ..
+#1384162858
+cd exec/
+#1384162862
+. ./check 
+#1384162896
+ls
+#1384162930
+vim check
+#1384163014
+. ./check 
+#1384163018
+vim check 
+#1384163431
+ls
+#1384163433
+. ./check 
+#1384163476
+vim check 
+#1384164465
+. ./check 
+#1384164531
+ls
+#1384164540
+cd /home
+#1384164541
+ls
+#1384164542
+cd exec/
+#1384164543
+ls
+#1384164544
+ll
+#1384164550
+setuid root check 
+#1384164583
+chmod u+s check 
+#1384164584
+ll
+#1384164595
+cd /myDisk/wilson/workSpace/shell/bin/
+#1384164595
+ll
+#1384164600
+cd -
+#1384164605
+./check 
+#1384164615
+cd ~
+#1384164618
+git status
+#1384164646
+git push git@github.com:funball99/workspace.git
+#1384164683
+cd /myDisk/wilson/.ssh/
+#1384164684
+ls
+#1384164687
+cd ..
+#1384164690
+rm .ssh -r
+#1384164690
+ls
+#1384164695
+git push git@github.com:funball99/workspace.git
+#1384164706
+cd ~
+#1384164709
+cd /home
+#1384164711
+cd exec/
+#1384164716
+. ./check 
+#1384162652
+bin
+#1384162653
+ls
+#1384162658
+cat setMyConfig 
+#1384162662
+ls
+#1384162909
+ll
+#1384162913
+ls
+#1384162922
+cp setMyConfig setMyConfig.bak
+#1384162923
+ls
+#1384162925
+ll
+#1384163125
+cd ~
+#1384163127
+cd bak/
+#1384163129
+cd ..
+#1384163131
+cd workSpace/
+#1384163134
+cd shell/
+#1384163135
+ls
+#1384163137
+cd bin
+#1384163144
+vim bak 
+#1384163153
+vim bak
+#1384163180
+ls
+#1384163409
+mv bak bakWorkSpace
+#1384163410
+ls
+#1384163444
+vim bakWorkSpace 
+#1384163646
+cd ~
+#1384163649
+git status
+#1384163713
+you
+#1384163716
+..
+#1384163721
+cd ~
+#1384163782
+git add *
+#1384163797
+git status
+#1384163837
+git add *
+#1384163846
+git add -A
+#1384163848
+git stauts
+#1384163852
+git status
+#1384164025
+cd ~
+#1384164029
+git status
+#1384164058
+echo $date
+#1384164062
+echo $time
+#1384164262
+echo $(date +%Y%m%d)
+#1384164273
+echo $(date +%Y%m%d%h)
+#1384164278
+echo $(date +%Y%m%d%H)
+#1384164283
+echo $(date +%Y%m%d%H%m)
+#1384164290
+echo $(date +%Y%m%d%H%M)
