@@ -1,151 +1,3 @@
-vim .bash_profile 
-#1383125993
-ls
-#1383126007
-vim .bash_profile 
-#1383126040
-PS1="0m~Mm~J0m~J~[m~R~Km~O~Pm~M~G(m~Um~T °)m~U 0m
-~H\u@\W)\$ "
-#1383126040
-PS1="m~J0m~J~[m~R~Km~O~Pm~M~G"
-#1383126041
-PS1="(m~Um~T °))~U 0m~H)\$ "
-#1383126045
-ls
-#1383126054
-vim .bash_profile 
-whoami
-id
-exit
-#1383126065
-ls
-#1383126068
-cd ..
-#1383126068
-ls
-#1383126073
-whoami
-#1383126074
-ls
-#1383126078
-cd wilson
-#1383126078
-ls
-#1383126097
-cat /etc/passwd
-#1383126106
-cat /etc/shadow
-#1383126623
-ls
-#1383126627
-whomai
-#1383126629
-whoami
-#1383126630
-id
-#1383126634
-su wilson
-#1383126661
-ssh wilson@127.0.0.1 22
-#1383126665
-ls
-#1383126667
-whoami
-#1383126667
-ls
-#1383126674
-whoami
-#1383126676
-id
-#1383126694
-vim .bash_profile 
-#1383126719
-ls -a
-#1383126731
-source .bash_profile 
-#1383126732
-ls
-#1383126761
-(╯°Д °)╯︵
-#1383126808
-(╯°Д °)╯︵(不努力的\u@\W)\$
-#1383126813
-vim .bash_profile
-#1383126830
-source .bash_profile 
-#1383126835
-ls
-#1383126836
-cd workSpace/
-#1383126837
-ls
-#1383126843
-cd shell/
-#1383126843
-ls
-#1383126846
-cd bin
-#1383126846
-ls
-#1383183609
-whoami
-#1383183611
-id
-#1383184058
-ls
-#1383184066
-history
-#1383184084
-啊
-#1383184086
-history
-#1383187914
-ls
-#1383187916
-cd workSpace/
-#1383187917
-ls
-#1383187919
-cd shell/
-#1383187919
-ls
-#1383187921
-cd bin/
-#1383187922
-lsc
-#1383187923
-ls
-#1383187927
-cat functionDemo 
-#1383187932
-./functionDemo 
-#1383187942
-ls
-#1383187945
-vim functionDemo 
-#1383187975
-./functionDemo 
-#1383188031
-vim functionDemo 
-#1383188039
-./functionDemo 
-#1383188042
-vim functionDemo 
-#1383188066
-./functionDemo 
-#1383188076
-echo a
-#1383188080
-vim functionDemo 
-#1383188120
-./functionDemo 
-#1383188145
-vim temp
-#1383188170
-chmod 755 temp 
-#1383188170
-ls
-#1383188173
 ./temp 
 #1383188179
 vim temp 
@@ -5982,3 +5834,155 @@ ls
 ls
 #1384264703
 vimbash 
+#1384264716
+you
+#1384264717
+my
+#1384264718
+ls
+#1384264719
+you
+#1384264726
+bin
+#1384264726
+ls
+#1384264755
+vim setMyConfig
+#1384264777
+bak?
+#1384264782
+crontab -e
+#1384264788
+cd ~
+#1384264794
+cd log/
+#1384264795
+cd bak/
+#1384264796
+ls
+#1384264797
+cd bakLog 
+#1384264801
+cat bakLog 
+#1384264828
+bin
+#1384264836
+ls
+#1384264841
+pwd
+#1384264856
+vimcommon 
+#1384264862
+cd /home
+#1384264863
+cd exec/
+#1384264873
+mv check.sh check
+#1384264874
+vim check 
+#1384264906
+crontab -e
+#1384264919
+ls
+#1384264922
+cd ~
+#1384264924
+cd log/
+#1384264926
+cd bak/
+#1384264926
+ls
+#1384264928
+cat bakLog 
+#1384264973
+cd ..
+#1384264974
+ls
+#1384264975
+cd ..
+#1384264978
+cd wilson/
+#1384264983
+cd /home/exec/
+#1384264984
+vim check 
+#1384264996
+cat ~
+#1384264999
+cd ~
+#1384265005
+cd log/
+#1384265007
+cd bak/
+#1384265008
+cat bakLog 
+#1384265036
+bak?
+#1384265042
+cat bakLog 
+#1384265055
+cd ~
+#1384265059
+cd bak/
+#1384265060
+cd ..
+#1384265063
+cd /home/
+#1384265064
+cd exec/
+#1384265066
+vim check 
+#1384265082
+source /myDisk/wilson/.bash_profile
+#1384265089
+cd ~
+#1384265103
+cd log/
+#1384265105
+cd bak/
+#1384265107
+cat bakLog 
+#1384265118
+rm *
+#1384265118
+ls
+#1384265125
+cat /var/log/messages
+#1384265133
+ls
+#1384265137
+bak?
+#1384265139
+ls
+#1384265200
+cat bakLog 
+#1384265219
+cd ..
+#1384265223
+cd /home/exec/
+#1384265225
+vim check 
+#1384265322
+cd ~
+#1384265327
+cd log/bak/
+#1384265329
+cat bakLog 
+#1384265342
+rm bakLog 
+#1384265343
+ls
+#1384265382
+crontab
+#1384265385
+crontab -e
+#1384265408
+ls
+#1384265412
+cat bakLog 
+#1384265431
+crontab -e
+#1384265453
+cat /etc/crontab 
+#1384265462
+crontab -e

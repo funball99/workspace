@@ -1,2 +1,14 @@
 tar: Removing leading `/' from member names
 workSpace bakup succeed!!!
+[master 3e24a7e] 201311122210
+ 5 files changed, 41 insertions(+), 44 deletions(-)
+ rewrite log/bak/bakLog (83%)
+ delete mode 100644 workSpace/shell/bin/.checkUpdate.swp
+To git@github.com:funball99/workspace.git
+   17b5144..3e24a7e  master -> master
+sync succeed at 201311122210!
+=========================================================================
+latest version at 201311122211 !
+=========================================================================
+tar: Removing leading `/' from member names
+workSpace bakup succeed!!!
