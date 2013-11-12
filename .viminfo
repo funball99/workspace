@@ -8,10 +8,11 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
-:wq
 :q!
-:s
+:wq
 :Wq
+:WQ
+:s
 :q1
 :w
 :q!\
@@ -35,44 +36,70 @@
 
 # 寄存器:
 "0	LINE	0
-	PATH=~/workSpace/shell/bin:"$PATH"
-""1	LINE	0
-	##
+	            "x-txc-cloud-nonce":random.randint(1,(1<<31) - 1),
+"1	LINE	0
+	    	}
 "2	LINE	0
-	ssh exec@10.221.4.141 -p 22 -P 0450278329e
+	    		]
 "3	LINE	0
-	
+	       
 "4	LINE	0
-		
+	        		}
 "5	LINE	0
-	echo "aaa"
+	        		    "port":8008
 "6	LINE	0
-	d
+	         		   "lanIp":"10.190.165.228",
 "7	LINE	0
-	f
+	        		{
 "8	LINE	0
-			
+	    		[
 "9	LINE	0
-		<br/>
-"-	CHAR	0
-	！
+	    	    "devicesList":
+""-	CHAR	0
+	E
 
 # 文件标记:
-'0  2  0  /home/ftp1/imcoming
-'1  3  0  /home/ftp1/imcoming
-'2  8  69  /home/exec/check
-'3  24  0  ~/workSpace/shell/bin/setMyConfig
-'4  2  0  ~/workSpace/shell/bin/unsetMyConfig
-'5  18  0  ~/workSpace/shell/bin/setMyConfig
-'6  1  0  ~/workSpace/shell/bin/vim
-'7  6  1  ~/workSpace/shell/bin/checkUpdate
-'8  5  381  /home/exec/check
-'9  9  22  /home/exec/check
+'0  8  1  /home/exec/check
+'1  4  4  ~/workSpace/shell/bin/needUpdate
+'2  7  1  ~/workSpace/shell/bin/needUpdate
+'3  3  0  ~/workSpace/shell/bin/needUpdate
+'4  11  5  ~/workSpace/tmp/sha1.py
+'5  12  71  ~/workSpace/tmp/sha1.py
+'6  4  28  ~/workSpace/tmp/sha1.py
+'7  30  10  ~/workSpace/tmp/sha1.py
+'8  26  45  ~/workSpace/tmp/sha1.py
+'9  16  38  ~/workSpace/tmp/sha1.py
 
 # 跳转列表 (从新到旧):
--'  2  0  /home/ftp1/imcoming
+-'  8  1  /home/exec/check
+-'  4  4  ~/workSpace/shell/bin/needUpdate
+-'  7  0  ~/workSpace/shell/bin/needUpdate
+-'  3  0  ~/workSpace/shell/bin/needUpdate
+-'  1  0  ~/workSpace/shell/bin/needUpdate
+-'  11  5  ~/workSpace/tmp/sha1.py
+-'  12  4  ~/workSpace/tmp/sha1.py
+-'  4  0  ~/workSpace/tmp/sha1.py
+-'  30  4  ~/workSpace/tmp/sha1.py
+-'  26  12  ~/workSpace/tmp/sha1.py
+-'  16  12  ~/workSpace/tmp/sha1.py
+-'  15  11  ~/workSpace/tmp/sha1.py
+-'  28  8  ~/workSpace/tmp/sha1.py
+-'  37  1  ~/workSpace/tmp/sha1.py
+-'  29  5  ~/workSpace/tmp/sha1.py
+-'  18  12  ~/workSpace/tmp/sha1.py
+-'  2  0  ~/workSpace/tmp/sha1.py
+-'  33  0  ~/workSpace/tmp/sha1.py
+-'  14  35  ~/workSpace/tmp/sha1.py
+-'  31  21  ~/workSpace/tmp/sha1.py
+-'  38  12  ~/workSpace/tmp/sha1.py
+-'  1  0  ~/workSpace/tmp/sha1.py
+-'  46  1  ~/workSpace/tmp/sha1.py
+-'  47  1  ~/workSpace/tmp/sha1.py
+-'  36  0  ~/workSpace/tmp/sha1.py
+-'  3  16  /home/exec/test
+-'  1  0  /home/exec/test
 -'  3  0  /home/ftp1/imcoming
--'  8  69  /home/exec/check
+-'  2  0  /home/ftp1/imcoming
 -'  5  2  /home/exec/check
 -'  24  0  ~/workSpace/shell/bin/setMyConfig
 -'  18  0  ~/workSpace/shell/bin/setMyConfig
@@ -142,46 +169,11 @@
 -'  6  0  ~/workSpace/shell/bin/fix.sh
 -'  1  0  ~/workSpace/shell/bin/fix.sh
 -'  11  0  ~/workSpace/shell/bin/weisongli.sh
--'  1  0  /etc/profile
--'  331  33  /etc/httpd/conf/httpd.conf
--'  318  0  /etc/httpd/conf/httpd.conf
--'  1  0  ~/workSpace/shell/bin/weisongli.sh
--'  291  0  /etc/httpd/conf/httpd.conf
--'  292  0  /etc/httpd/conf/httpd.conf
--'  317  0  /etc/httpd/conf/httpd.conf
--'  313  0  /etc/httpd/conf/httpd.conf
--'  6  0  /etc/httpd/conf/httpd.conf
--'  1014  0  /etc/httpd/conf/httpd.conf
--'  359  0  /etc/httpd/conf/httpd.conf
--'  314  0  /etc/httpd/conf/httpd.conf
--'  293  23  /etc/httpd/conf/httpd.conf
--'  350  0  /etc/httpd/conf/httpd.conf
--'  347  0  /etc/httpd/conf/httpd.conf
--'  352  11  /etc/httpd/conf/httpd.conf
--'  349  0  /etc/httpd/conf/httpd.conf
--'  348  15  ~/workSpace/httpd.conf
--'  361  0  ~/workSpace/httpd.conf
--'  347  0  ~/workSpace/httpd.conf
--'  1  0  ~/workSpace/httpd.conf
--'  57  0  /etc/httpd/conf/httpd.conf
--'  1  0  /etc/httpd/conf/httpd.conf
--'  1  0  /etc/resolv.conf
--'  7  2  ~/workSpace/shell/bin/if
--'  8  0  ~/workSpace/shell/bin/if
--'  6  0  ~/workSpace/shell/bin/if
 
 # 文件内的标记历史记录 (从新到旧):
 
-> /home/ftp1/imcoming
-	"	2	0
-	^	2	0
-	.	1	11
-	+	3	0
-	+	4	0
-	+	1	11
-
 > /home/exec/check
-	"	8	69
+	"	8	1
 	^	8	70
 	.	8	51
 	+	10	1
@@ -204,6 +196,88 @@
 	+	5	381
 	+	6	0
 	+	8	51
+
+> ~/workSpace/shell/bin/needUpdate
+	"	4	4
+	^	4	5
+	.	4	5
+	+	2	0
+	+	7	1
+	+	4	5
+
+> ~/workSpace/tmp/sha1.py
+	"	11	5
+	.	11	0
+	+	1	18
+	+	1	4
+	+	1	0
+	+	1	23
+	+	36	0
+	+	47	6
+	+	27	12
+	+	47	0
+	+	38	58
+	+	46	1
+	+	38	17
+	+	41	38
+	+	42	18
+	+	46	1
+	+	38	0
+	+	38	2
+	+	38	17
+	+	38	12
+	+	38	18
+	+	38	38
+	+	38	0
+	+	37	55
+	+	14	0
+	+	11	48
+	+	10	15
+	+	2	37
+	+	29	3
+	+	3	0
+	+	4	30
+	+	18	0
+	+	17	11
+	+	18	45
+	+	29	8
+	+	29	5
+	+	29	9
+	+	29	10
+	+	29	9
+	+	29	9
+	+	29	5
+	+	29	5
+	+	13	0
+	+	29	0
+	+	16	0
+	+	15	11
+	+	16	36
+	+	13	0
+	+	13	0
+	+	12	68
+	+	4	28
+	+	16	32
+	+	18	43
+	+	30	11
+	+	4	29
+	+	12	71
+	+	11	0
+
+> /home/exec/test
+	"	3	16
+	^	3	17
+	.	3	16
+	+	3	16
+
+> /home/ftp1/imcoming
+	"	3	0
+	^	3	1
+	.	3	0
+	+	3	0
+	+	4	0
+	+	1	11
+	+	3	0
 
 > ~/workSpace/shell/bin/setMyConfig
 	"	24	0

@@ -1,6 +1,7 @@
 #!/bin/bash
-##
+
 ## function
+
 function my(){
 PS1="(╯°Д °)╯︵(不努力的\u@\W)\$ "
 }
