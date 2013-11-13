@@ -3364,3 +3364,15 @@ latest version at 201311130839 !
 =========================================================================
 tar: Removing leading `/' from member names
 workSpace bakup succeed!!!
+[master 305aa20] 201311130840
+ 2 files changed, 12 insertions(+)
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+=========================================================================
+latest version at 201311130841 !
+=========================================================================
+tar: Removing leading `/' from member names
+workSpace bakup succeed!!!
