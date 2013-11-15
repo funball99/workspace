@@ -12,7 +12,7 @@ PATH=~/workSpace/shell/bin:"$PATH"
 PATH=/usr/local/bin:"$PATH"
 
 ## init
-#. /imcoming
+##. /imcoming
 ## function
 function vimbash(){
 vim ~/.bash_profile
