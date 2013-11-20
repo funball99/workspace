@@ -1,3 +1,4 @@
 #!/bin/bash
 
-tar -cf ~/bak/workspace.tar ~/workSpace && echo "workSpace bakup succeed!!!"
+WORKSPACE="/myDisk/wilson/workspace/workSpace"
+tar -cf $WORKSPACE/bak/workspace.tar $WORKSPACE && echo "workSpace bakup succeed!!!"

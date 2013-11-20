@@ -1,1 +1,1 @@
-/myDisk/wilson/workSpace/shell/bin/weisongli.sh
+/myDisk/wilson/workspace/workSpace/shell/bin/weisongli.sh

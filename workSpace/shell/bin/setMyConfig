@@ -18,10 +18,10 @@ function srcbash(){
 source ~/.bash_profile
 }
 function vimcommon(){
-vim /home/ftp1/imcoming
+vim /imcoming
 }
 function srccommon(){
-source /home/ftp1/imcoming
+source /imcoming
 }
 function apacherestart(){
 service httpd restart
@@ -30,21 +30,28 @@ function apacheconfig(){
 vim /etc/httpd/conf/httpd.conf	
 }
 function workspace(){
-if [ ! -d ~/workSpace ]; then
-	mkdir -p ~/workSpace
+if [ ! -d /myDisk/wilson/workspace/workSpace ]; then
+	mkdir -p /myDisk/wilson/workspace/workSpace
 fi
-	cd ~/workSpace
+	cd /myDisk/wilson/workspace/workSpace
 }
 function bin(){
-if [ ! -d ~/workSpace/shell/bin ]; then
-	mkdir -p ~/workSpace/shell/bin
+if [ ! -d /myDisk/wilson/workspace/workSpace/shell/bin ]; then
+	mkdir -p /myDisk/wilson/workspace/workSpace/shell/bin
 fi
-	cd ~/workSpace/shell/bin
+	cd /myDisk/wilson/workspace/workSpace/shell/bin
 }
 function cdls(){
 builtin cd $* && ls
 }
+function wilson(){
+cd /myDisk/wilson
+}
+function webroot(){
+cd /myDisk/wilson/workspace/workSpace/apacheDocument
+}
 
 ## alias 
 alias cd='cdls'
+
 

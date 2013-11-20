@@ -1,6 +1,7 @@
 #!/bin/bash
 
-if [ /home/ftp1/imcoming -nt /myDisk/wilson/workSpace/shell/bin/setMyConfig ]; then
+BIN="/myDisk/wilson/workspace/workSpace/shell/bin"
+if [ /imcoming -nt $BIN/setMyConfig ]; then
 	echo "yes"
 else 
 	echo "no"

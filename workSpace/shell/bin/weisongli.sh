@@ -3,7 +3,7 @@
 ##author weisongli
 
 ##v1.0 fix PS1
-echo "export PS1=\"\[\e[32m\][\u@\h \W]\\\\$\[\e[m\] \"" >> /etc/profile
+echo "export PS1=\"[\u@\h \W]\\\\$ \"" >> /etc/profile
 
 ##v1.1 fix RC_ALL
 #export LC_ALL="zh_CN.UTF-8"
