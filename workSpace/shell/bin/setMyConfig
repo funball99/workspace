@@ -2,6 +2,8 @@
 
 ## function
 
+BIN="/myDisk/wilson/workspace/workSpace/shell/bin"
+WORKSPACE="/myDisk/wilson/workspace/workSpace"
 function my(){
 PS1="(╯°Д °)╯︵(不努力的\u@\W)\$ "
 }
@@ -18,10 +20,10 @@ function srcbash(){
 source ~/.bash_profile
 }
 function vimcommon(){
-vim /imcoming
+vim ~/imcoming
 }
 function srccommon(){
-source /imcoming
+source ~/imcoming
 }
 function apacherestart(){
 service httpd restart
@@ -30,16 +32,16 @@ function apacheconfig(){
 vim /etc/httpd/conf/httpd.conf	
 }
 function workspace(){
-if [ ! -d /myDisk/wilson/workspace/workSpace ]; then
-	mkdir -p /myDisk/wilson/workspace/workSpace
+if [ ! -d $WORKSPACE ]; then
+	mkdir -p $WORKSPACE
 fi
-	cd /myDisk/wilson/workspace/workSpace
+	cd $WORKSPACE
 }
 function bin(){
-if [ ! -d /myDisk/wilson/workspace/workSpace/shell/bin ]; then
-	mkdir -p /myDisk/wilson/workspace/workSpace/shell/bin
+if [ ! -d $BIN ]; then
+	mkdir -p $BIN
 fi
-	cd /myDisk/wilson/workspace/workSpace/shell/bin
+	cd $BIN
 }
 function cdls(){
 builtin cd $* && ls
@@ -48,7 +50,10 @@ function wilson(){
 cd /myDisk/wilson
 }
 function webroot(){
-cd /myDisk/wilson/workspace/workSpace/apacheDocument
+cd $WORKSPACE/apacheDocument
+}
+function log(){
+cd $WORKSPACE/log
 }
 
 ## alias 

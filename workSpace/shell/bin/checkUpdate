@@ -1,15 +1,18 @@
 #!/bin/bash
 source ~/.bash_profile
 
+LOG="/myDisk/wilson/workspace/workSpace/log"
 BIN="/myDisk/wilson/workspace/workSpace/shell/bin"
 GITSPACE="/myDisk/wilson/workspace"
-if [ /imcoming -nt $BIN/setMyConfig ]; then
+echo "=========================$(date +%Y%m%d%H%M)========================"
+if [ ~/imcoming -nt $BIN/setMyConfig ]; then
 	if [ -e $BIN/setMyConfig.bak ]; then
-		source	$BIN/bakWorkSpace &&	rm $BIN/setMyConfig.bak && cp $BIN/setMyConfig $BIN/setMyConfig.bak && rm $BIN/setMyConfig && cp /imcoming $BIN/setMyConfig && chmod 755 /imcoming $BIN/setMyConfig && cd $GITSPACE && git add -A && git commit -m "$(date +%Y%m%d%H%M)" && git push git@github.com:funball99/workspace.git && echo "sync succeed at $(date +%Y%m%d%H%M)!" 
-		echo "========================================================================="
+		source	$BIN/bakWorkSpace &&	rm $BIN/setMyConfig.bak && cp $BIN/setMyConfig $BIN/setMyConfig.bak && rm $BIN/setMyConfig && cp ~/imcoming $BIN/setMyConfig && chmod 755 /imcoming $BIN/setMyConfig
+		echo "imcoming bak succeed at$(date +%Y%m%d%H%M)"
 	fi
 else
 	cp $BIN/setMyConfig /imcoming
 	echo "latest version at $(date +%Y%m%d%H%M) !"
-	echo "========================================================================="
 fi
+cd $GITSPACE && git add -A && git commit -m "$(date +%Y%m%d%H%M)" && git push git@github.com:funball99/workspace.git && echo "sync succeed at $(date +%Y%m%d%H%M)!" 
+echo "========================================================================="
