@@ -195,3 +195,16 @@ latest version at 201311202359 !
 =========================================================================
 =========================201311210952========================
 latest version at 201311210952 !
+[master 8d2e1ea] 201311210952
+ 8 files changed, 12607 insertions(+), 25 deletions(-)
+ create mode 100644 workSpace/apacheDocument/images/tete.png
+ create mode 100644 workSpace/log/bak/bakLog
+ create mode 100644 workSpace/log/bak/bakLog20131120
+ delete mode 100644 workSpace/log/tiaoxi/tiaoxiLog201311151727
+ rewrite workSpace/shell/bin/checkUpdate (61%)
+ rename workSpace/shell/bin/{setMyConfig.bak => setMyConfig} (62%)
+To git@github.com:funball99/workspace.git
+   397b4b7..8d2e1ea  master -> master
+sync succeed at 201311210952!
+=========================================================================
+=========================201311212350========================
