@@ -1,6 +1,6 @@
 #!/bin/bash
 
-### function
+## function
 
 BIN="/myDisk/wilson/workspace/workSpace/shell/bin"
 WORKSPACE="/myDisk/wilson/workspace/workSpace"
@@ -30,9 +30,6 @@ service httpd restart
 }
 function apacheconfig(){
 vim /etc/httpd/conf/httpd.conf	
-}
-function apachelog(){
-cat /etc/httpd/logs/error_log
 }
 function workspace(){
 if [ ! -d $WORKSPACE ]; then
