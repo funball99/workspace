@@ -229,3 +229,65 @@ tar: Removing leading `/' from member names
 tar: /myDisk/wilson/workspace/workSpace/bak/workspace.tar: file is the archive; not dumped
 workSpace bakup succeed!!!
 imcoming bak succeed at201311232350
+[master a87e78a] 201311232350
+ 57 files changed, 88 insertions(+), 1 deletions(-)
+ create mode 100644 workSpace/apacheDocument/.project
+ create mode 100644 workSpace/apacheDocument/images/Thumbs.db
+ create mode 100644 workSpace/apacheDocument/images/abort.gif
+ create mode 100644 workSpace/apacheDocument/images/bann.png
+ create mode 100644 workSpace/apacheDocument/images/banned.png
+ create mode 100644 workSpace/apacheDocument/images/false.png
+ create mode 100644 workSpace/apacheDocument/images/female.gif
+ create mode 100644 workSpace/apacheDocument/images/icon_latest_reply.gif
+ create mode 100644 workSpace/apacheDocument/images/loadingAnimation.gif
+ create mode 100644 workSpace/apacheDocument/images/male.gif
+ create mode 100644 workSpace/apacheDocument/images/officiers/601.jpg
+ create mode 100644 workSpace/apacheDocument/images/officiers/602.jpg
+ create mode 100644 workSpace/apacheDocument/images/officiers/603.jpg
+ create mode 100644 workSpace/apacheDocument/images/officiers/604.jpg
+ create mode 100644 workSpace/apacheDocument/images/officiers/605.jpg
+ create mode 100644 workSpace/apacheDocument/images/officiers/606.jpg
+ create mode 100644 workSpace/apacheDocument/images/officiers/607.jpg
+ create mode 100644 workSpace/apacheDocument/images/officiers/608.jpg
+ create mode 100644 workSpace/apacheDocument/images/officiers/609.jpg
+ create mode 100644 workSpace/apacheDocument/images/officiers/610.jpg
+ create mode 100644 workSpace/apacheDocument/images/officiers/611.jpg
+ create mode 100644 workSpace/apacheDocument/images/officiers/612.jpg
+ create mode 100644 workSpace/apacheDocument/images/officiers/613.jpg
+ create mode 100644 workSpace/apacheDocument/images/officiers/614.jpg
+ create mode 100644 workSpace/apacheDocument/images/officiers/615.jpg
+ create mode 100644 workSpace/apacheDocument/images/officiers/Thumbs.db
+ create mode 100644 workSpace/apacheDocument/images/progress.gif
+ create mode 100644 workSpace/apacheDocument/images/progressbar.gif
+ create mode 100644 workSpace/apacheDocument/images/r1.png
+ create mode 100644 workSpace/apacheDocument/images/r2.png
+ create mode 100644 workSpace/apacheDocument/images/r3.png
+ create mode 100644 workSpace/apacheDocument/images/r4.png
+ create mode 100644 workSpace/apacheDocument/images/r5.png
+ create mode 100644 workSpace/apacheDocument/images/r6.png
+ create mode 100644 workSpace/apacheDocument/images/r7.png
+ create mode 100644 workSpace/apacheDocument/images/r8.png
+ create mode 100644 workSpace/apacheDocument/images/r9.png
+ create mode 100644 workSpace/apacheDocument/images/smileys/Thumbs.db
+ create mode 100644 workSpace/apacheDocument/images/smileys/confused.png
+ create mode 100644 workSpace/apacheDocument/images/smileys/cry.png
+ create mode 100644 workSpace/apacheDocument/images/smileys/dizzy.png
+ create mode 100644 workSpace/apacheDocument/images/smileys/happy.png
+ create mode 100644 workSpace/apacheDocument/images/smileys/lol.png
+ create mode 100644 workSpace/apacheDocument/images/smileys/neutral.png
+ create mode 100644 workSpace/apacheDocument/images/smileys/omg.png
+ create mode 100644 workSpace/apacheDocument/images/smileys/sad.png
+ create mode 100644 workSpace/apacheDocument/images/smileys/shit.png
+ create mode 100644 workSpace/apacheDocument/images/smileys/smile.png
+ create mode 100644 workSpace/apacheDocument/images/smileys/tongue.png
+ create mode 100644 workSpace/apacheDocument/images/smileys/wink.png
+ create mode 100644 workSpace/apacheDocument/images/tlo.jpg
+ create mode 100644 workSpace/apacheDocument/images/top.gif
+ create mode 100644 workSpace/apacheDocument/images/true.png
+ create mode 100755 workSpace/shell/bin/setMyConfig.bak
+To git@github.com:funball99/workspace.git
+   6fbee34..a87e78a  master -> master
+sync succeed at 201311232350!
+=========================================================================
+=========================201311242350========================
+latest version at 201311242350 !
