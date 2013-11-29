@@ -326,3 +326,14 @@ tar: Removing leading `/' from member names
 tar: /myDisk/wilson/workspace/workSpace/bak/workspace.tar: file is the archive; not dumped
 workSpace bakup succeed!!!
 imcoming bak succeed at201311282350
+[master 6886fc6] 201311282350
+ 5 files changed, 38 insertions(+), 1 deletions(-)
+ create mode 100755 workSpace/shell/bin/iptablesClear
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: The remote end hung up unexpectedly
+=========================================================================
+=========================201311292350========================
+tar: Removing leading `/' from member names
+tar: /myDisk/wilson/workspace/workSpace/bak/workspace.tar: file is the archive; not dumped
+workSpace bakup succeed!!!
+imcoming bak succeed at201311292350

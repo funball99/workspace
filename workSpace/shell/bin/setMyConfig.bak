@@ -61,5 +61,6 @@ cd $WORKSPACE/log
 
 ## alias 
 alias cd='cdls'
+alias firewall='iptables -vnL'
 
 
