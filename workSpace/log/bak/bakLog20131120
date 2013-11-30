@@ -337,3 +337,74 @@ tar: Removing leading `/' from member names
 tar: /myDisk/wilson/workspace/workSpace/bak/workspace.tar: file is the archive; not dumped
 workSpace bakup succeed!!!
 imcoming bak succeed at201311292350
+[master bb27a36] 201311292350
+ 67 files changed, 13 insertions(+), 673 deletions(-)
+ delete mode 100644 workSpace/apacheDocument/tmp/000001.png
+ delete mode 100644 workSpace/apacheDocument/tmp/16394.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16479.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16591.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16592.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16601.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16639.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16641.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16649.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16650.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16670.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16670.jpg.1
+ delete mode 100644 workSpace/apacheDocument/tmp/16671.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16671.jpg.1
+ delete mode 100644 workSpace/apacheDocument/tmp/16673.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16674.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16679.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16679.jpg.1
+ delete mode 100644 workSpace/apacheDocument/tmp/16680.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16682.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16686.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16694.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16699.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16700.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16701.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16701.jpg.1
+ delete mode 100644 workSpace/apacheDocument/tmp/16702.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16702.jpg.1
+ delete mode 100644 workSpace/apacheDocument/tmp/16703.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16708.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16709.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16712.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16712.jpg.1
+ delete mode 100644 workSpace/apacheDocument/tmp/16714.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16719.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/16720.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/6743671.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/7.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/816587.gif
+ delete mode 100644 workSpace/apacheDocument/tmp/94289462.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/94345493.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/94694119.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/94706928.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/94724599.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/94736645.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/94737265.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/94737266.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/94737267.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/94737268.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/94737667.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/aikanLoading1.1.gif
+ delete mode 100644 workSpace/apacheDocument/tmp/cxrz5.png
+ delete mode 100644 workSpace/apacheDocument/tmp/ebsIcon2.png
+ delete mode 100644 workSpace/apacheDocument/tmp/erweimaNewsPic.png
+ delete mode 100644 workSpace/apacheDocument/tmp/erweimaVideoPic2.png
+ delete mode 100644 workSpace/apacheDocument/tmp/home_b.gif
+ delete mode 100644 workSpace/apacheDocument/tmp/img.log
+ delete mode 100644 workSpace/apacheDocument/tmp/ind36.gif
+ delete mode 100644 workSpace/apacheDocument/tmp/loading.gif
+ delete mode 100644 workSpace/apacheDocument/tmp/qs1.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/sosologo.png
+ create mode 100644 workSpace/apacheDocument/tmp/tmp.jpg
+ delete mode 100644 workSpace/apacheDocument/tmp/wmlogo.gif
+To git@github.com:funball99/workspace.git
+   95d5861..bb27a36  master -> master
+sync succeed at 201311292350!
+=========================================================================
+=========================201311302350========================
+latest version at 201311302350 !
