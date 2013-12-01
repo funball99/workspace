@@ -408,3 +408,16 @@ sync succeed at 201311292350!
 =========================================================================
 =========================201311302350========================
 latest version at 201311302350 !
+[master 455de78] 201311302350
+ 6 files changed, 201 insertions(+), 0 deletions(-)
+ create mode 100644 workSpace/apacheBakWebRoot/index.html
+ create mode 100755 workSpace/log/apache/weisongliMain/access_log
+ create mode 100755 workSpace/log/apache/weisongliMain/error_Log
+ create mode 100755 workSpace/log/apache/weisongliTest1/access_log
+ create mode 100755 workSpace/log/apache/weisongliTest1/error_Log
+To git@github.com:funball99/workspace.git
+   bb27a36..455de78  master -> master
+sync succeed at 201311302350!
+=========================================================================
+=========================201312012350========================
+latest version at 201312012350 !
