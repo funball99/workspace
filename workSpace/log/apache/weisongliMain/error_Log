@@ -1502,3 +1502,20 @@
 [Thu Dec 05 20:31:56 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
 [Thu Dec 05 21:17:05 2013] [error] [client 94.102.53.219] Invalid URI in request GET HTTP/1.1 HTTP/1.1
 [Thu Dec 05 22:31:55 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Fri Dec 06 00:31:40 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Fri Dec 06 02:30:31 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Fri Dec 06 02:43:02 2013] [error] [client 162.220.65.96] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/user
+[Fri Dec 06 04:29:30 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Fri Dec 06 05:29:46 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Fri Dec 06 06:30:03 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Fri Dec 06 07:29:11 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Fri Dec 06 09:29:44 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Fri Dec 06 11:30:10 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Fri Dec 06 13:29:44 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Fri Dec 06 14:41:41 2013] [error] [client 216.67.163.114] Invalid method in request \x80w\x01\x03\x01
+[Fri Dec 06 14:41:42 2013] [error] [client 216.67.163.114] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/HNAP1, referer: http://203.195.183.160/
+[Fri Dec 06 15:29:41 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Fri Dec 06 16:32:59 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Fri Dec 06 18:30:06 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Fri Dec 06 20:32:32 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Fri Dec 06 22:32:51 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
