@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[qqmedal.plugin]]></item>
+	<item id="RevisionID"><![CDATA[1358]]></item>
+	<item id="SN"><![CDATA[20131208143C4zqAv3lA]]></item>
+	<item id="RevisionDateline"><![CDATA[1334298138]]></item>
+	<item id="Data">
+		<item id="/install.php"><![CDATA[c8f1ed1e05ec8fe2510bbe95fd59c063]]></item>
+		<item id="/medal.inc.php"><![CDATA[7224b85cd037bb029b3524ee41a4d477]]></item>
+		<item id="/setting.inc.php"><![CDATA[ffd7ee04140e6b33d764235b73346fb8]]></item>
+		<item id="/uninstall.php"><![CDATA[a1058c85f53a84aa948b43ee2aa8bcdf]]></item>
+		<item id="/discuz_plugin_qqmedal_SC_GBK.xml"><![CDATA[458b7d6f735751e13bda0133c0837e06]]></item>
+		<item id="/discuz_plugin_qqmedal_TC_BIG5.xml"><![CDATA[d01a1477767cf6140cb38415610e1ea6]]></item>
+		<item id="/img/icon_tips.png"><![CDATA[ac1c0bda8ca08ff2989fff74490c8298]]></item>
+		<item id="/img/icon_50.png"><![CDATA[bb21055b64e5240735b3cf7ca6e13b1b]]></item>
+		<item id="/img/btn.png"><![CDATA[8bbf55b4f63d9ae5d7f29460bb9317a3]]></item>
+		<item id="/img/icon_35.png"><![CDATA[7f82bfa42b3bd6d5a644da4f787fe86c]]></item>
+		<item id="/qqmedal.class.php"><![CDATA[5636870bfc2bb18fd6f1e9af7540618c]]></item>
+		<item id="/discuz_plugin_qqmedal_TC_UTF8.xml"><![CDATA[5a3f2be731105d21a71fac1c2c6d57ff]]></item>
+		<item id="/template/medal.htm"><![CDATA[8f787036d14c9b264629ff023f30030d]]></item>
+		<item id="/template/qqmedal.css"><![CDATA[86db09e937c7e2acb8bb4685bed8e76e]]></item>
+		<item id="/discuz_plugin_qqmedal_SC_UTF8.xml"><![CDATA[366538824725395df8cac3b253f19334]]></item>
+	</item>
+</root>

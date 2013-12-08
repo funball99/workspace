@@ -1,0 +1,61 @@
+
+<div style="width:100%; height:auto;">
+<div style="width:100%; height:auto;">
+<font size="5px">{lang saya_mails:choose}</font>
+</div>
+<div id="showend"></div>
+<hideone>
+<div id="submitdiv">
+  <form name="setform"  id="setform" method="post" action="home.php?mod=spacecp&ac=plugin&id=saya_mails:set&change=yes">
+    <div style="width:100%; ">
+      <table width="auto" border="0">
+        <tr style="text-align:center">
+          <th width="60%" scope="col" align="center">$succed</th>
+          <th width="20%" scope="col" bgcolor="orange" align="center" ><div align="center"><h3>{lang saya_mails:newhit}</h3></div></th>
+          <th width="20%" scope="col" bgcolor="orange" align="center" ><div align="center"><h3>{lang saya_mails:newpm}</h3></div></th>
+        </tr>
+        <tr align="center" bgcolor="#F7EEF7">
+          <th><div align="center">{lang saya_mails:nouse}</div></th>
+          <th><div align="center">
+            <input name="hit_mails" type="radio"  value="0" {$hitcheck} />
+          </div></th>
+          <th><div align="center">
+            <input name="pm_mails" type="radio" value="0" {$pmcheck} />
+          </div></th>
+        </tr>
+        {$rows}
+      </table>
+      <p>&nbsp; </p>
+      <p>
+      <input type="hidden" name="formhash1" value="<!--{eval echo formhash();}-->" />
+        <input type="submit" name="submit" id="submit" value="{lang saya_mails:subbutton}"></p>
+    </div>
+  </form>
+  </div>
+  </hideone>
+<hr width="100%"style="border:dashed #999999"/>
+
+<div style="width:100%; height:auto; ">
+  <div style="font-size: 24px;"><strong>{lang saya_mails:upload}</strong></div>
+  <div> 
+    <div>
+        <div style="font-size:18px; color: #F00;">$result</div>
+        <form name="upform" action="home.php?mod=spacecp&ac=plugin&id=saya_mails:set&upload=yes" method="post" enctype="multipart/form-data">
+            <p>{lang saya_mails:upname}
+              <input type="text" name="upname"  />
+            </p>
+            <p>
+              <input type="hidden" name="MAX_FILE_SIZE" value="5000000" />
+              <input type="hidden" name="formhash2" value="<!--{eval echo formhash();}-->" />
+              {lang saya_mails:upfile}<input type="file" name="myfile" />
+            </p>
+            <p>
+              <input type="submit" name="submit" value="{lang saya_mails:upbutton}" />
+            </p>
+        </form>
+    </div></div>
+</div>
+
+</div>
+<hr width="100%"style="border:dashed #999999"/>
+<span style="width:100%; height:220px; ">Powered By <a href="http://www.jerrytek.com">{lang saya_mails:powered}</a></span> 

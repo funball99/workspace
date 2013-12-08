@@ -1,0 +1,182 @@
+/* -----------------------
+name：Yeei!Dream 1.0
+Powered by Yeei.cn
+更多配色下载：http://www.yeei.cn/forum-54-1.html
+----------------------- */
+
+body{background:url({IMGDIR}/img/body_bg.gif) repeat-x 0 130px;}
+#diy-tg { position: absolute;top:0px; right: 15px; height:24px;_z-index:303}
+#diy-tg_menu{ margin-top:-3px}
+#diy-tg_menu ul{ padding:3px 0;}
+#diy-tg_menu ul li{ padding:0px 0}
+.a_h{ padding:0px}
+.head_y{background:#000;}
+.head_yn_bg{}
+.head_yn{ width:980px;height:130px; overflow:hidden;margin:0 auto;background:url({IMGDIR}/img/head_bg.jpg) no-repeat right 0;}
+.head_logo{padding-top:13px; float:left;}
+.nv_q{float: right;height:36px;_width:639px}
+.nv_q_ie6{_position: absolute;}
+.nv_l{ float:left; height:36px; width:7px;background:url({IMGDIR}/img/nv_bg.png) no-repeat 0 0}
+.nv_c{float:left;width:600px;background:url({IMGDIR}/img/nv_bg.png) repeat-x 0 -36px; overflow:hidden}
+.nv_r{ float:left; height:36px; width:32px;}
+.nv_r #qmenu {height:36px;width:32px; padding:0px; margin:0px;background:url({IMGDIR}/img/qmenu.png) no-repeat 0 0;_background:url({IMGDIR}/img/ie6/ie_qmenu.gif) no-repeat 0 0;display: block;}
+.nv_r #qmenu.a { position: relative; z-index: 302; background-position: 0 -36px;_background:url({IMGDIR}/img/qmenu.png) no-repeat 0 -36px;}
+#qmenu_menu { margin-top: -1px; padding: 20px 5px 10px; border-color: #9A9A9A; _border-top:none;border-right:none;*border-right:1px solid #9A9A9A;_border-right:none;}
+
+.yeei_nv{ margin-left:-2px; float:left;}
+.yeei_nv li { float: left; padding-right:0px; height: 36px; line-height: 35px; background: url({IMGDIR}/img/f.png) no-repeat 0 center;font-size: 14px; }
+.yeei_nv li a { float: left; padding: 0 20px; height: 36px;color:#fff;  }
+.yeei_nv li a {font-family:'Hiragino Sans GB','Microsoft YaHei','宋体',Helvetica,Arial,sans-serif;}
+.yeei_nv li span { display: none; }
+.yeei_nv li a:hover {background:url({IMGDIR}/img/gl.png) no-repeat center bottom;text-decoration: none;}
+.yeei_nv li.hover a:hover,.nv_q li.hover a { background:url({IMGDIR}/img/ht_hover.gif) no-repeat center bottom!important; }
+.yeei_nv li.a {}
+.yeei_nv li.a a { color:#fff;background:url({IMGDIR}/img/gl.png) no-repeat center bottom}
+
+
+.p_pop, .p_pof, .sllt {  }
+.ie_all .p_pop, .ie_all .p_pof, .ie_all .sllt { filter:none;}
+.p_pop a {border-bottom: 1px dotted #eee;}
+.p_pop a:hover, .p_pop a.a, #sctype_menu .sca { background-color:#FAFAFA}
+.blk a, .inlinelist a {border: none; }
+.blk a:hover { background: none;}
+.c_y{width:988px!important;margin:0 auto!important;margin-top:-48px!important;}
+.c_yt{background: url({IMGDIR}/img/central_t.png) repeat-x 0 0;margin:0 10px;clear: both;height:48px;}
+.c_yt .c_r{background:url({IMGDIR}/img/central_t.png) no-repeat right -125px;margin-right:-10px;height:48px;_margin-top:1px}
+.c_yt .c_l{background:url({IMGDIR}/img/central_t.png) no-repeat 0 -62px;margin-left:-10px;height:38px; padding-top:10px;_margin-top:-1px}
+.c_yc{background:url({IMGDIR}/img/central_cr.png) repeat-y right 0;_background:url({IMGDIR}/img/ie6/ie6_central_cr.gif) repeat-y right 0; _margin-top:-1px}
+.c_ycr{background:url({IMGDIR}/img/central_cl.png) repeat-y 0 0;_background:url({IMGDIR}/img/ie6/ie6_central_cl.gif) repeat-y 0 0;*padding-bottom:1px;}
+.c_yeeib{ background:#fff; margin:0 5px; padding:1px 0;}
+.c_yb{background:url({IMGDIR}/img/central_b.png) repeat-x 0 0;_background:url({IMGDIR}/img/ie6/central_b.gif) repeat-x 0 0;height:40px;margin: 0 10px; margin-top:-1px}
+.c_yb .c_r{background:url({IMGDIR}/img/central_b.png) no-repeat right -94px;_background:url({IMGDIR}/img/ie6/central_b.gif) no-repeat right -94px;margin-right:-10px;height:40px;}
+.c_yb .c_l{background:url({IMGDIR}/img/central_b.png) no-repeat 0 -47px;_background:url({IMGDIR}/img/ie6/central_b.gif) no-repeat 0 -47px;margin-left:-10px;height:40px;}
+#space .c_yb{display: none;}
+.ie6 .c_yb,.ie6 .c_yt {position: relative;zoom: 1;}
+.ie6 .c_yb .c_r,.ie6 .c_yb .c_l,.ie6 .c_yt .c_r,.ie6 .c_yt .c_l {position: relative;z-index: 1;}
+.c_b{width:988px!important;margin:0 auto!important;}
+.c_yb ul{ padding:5px 20px 0 20px; }
+
+.ft_qq{
+	vertical-align: bottom;*vertical-align: middle;
+}
+.c_yb ul a{ color:#666;display:inline-block;}
+#ft{ text-align: center;border:none;padding:5px 0 10px; }
+.a_mu{ padding:1px 0; background:#F7F7F7; border:none; margin-top:-1px; border-bottom:1px solid #D9D9D9; margin-bottom:1px}
+#scrolltop { margin-left:10px}
+
+/*----------------Yeei!Design 搜索开始------------------------------*/
+#scbar_yeei{ float:right; margin-right:10px;margin-top:1px; height:30px;background: url({IMGDIR}/img/search.png) no-repeat 0 0;}
+.scbar_icon_td { background:none; width:0px; }
+.scbar_txt_td, .scbar_type_td { background:none; }
+.scbar_type_td{ padding:0 10px 0 0px; padding-top:2px\9;_padding-top:1px}
+#scbar_type{ width:25px;color:#888!important;font-size:12px!important;font-family:"宋体"!important;padding-top:1px;}
+#scbar_txt{ background:none; border:none; width:250px; color:#777!important; padding-top:2px;_padding-top:1px; font-size:12px; height:26px; overflow:hidden;line-height:27px\9;}
+.ie8 #scbar_type,.ie7 #scbar_type{ padding-top:2px}
+.ie8 #scbar_txt{ padding-top:3px}
+.scbar_btn_td {width:30px; padding-left:10px;margin-left:5px; background:none;text-align: center;}
+.scbar_btn_td strong{float:left;width:20px;height:40px;display: block;}
+#scbar_type_menu { margin-top:4px;margin-left:1px;min-width:51px;width:51px;}
+#scbar_yeei .pn {cursor: pointer; -moz-box-shadow: 0 0px 0 #E5E5E5; -webkit-box-shadow: 0 0px 0 #E5E5E5; box-shadow: 0 0px 0 #E5E5E5; }
+/*----------------Yeei!Design 搜索结束------------------------------*/
+.member{ float:left; padding:1px 0 0 15px;font-size:12px;}
+.member .avt{ float:left;width:32px; height:35px; overflow:hidden}
+.member .avt img{ width:25px; height:25px}
+.member .avt a{}
+.mb_1{ float:left; padding-top:7px;_padding-top:6px; padding-left:8px}
+.qq_bind{margin-top:-3px;}
+.ie8 .qq_bind{margin-top:-7px;}
+.mb_1 a { color:#555;}
+.mb_1 .xi2{ color:#999}
+.mb_1 .pipe { color:#D6D6D6;margin:0 2px; padding:0 3px 0 1px}
+#task_ntc{background-repeat: no-repeat; padding-left:18px; color:#809200}
+.mb_2{ float:left; padding-top:0px; padding-left:5px;_padding-left:0px;}
+.mb_2 a{display: block; padding:8px 7px 0 7px; width:18px; height:24px; margin-left:3px;background:url({IMGDIR}/img/function.gif) no-repeat 0px -1px; float:left}
+.mb_2 .fc2{background-position: -50px -1px}
+.mb_2 .fc2_n{background-position: -50px -56px}
+.mb_2 .fc3{background-position: -102px -1px;}
+.mb_2 .fc3_n{background-position: -102px -56px;}
+.mb_2 #yeei_sz.a{background-position: 0px -56px;z-index: 302;position: relative;}
+.mb_2 .fc4{background:url({IMGDIR}/img/sslct.gif) no-repeat 8px 9px;}
+.mb_2 .fc4:hover{background:url({IMGDIR}/img/sslct.gif) no-repeat 8px -46px;}
+
+#smallLay{ margin:0px; padding:0px;width:685px;}
+#smallLay .m_c{padding:4px 10px 10px;-moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;}
+#smallLay h3{ font-size:14px!important; height:30px; line-height:30px; font-family:"宋体"; border-bottom:1px dotted #ccc; margin-bottom:5px; font-weight:700!important}
+#smallLay h3 a{font-size:12px; font-weight:normal; color:#666}
+#smallLay h3 a:hover{color:#5185E2;text-decoration: none;}
+#smallLay h3 span{float:right;width:22px; height:21px; }
+#smallLay .cords{float:left;width:22px; height:21px;  margin-top:3px;background:#ddd url({IMGDIR}/img/cor.gif) no-repeat 0 0; overflow:hidden}
+#smallLay .cords:hover{background-position:0 -29px;}
+.sslct_btn {float: left; margin: 4px 2px 4px 2px; background:#fff; width:100px; padding:1px;height:100px; border: 1px solid #ccc; cursor: pointer; }
+.sslct_btn:hover { border:1px solid #5185E2}
+.sslct_btn i {float:left;display: inline;margin:0px;width:100px;height:100px;overflow: hidden;background:url({IMGDIR}/img/sslct.jpg) no-repeat 0px 0px;font-style: normal;position:relative;}
+.sslct_btn i a{width:100px;height:100px;display: block;}
+.sslct_btn i em{position: absolute;bottom:0px; padding:2px 0 1px 0; font-family:"宋体"; background:url({IMGDIR}/img/sslct_btn.png);_background:#333;_filter:alpha(opacity=60); color:#fff;text-align:center;left:0px; width:100px}
+
+.mb_11{padding-top:6px;padding-top:8px\9;_padding-top:7px; padding-right:10px}
+.mb_11 span{ color:#666; padding-right:5px}
+.mb_11 a{ color:#636D83;}
+.mb_11 .pipe {margin:0; padding:0 2px 0 1px}
+.mb_3{ float:left; padding-top:3px; padding-left:10px;_padding-left:0px;}
+.mb_3 .fastlg_fm{ border:none;_height:25px}
+.mb_3 .y{ float:left;}
+.mb_3 .hm {display: none;}
+#yeei_sz_menu{ margin-top:-1px;min-width: 100px; border-color:#D5D5D5!important; _border-top:none}
+.member_id{ float:left}
+.h_pop {min-width: 120px;border-top: none;}
+
+/*----------------Yeei!Design 内容开始------------------------------*/
+.frame{ border:none; padding:0px; margin:0px}
+.move-span { border:none; background:none; padding:0px; margin:0px}
+.yeei_sw{padding:0;margin-top:-1px;*margin-top:-16px;}
+.yeei_sw1{height:107px; overflow:hidden;border-bottom:1px solid #D9D9D9;}
+.yeei_sw1l{ margin-right:320px;_margin-right:323px;padding:10px 10px 0 15px;background:#fff url({IMGDIR}/img/show_1_bg.gif) repeat-x 0 0px;position: relative}
+.yeei_sw1l .hot{background:url({IMGDIR}/img/new.png) no-repeat right 0;position: absolute;right:0px;top:1px; width:48px; height:47px;_background:none}
+.yeei_sw1l .m { margin-top:0px; padding-right:5px;*padding-right:0px}
+.yeei_sw1l .m img{ border:1px solid #E0E0E0; background:#fff; padding:1px}
+.yeei_sw1l dt{ font-size:16px; padding-bottom:3px; padding-top:1px;font-family:'Hiragino Sans GB','Microsoft YaHei','宋体',Helvetica,Arial,sans-serif;}
+.yeei_sw1l dd{ color:#666;margin-bottom:5px}
+.yeei_sw1l .b{ color:#888;}
+.yeei_sw1l .b a{ color:#77828E; margin-right:6px}
+.yeei_sw1r{float:right;height:98px; width:313px;_width:316px; overflow:hidden; padding-left:7px; padding-top:8px;background:url({IMGDIR}/img/show_2_bg.gif) no-repeat 0 0;}
+.yeei_sw1r .chart{ background:none;width:300px; padding-bottom:10px; padding-left:6px;background: url({IMGDIR}/img/bottom_b.gif) repeat-x 0 bottom;}
+.yeei_sw1r .yeei_wb{ padding-left:7px; padding-top:2px;}
+.yeei_sw1r a{cursor: pointer;}
+.yeei_sw1r a:hover{text-decoration: none;}
+.yeei_wb dt { height:19px;overflow:hidden;padding-bottom:9px;font-family:'宋体',Helvetica,Arial,sans-serif; font-weight: 700;background:url({IMGDIR}/img/wb.gif) no-repeat -54px 4px; padding-left:17px}
+.yeei_wb .n { float: left; color:#666; width:220px; overflow:hidden; background:#FFFFF0; border:1px solid #EDD180; height:23px; line-height:23px; padding:0 6px;}
+.yeei_wb .n b{ color:#F08800; font-weight:none}
+.yeei_wb .m { float: left; margin:0px; height:54px; width:54px; margin-right:7px;}
+.yeei_wb .m img{ border:1px solid #85898C; padding:1px;}
+.yeei_wb span{float:left; margin-top:2px;margin-right:10px; font-size:14px}
+.yeei_wb .ting{width:66px;height:19px;display: block;background:url({IMGDIR}/img/wb.gif) no-repeat 0 bottom; float:left}
+.yeei_sw2{height:195px;overflow:hidden;border-bottom:1px solid #D9D9D9}
+.yeei_sw2l{margin-right:318px;height:195px;border-right:1px solid #D9D9D9}
+.yeei_sw2r{ float:right;width:313px; overflow:hidden; padding-left:5px; padding-top:5px;}
+.yeei_sw2l .title{background: url({IMGDIR}/img/tab_bg.gif) repeat-x 0 0; height:40px;}
+.yeei_sw2l .titletext{font-size:12px;font-weight:normal;}
+.yeei_sw2l .tb a{padding:0px; background: url({IMGDIR}/img/tab_a.gif) no-repeat 0 -40px!important; margin-right:5px; color:#444; border:none;text-align:center;width:85px; height:40px}
+.yeei_sw2l .tb-c{ padding:10px; border:none}
+.yeei_sw2l .tb .a a {background:url({IMGDIR}/img/tab_a.gif) no-repeat 0 0!important;font-weight: 700; color:#333;}
+.yeei_sw2l .module ul li{width:50%;*width:49%;border-bottom:1px dotted #ddd; float:left; margin-bottom:3px; padding:0 0px 3px 0; }
+.yeei_sw2l .module ul li span{background:url({IMGDIR}/img/li.gif) no-repeat 5px 6px; padding-left:15px;}
+.yeei_sw2l .module ul li em{ font-size:11px; margin-right:10px;}
+.yeei_sw2l .module ul li a:hover{color:#225F8F;text-decoration: none;}
+.fl .bm_h h2 a, .fl .bm_h h2{color:#444!important;font-size:14px;font-family:'Hiragino Sans GB','Microsoft YaHei','宋体',Helvetica,Arial,sans-serif;}
+#online .bm_h a{color:#444}
+.fl .bm_c{ padding:0px}
+.fl_tb{}
+.fl .fl_tb tr {background: url({IMGDIR}/img/tb_b.gif) repeat-x 0 bottom;}
+.fl .fl_tb td{ padding-left:10px;}
+.fl .fl_row td { border-top: 1px dotted #ccc; }
+.tl .bm_c{ padding:0px;}
+.tl .bm_c .threadpretd{ padding-left:10px;padding-right:10px; border-left:none!important;border-right:none!important}
+.tl .icn { padding-left: 10px; width: 25px; text-align: left; }
+.tl th, .tl td { padding: 5px 0; border-bottom: 1px solid #E6E6E6; }
+.lk{background: url({IMGDIR}/img/bgt.gif) repeat-x 0 1px;}
+.bml{background: url({IMGDIR}/img/bgt.gif) repeat-x 0 1px;}
+.ct2_a{ margin-bottom:10px}
+.tf .y{ padding-right:15px}
+
+.pnc, a.pnc { border-color: #666;}
+.tb .o {border: 1px solid #666; }
