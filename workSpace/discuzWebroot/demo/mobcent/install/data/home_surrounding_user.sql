@@ -1,0 +1,1 @@
+CREATE TABLE `{replaceStr}home_surrounding_user` (`poi_id` bigint(12) NOT NULL AUTO_INCREMENT,`longitude` decimal(10,7) NOT NULL ,`latitude` decimal(10,7) NOT NULL ,`object_id` bigint(12) NOT NULL ,`type` tinyint(2) NOT NULL ,`location` varchar(50) NOT NULL,PRIMARY KEY (`poi_id`),UNIQUE KEY `object_id` (`object_id`, `type`),KEY `type` (`type`)) TYPE=MyISAM;

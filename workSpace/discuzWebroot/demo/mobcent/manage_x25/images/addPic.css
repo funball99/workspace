@@ -1,0 +1,122 @@
+#wBox{background:#fff;}
+.sharetck{background:#fff;
+			width:360px;
+			
+			border:4px solid #B7D5EF;
+		}
+		.sharetck_title{
+			width:360px;
+			height:30px;
+			background:#EEEEEE;
+		}
+		.sharetck_title span{
+			display:blcok;
+			width:90px;
+			height:30px;
+			line-height:30px;
+			color:#0071C1;
+			font-size:12px;
+			font-weight:bold;
+			float:left;
+			margin-left:10px;
+			font-family:Î¢ÈíÑÅºÚ;
+		}
+		.sharetck_title input{
+			display:block;
+			width:16px;
+			height:16px;
+			background:url(close.png);
+			float:right;
+			margin-top:7px;
+			margin-right:10px;
+			border:none;
+		}
+		
+		<!--µ¯³ö¿òÄÚÈÝ-->
+		.tanchukuang_content{
+			width:360px;
+			height:175px;
+			
+		}
+	
+		
+		
+		
+		
+		.tanchukuang_content_one{
+			width:340px;
+			height:22px;
+			margin-top:15px;
+			margin-left:10px;
+		}
+		.tanchukuang_content_two{
+			width:340px;
+		
+			margin-top:15px;
+			margin-left:10px;
+		}
+		.tanchukuang_content_three{
+			width:340px;
+			height:22px;
+			margin-top:15px;
+			margin-left:10px;
+		}
+		.tanchukuang_content_span{
+			display:block;
+			width:70px;
+			height:22px;
+			line-height:22px;
+			color:#646464;
+			font-size:12px;
+			text-align:right;
+			float:left;
+		}
+		.tanchukuang_content_input{
+			display:block;
+			width:260px;
+			height:18px;
+			border:1px solid #999999;
+		}
+		.tanchukuang_content_two_span{
+			display:block;
+			width:250px;
+			height:14px;
+			margin-left:65px;
+			color:#646464;
+			font-size:12px;
+			float:left;
+			margin-top:5px;
+		}
+		.tanchukuang_content a{
+			color:#4E82F0;
+			font-size:12px;
+			display:block;
+			width:150px;
+			height:14px;
+			margin-left:20px;
+			margin-top:20px;
+		}
+		.anniu{
+			width:125px;
+			height:24px;
+			padding-left:230px;
+		}
+		.confirm{
+			display:block;
+			width:48px;
+			height:21px;
+			background:url(sure11.png);
+			border:none;
+			border-radius:2px;
+			float:left;
+			
+		}
+		.cancel{
+			display:block;
+			width:48px;
+			height:21px;
+			border:none;
+			background:url(sureno11.png);
+			float:left;
+			margin-left:10px;
+		}
