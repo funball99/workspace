@@ -6591,3 +6591,22 @@ sync succeed at 201312092353!
 =========================================================================
 =========================201312102350========================
 latest version at 201312102350 !
+[master f453a80] 201312102350
+ 19 files changed, 5780 insertions(+), 0 deletions(-)
+ create mode 100644 workSpace/discuzWebroot/demo/data/cache/style_1_member_connect.css
+ create mode 100644 workSpace/discuzWebroot/demo/data/template/1_1_common_header_connect_login.tpl.php
+ create mode 100644 workSpace/discuzWebroot/demo/data/template/1_1_common_header_member_connect.tpl.php
+ create mode 100644 workSpace/discuzWebroot/demo/data/template/1_1_home_spacecp_footer.tpl.php
+ create mode 100644 workSpace/discuzWebroot/demo/data/template/1_1_home_spacecp_header.tpl.php
+ create mode 100644 workSpace/discuzWebroot/demo/data/template/1_1_home_spacecp_plugin.tpl.php
+ create mode 100644 workSpace/discuzWebroot/demo/data/template/1_1_home_spacecp_usergroup.tpl.php
+ create mode 100644 workSpace/discuzWebroot/demo/data/template/1_1_member_register.tpl.php
+ create mode 100644 workSpace/discuzWebroot/demo/data/template/1_diy_home_space_notice.tpl.php
+ create mode 100644 workSpace/discuzWebroot/demo/data/template/1_qqconnect_qqshow.tpl.php
+ create mode 100644 workSpace/discuzWebroot/demo/data/template/1_qqconnect_spacecp.tpl.php
+To git@github.com:funball99/workspace.git
+   457d11c..f453a80  master -> master
+sync succeed at 201312102350!
+=========================================================================
+=========================201312112350========================
+latest version at 201312112350 !
