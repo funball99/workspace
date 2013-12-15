@@ -4481,3 +4481,44 @@
 [Sat Dec 14 18:32:09 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
 [Sat Dec 14 20:31:56 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
 [Sat Dec 14 22:31:36 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Sun Dec 15 00:29:59 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Sun Dec 15 02:30:05 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Sun Dec 15 03:04:33 2013] [error] [client 198.74.59.153] script not found or unable to stat: /var/www/cgi-bin/php
+[Sun Dec 15 03:04:33 2013] [error] [client 198.74.59.153] script not found or unable to stat: /var/www/cgi-bin/php5
+[Sun Dec 15 03:04:34 2013] [error] [client 198.74.59.153] script not found or unable to stat: /var/www/cgi-bin/php-cgi
+[Sun Dec 15 03:04:35 2013] [error] [client 198.74.59.153] script not found or unable to stat: /var/www/cgi-bin/php.cgi
+[Sun Dec 15 03:04:35 2013] [error] [client 198.74.59.153] script not found or unable to stat: /var/www/cgi-bin/php4
+[Sun Dec 15 04:30:06 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Sun Dec 15 05:29:30 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Sun Dec 15 06:30:58 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Sun Dec 15 06:49:54 2013] [error] [client 67.205.74.109] script not found or unable to stat: /var/www/cgi-bin/php
+[Sun Dec 15 06:49:54 2013] [error] [client 67.205.74.109] script not found or unable to stat: /var/www/cgi-bin/php5
+[Sun Dec 15 06:49:55 2013] [error] [client 67.205.74.109] script not found or unable to stat: /var/www/cgi-bin/php-cgi
+[Sun Dec 15 06:49:55 2013] [error] [client 67.205.74.109] script not found or unable to stat: /var/www/cgi-bin/php.cgi
+[Sun Dec 15 06:49:56 2013] [error] [client 67.205.74.109] script not found or unable to stat: /var/www/cgi-bin/php4
+[Sun Dec 15 07:29:41 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Sun Dec 15 09:30:00 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Sun Dec 15 10:22:10 2013] [error] [client 107.20.169.255] script not found or unable to stat: /var/www/cgi-bin/php
+[Sun Dec 15 10:22:11 2013] [error] [client 107.20.169.255] script not found or unable to stat: /var/www/cgi-bin/php5
+[Sun Dec 15 10:22:11 2013] [error] [client 107.20.169.255] script not found or unable to stat: /var/www/cgi-bin/php-cgi
+[Sun Dec 15 10:22:12 2013] [error] [client 107.20.169.255] script not found or unable to stat: /var/www/cgi-bin/php.cgi
+[Sun Dec 15 10:22:12 2013] [error] [client 107.20.169.255] script not found or unable to stat: /var/www/cgi-bin/php4
+[Sun Dec 15 11:31:31 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Sun Dec 15 13:31:51 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Sun Dec 15 13:51:51 2013] [error] [client 200.169.134.218] script not found or unable to stat: /var/www/cgi-bin/php
+[Sun Dec 15 13:51:52 2013] [error] [client 200.169.134.218] script not found or unable to stat: /var/www/cgi-bin/php5
+[Sun Dec 15 13:51:53 2013] [error] [client 200.169.134.218] script not found or unable to stat: /var/www/cgi-bin/php-cgi
+[Sun Dec 15 13:51:54 2013] [error] [client 200.169.134.218] script not found or unable to stat: /var/www/cgi-bin/php.cgi
+[Sun Dec 15 13:51:54 2013] [error] [client 200.169.134.218] script not found or unable to stat: /var/www/cgi-bin/php4
+[Sun Dec 15 15:31:20 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Sun Dec 15 16:48:33 2013] [error] [client 75.145.148.19] script not found or unable to stat: /var/www/cgi-bin/php
+[Sun Dec 15 16:48:36 2013] [error] [client 75.145.148.19] script not found or unable to stat: /var/www/cgi-bin/php5
+[Sun Dec 15 16:48:37 2013] [error] [client 75.145.148.19] script not found or unable to stat: /var/www/cgi-bin/php-cgi
+[Sun Dec 15 16:48:37 2013] [error] [client 75.145.148.19] script not found or unable to stat: /var/www/cgi-bin/php.cgi
+[Sun Dec 15 16:48:38 2013] [error] [client 75.145.148.19] script not found or unable to stat: /var/www/cgi-bin/php4
+[Sun Dec 15 17:31:28 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Sun Dec 15 18:43:10 2013] [error] [client 68.4.182.90] Invalid method in request \x80w\x01\x03\x01
+[Sun Dec 15 18:43:11 2013] [error] [client 68.4.182.90] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/HNAP1, referer: http://203.195.183.160/
+[Sun Dec 15 19:32:23 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Sun Dec 15 21:32:56 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
+[Sun Dec 15 23:30:16 2013] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/workSpace/apacheDocument/images/v1.0/v1.0-1.png/asdf.php, referer: http://203.195.183.160
