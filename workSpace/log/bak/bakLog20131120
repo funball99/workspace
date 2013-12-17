@@ -6650,3 +6650,12 @@ sync succeed at 201312152350!
 =========================================================================
 =========================201312162350========================
 latest version at 201312162350 !
+[master 3b6ef21] 201312162350
+ 7 files changed, 2221 insertions(+), 0 deletions(-)
+ create mode 100644 workSpace/discuzWebroot/demo/data/template/1_1_common_header_connect_config.tpl.php
+To git@github.com:funball99/workspace.git
+   86e8f25..3b6ef21  master -> master
+sync succeed at 201312162350!
+=========================================================================
+=========================201312172350========================
+latest version at 201312172350 !
