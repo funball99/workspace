@@ -6675,3 +6675,12 @@ sync succeed at 201312182350!
 =========================================================================
 =========================201312192350========================
 latest version at 201312192350 !
+[master f4ed153] 201312192350
+ 6 files changed, 1957 insertions(+), 0 deletions(-)
+ create mode 100644 workSpace/apacheDocument/images/port.log
+To git@github.com:funball99/workspace.git
+   8503afb..f4ed153  master -> master
+sync succeed at 201312192350!
+=========================================================================
+=========================201312202350========================
+latest version at 201312202350 !
