@@ -1,0 +1,51 @@
+#!/bin/sh
+
+function getByRequest()
+{
+    if [ "x$RET" == "x" ] ; then
+        echo -e "Run Error : Empty Return\n"
+        return
+    fi
+    
+    FindRequest=`echo $RET | grep -i 'requestid'`
+    if [ "x$FindRequest" != "x" ] ; then
+        
+        RequestId=`echo $FindRequest | cut -d=  -f2 | tr -s " " `
+        echo -e "Your request has been confirmed. Please wait."
+        while [ 1 ]
+        do
+            RET_REQUEST=`${TC_OPENCLOUD_PHP_PATH} ${TC_OPENCLOUD_SDK_PHP_HOME}/lib/CloudCmd.class.php -c ApiCdbs.GetCreateCdbRet $args -i $RequestId --self "$0"`
+            HTTP_CODE=`echo $RET_REQUEST | grep -i 'httpcode' | cut -d=  -f2 | tr -s ' ' | sed 's/^[ ]//g'`
+            if [ "${HTTP_CODE}" != "202" ]; then
+                echo -e "\n$RET_REQUEST\n"
+                exit 0
+            else
+                echo -e "..\c";
+            fi
+            
+            sleep 3 
+        done
+    else
+    	echo -e  "$RET\n";
+    fi
+}
+
+
+if [ "x${TC_OPENCLOUD_SDK_PHP_HOME}" != "x" -a "x${TC_OPENCLOUD_PHP_PATH}" != "x" ]; then
+    args=$*
+    ${TC_OPENCLOUD_SDK_PHP_HOME}/lib/reconfirmation ${args}" --operation=A.cdb.instance.will.be.created"
+    if [ "x$?" != "x0" ]; then
+        exit -1
+    else
+        RET=`${TC_OPENCLOUD_PHP_PATH} ${TC_OPENCLOUD_SDK_PHP_HOME}/lib/CloudCmd.class.php -c ApiCdbs.CreateCdb --self "$0" "$@"`
+        
+        #check request and get result
+        getByRequest
+        exit 1
+    fi
+
+else
+    echo -e "TC_OPENCLOUD_SDK_PHP_HOME or TC_OPENCLOUD_PHP_PATH is not set\n"
+    exit 1
+fi
+

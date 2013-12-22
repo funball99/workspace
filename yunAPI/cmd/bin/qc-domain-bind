@@ -1,0 +1,72 @@
+#!/bin/sh
+
+
+function getByRequest()
+{
+    if [ "x{$RET}" == "x" ] ; then
+        echo -e "Run Error : Empty Return\n"
+        return
+    fi
+
+    FindRequest=`echo $RET | grep -i 'requestid'`
+    if [ "x$FindRequest" != "x" ] ; then
+        
+        RequestId=`echo $FindRequest | cut -d=  -f2 | tr -s " " `
+        while [ 1 ]
+        do
+            RET_REQUEST=`${TC_OPENCLOUD_PHP_PATH} ${TC_OPENCLOUD_SDK_PHP_HOME}/lib/CloudCmd.class.php -c ApiDomains.GetDomainBindRet $args  --requestId $RequestId --noheader "$0"`
+            HTTP_CODE=`echo $RET_REQUEST | grep -i 'httpcode' | cut -d=  -f2 | tr -s ' ' | sed 's/^[ ]//g'`
+            if [ "${HTTP_CODE}" != "202" ]; then
+                echo -e "\n$RET_REQUEST\n"
+                break
+            else
+                echo -e "..\c"
+            fi
+            
+            sleep 3 
+        done
+    else
+    	echo -e  "$RET\n";
+    fi
+    
+}
+
+
+if [ "x${TC_OPENCLOUD_SDK_PHP_HOME}" != "x" -a "x${TC_OPENCLOUD_PHP_PATH}" != "x" ]; then
+	args=$*
+	num=$#
+	domain=`echo $args | grep -i 'domain'`
+	ips=`echo $args | grep -i 'ips'`
+	ports=`echo $args | grep -i 'ports'`
+	if [ "x$domain" == "x" -o "x$ips" == "x" -o "x$ports" == "x" ] ; then
+		RET=`${TC_OPENCLOUD_PHP_PATH} ${TC_OPENCLOUD_SDK_PHP_HOME}/lib/CloudCmd.class.php -c ApiDomains.DomainBind --self "$0" "$@"`
+        echo -e "$RET\n"
+		exit 0
+	fi
+	
+	varDomains=${args#*domain=}
+	varDomain=`echo $varDomains | cut -d" "   -f1 | tr -s " " `
+	
+	varIps=${args#*ips=}
+	varIp=`echo $varIps | cut -d" "   -f1 | tr -s " " `
+	
+	varPorts=${args#*ports=}
+	varPort=`echo $varPorts | cut -d" "   -f1 | tr -s " " `
+	
+	portNum=`echo $varPort | grep -o ',' | wc -l`
+	for((u=1;u<=$portNum+1;u++));
+	do
+		port=`echo $varPort | cut -d,  -f$u | tr -s " " `	
+		RET=`${TC_OPENCLOUD_PHP_PATH} ${TC_OPENCLOUD_SDK_PHP_HOME}/lib/CloudCmd.class.php -c ApiDomains.DomainBind "$@" --ip $varIp --port  $port`						
+        getByRequest
+		
+	done
+	exit 0
+
+else
+    echo -e "TC_OPENCLOUD_SDK_PHP_HOME or TC_OPENCLOUD_PHP_PATH is not set\n"
+    exit 1
+fi
+
+exit 0
+

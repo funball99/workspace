@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ "x${TC_OPENCLOUD_SDK_PHP_HOME}" != "x" -a "x${TC_OPENCLOUD_PHP_PATH}" != "x" ]; then
+      ${TC_OPENCLOUD_PHP_PATH} ${TC_OPENCLOUD_SDK_PHP_HOME}/lib/CloudCmd.class.php -c ApiRequests.GetRequestList --self "$0" "$@"
+else
+        echo TC_OPENCLOUD_SDK_PHP_HOME or TC_OPENCLOUD_PHP_PATH is not set
+        exit 1
+fi

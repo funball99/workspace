@@ -1,0 +1,11 @@
+#!/bin/sh
+
+if [ "x${TC_OPENCLOUD_SDK_PHP_HOME}" != "x" -a "x${TC_OPENCLOUD_PHP_PATH}" != "x" ]; then
+		args=$*	
+		varIps=${args#*ips=}
+		varIp=`echo $varIps | cut -d" "   -f1 | tr -s " " `
+		${TC_OPENCLOUD_PHP_PATH} ${TC_OPENCLOUD_SDK_PHP_HOME}/lib/CloudCmd.class.php -c ApiCvms.GetCvmsRet --self "$0" "$@" --ip $varIp
+else
+        echo TC_OPENCLOUD_SDK_PHP_HOME or TC_OPENCLOUD_PHP_PATH is not set
+        exit 1
+fi
