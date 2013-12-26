@@ -46,3 +46,4 @@
 [Mon Dec 23 07:27:41 2013] [error] [client 113.108.82.22] script '/myDisk/wilson/workspace/workSpace/discuzWebroot/demo/api/google.php' not found or unable to stat
 [Tue Dec 24 07:26:33 2013] [error] [client 113.108.82.22] script '/myDisk/wilson/workspace/workSpace/discuzWebroot/demo/api/google.php' not found or unable to stat
 [Tue Dec 24 17:46:52 2013] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/workSpace/discuzWebroot/demo/none, referer: http://discuz.gz.1251000002.clb.myqcloud.com/forum.php?mod=viewthread&tid=1&extra=page%3D1
+[Thu Dec 26 07:26:46 2013] [error] [client 113.108.82.22] script '/myDisk/wilson/workspace/workSpace/discuzWebroot/demo/api/google.php' not found or unable to stat
