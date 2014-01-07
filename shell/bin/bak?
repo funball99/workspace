@@ -1,0 +1,8 @@
+#!/bin/bash
+
+BIN="/myDisk/wilson/workspace/workSpace/shell/bin"
+if [ ~/imcoming -nt $BIN/setMyConfig ]; then
+	echo "yes"
+else 
+	echo "no"
+fi

@@ -1,0 +1,153 @@
+#showmanage{
+	display:block;
+	width:1000px;
+	border:1px solid #E0E0E0;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:10px;
+}
+.showmanage_content{
+	width:960px;
+	height:21px;
+	margin-left:20px;
+	margin-top:20px;
+}
+.showmanage_content_one{
+	display:block;
+	width:104;
+	height:21;
+	float:left;
+	color:#696969;
+	font-size:16px;
+	font-family:Î¢ÈíÑÅºÚ;
+}
+.showmanage_content_two{
+	display:block;
+	width:350px;
+	height:21px;
+	line-height:21px;
+	float:left;
+	color:#646464;
+	font-size:12px;
+	margin-left:10px;
+}
+.showmanage_moduleslink{
+	display:block;
+	width:200px;
+	height:13px;
+	font-size:12px;
+	clear:both;
+	color:#5580F0;
+	margin-left:20px;
+	margin-top:5px;
+}
+#showmanage table{
+	border-collapse:collapse;
+	width:960px;
+	margin-left:20px;
+	margin-top:20px;
+	font-size:12px;
+}
+#showmanage table tr td{
+	border:1px solid #E4E4E4;
+	height:31px;
+	line-height:31px;
+}
+.title{
+	border:1px solid #E4E4E4;
+	background:#2D8CCE;
+	color:#FFF;
+}
+.showmanage_table_input{
+	margin-left:9px;
+}
+.showmanage_table_content{
+	color:#696969;
+	padding-left:5px;
+}
+.delete{
+	color:#2C5F9E;
+	display:block;
+	width:130px;
+	text-align:center;
+}
+.all{
+	display:block;
+	color:#696969;
+	float:left;
+	width:24px;
+	height:21px;
+	line-height:21px;
+	margin-left:5px;
+}
+.delete1{
+	color:#2C5F9E;
+	display:block;
+	width:24px;
+	height:21px;
+	line-height:21px;
+	float:left;
+	margin-left:10px;
+}
+.delete1 input
+{
+BACKGROUND-COLOR: transparent;
+BORDER-BOTTOM: #ffffff 1px solid;
+BORDER-LEFT: #ffffff 1px solid;
+BORDER-RIGHT: #ffffff 1px solid;
+BORDER-TOP: #ffffff 1px solid;
+COLOR: #00000;
+HEIGHT: 18px;
+border-color: #ffffff #ffffff #ffffff #ffffff; font-size: 9pt
+}
+.allpage{
+	display:block;
+	color:#696969;
+	float:left;
+	width:74px;
+	height:21px;
+	margin-left:10px;
+	line-height:21px;
+}
+#page{
+	float:right;
+	margin-right:10px;
+}
+
+.allpages{
+	display:block;
+	color:#696969;
+	float:left;
+	width:44px;
+	height:21px;
+	line-height:21px;
+	margin-left:10px;
+}
+#page input{
+	display:block;
+	border:1px solid #BDD0DF;
+	height:19px;
+	float:left;
+}
+#page .go{
+	width:28px;
+}
+.button{
+	height:26px;
+	width:960px;
+	margin-top:40px;
+	padding-left:815px;
+	margin-bottom:30px;
+}
+.qd{
+	width:62px;
+	height:26px;
+	border:none;
+	background:url(sure.png);
+}
+.return{
+	width:91px;
+	height:26px;
+	border:none;
+	background:url(back.png);
+}

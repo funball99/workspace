@@ -1,8 +1,0 @@
-#!/bin/bash
-
-function f(){
-echo "2"
-}
-f
-f
-f

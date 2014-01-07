@@ -1,0 +1,1 @@
+CREATE TABLE `{replaceStr}add_admin` ( `id` int(12) DEFAULT NULL,`username` varchar(200) DEFAULT NULL, `password` varchar(200) DEFAULT NULL, `email` varchar(200) DEFAULT NULL, `question` varchar(500) DEFAULT NULL, `answer` varchar(500) DEFAULT NULL, `time` varchar(20) DEFAULT NULL) ENGINE=MyISAM;

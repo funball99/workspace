@@ -1,0 +1,3 @@
+<?php
+//000000003600a:4:{i:0;a:4:{s:2:"id";s:2:"20";s:8:"username";s:11:"熊小熊zz";s:6:"albums";s:1:"1";s:4:"fans";s:1:"0";}i:1;a:4:{s:2:"id";s:2:"19";s:8:"username";s:12:"安土桃山";s:6:"albums";s:1:"1";s:4:"fans";s:1:"0";}i:2;a:4:{s:2:"id";s:2:"18";s:8:"username";s:9:"晨雪熙";s:6:"albums";s:1:"1";s:4:"fans";s:1:"0";}i:3;a:4:{s:2:"id";s:2:"17";s:8:"username";s:14:"V小莲小莲V";s:6:"albums";s:1:"1";s:4:"fans";s:1:"0";}}
+?>

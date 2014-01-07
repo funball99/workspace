@@ -1,0 +1,1 @@
+CREATE TABLE `{replaceStr}add_module` (`id` int(12) NOT NULL AUTO_INCREMENT,`mname` varchar(230) DEFAULT NULL,`display` int(12) DEFAULT NULL,`content` enum('1','2') DEFAULT '1' COMMENT 'shoudong',PRIMARY KEY (`id`)) ENGINE=MyISAM;

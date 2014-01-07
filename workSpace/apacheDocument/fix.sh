@@ -1,1 +1,0 @@
-/myDisk/wilson/workspace/workSpace/shell/bin/weisongli.sh
