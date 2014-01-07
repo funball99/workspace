@@ -2,9 +2,9 @@
 if(!defined("INSIDE")){ die("attemp hacking"); }
 $dbsettings = Array(
 "server"     => "localhost", // MySQL server name.
-"user"       => "ogameroot", // MySQL username.
-"pass"       => "0450278329o", // MySQL password.
-"name"       => "ogame", // MySQL database name.
+"user"       => "root", // MySQL username.
+"pass"       => "", // MySQL password.
+"name"       => "ogamevvvvvv", // MySQL database name.
 "prefix"     => "ogame_", // Tables prefix.
-"secretword" => "XNova543312688"); // Cookies.
+"secretword" => "XNova592480827"); // Cookies.
 ?>
