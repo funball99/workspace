@@ -1,10 +1,10 @@
 <?php
 if(!defined("INSIDE")){ die("attemp hacking"); }
 $dbsettings = Array(
-"server"     => "localhost", // MySQL server name.
-"user"       => "root", // MySQL username.
+"server"     => "", // MySQL server name.
+"user"       => "", // MySQL username.
 "pass"       => "", // MySQL password.
-"name"       => "ogamevvvvvv", // MySQL database name.
-"prefix"     => "ogame_", // Tables prefix.
-"secretword" => "XNova592480827"); // Cookies.
+"name"       => "", // MySQL database name.
+"prefix"     => "", // Tables prefix.
+"secretword" => "XNova1220962334"); // Cookies.
 ?>

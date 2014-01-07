@@ -1,0 +1,40 @@
+<!--{template common/header_ajax}-->
+ 
+<div  >
+
+<h3 class="flb">
+ 
+<em id="return_wxgz">
+{lang genee_wxgzpt:ssgzwm}
+</em>
+
+<span>
+<a href="javascript:;" class="flbc" onclick="hideWindow('genee_wxgzpt')" title="{lang genee_wxgzpt:close}">{lang genee_wxgzpt:close}</a>
+</span>
+</h3> 
+
+<div id="floatlayout_wxgz" >
+<div style="padding-left:10px;font-weight:bold;"><em>{lang genee_wxgzpt:gzh}:$gvar['wxgzh']</em></div>
+
+<div><img src="$gvar['wxgzhewm']" /></div>
+ 
+</div>
+
+<div class="o pns" id="moreconf" style="margin-top:20px;">
+<button type="button" onclick="hideWindow('genee_wxgzpt')" id="wxgzsubmit" class="pn pnc" value="true" name="wxgzsubmit"><span>{lang genee_wxgzpt:cancel}</span></button>
+</div>
+</div>
+
+</div>
+
+<script type="text/javascript">
+
+function succeedhandle_$_GET['handlekey'](locationhref, message, param) {
+	location.href = locationhref;
+}
+
+</script>
+
+
+
+<!--{template common/footer_ajax}-->

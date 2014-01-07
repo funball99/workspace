@@ -1,0 +1,1 @@
+{"db_host":"localhost","db_port":"3306","db_user":"pinphproot","db_pass":"0450278329p","db_name":"pinphp","db_prefix":"pin_","admin_user":"root","admin_pass":"0450278329p","admin_pass_confirm":"0450278329p","admin_email":"wilsonbakup@qq.com"}

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BIN="/myDisk/wilson/workspace/workSpace/shell/bin"
+BIN="/myDisk/wilson/workspace/shell/bin"
 if [ ~/imcoming -nt $BIN/setMyConfig ]; then
 	echo "yes"
 else 

@@ -1,0 +1,8 @@
+[Tue Jan 07 19:47:19 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Tue Jan 07 20:48:26 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Tue Jan 07 20:52:59 2014] [error] [client 123.151.155.114] PHP Notice:  Undefined index: HTTP_RAW_POST_DATA in /myDisk/wilson/workspace/webroot/weixin/xiaodou/wechat.php on line 141
+[Tue Jan 07 20:52:59 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/weixin/favicon.ico
+[Tue Jan 07 20:54:11 2014] [error] [client 101.226.64.201] PHP Warning:  file_put_contents(response.txt): failed to open stream: Permission denied in /myDisk/wilson/workspace/webroot/weixin/xiaodou/wechat.php on line 167
+[Tue Jan 07 21:22:59 2014] [error] [client 180.153.206.23] PHP Notice:  Undefined index: HTTP_RAW_POST_DATA in /myDisk/wilson/workspace/webroot/weixin/xiaodou/wechat.php on line 141
+[Tue Jan 07 21:49:33 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Tue Jan 07 22:50:41 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/

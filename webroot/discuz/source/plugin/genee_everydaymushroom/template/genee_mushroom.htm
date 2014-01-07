@@ -1,0 +1,390 @@
+{subtemplate common/header}
+
+<link rel="stylesheet" type="text/css"
+	href="source/plugin/genee_everydaymushroom/css/public.css" />
+<script type="text/javascript"
+	src="source/plugin/genee_everydaymushroom/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript"
+	src="plugin.php?id=genee_everydaymushroom:geneejscommon"></script>
+<script type="text/javascript"
+	src="plugin.php?id=genee_everydaymushroom:geneejs"></script>
+<script type="text/javascript">
+
+
+var jqMush = jQuery.noConflict(true);
+jqMush(function(){
+	if(jqMush(".wp").width()>990){
+		jqMush("#leftmain").css("width", 900);
+		jqMush(".con_box").css("width", 800);
+		jqMush(".dt").css("padding-left",60);
+		jqMush("#rightph").css("width", 180);
+
+		jqMush("#leftdiv").css("width", jqMush(".wp").width()-300);
+
+		jqMush("#posthf").css("width", jqMush(".wp").width()-300);
+		jqMush("#leftfmn").css("width", jqMush(".wp").width()-300);
+		
+		jqMush(".hfdiv").css("width", jqMush(".wp").width()-400);
+	}else{
+		jqMush("#leftmain").css("width", 700);
+		jqMush(".con_box").css("width", 640);	
+		jqMush(".dt").css("padding-left",40);
+		jqMush("#rightph").css("width", 200);
+		
+		jqMush("#leftdiv").css("width", 703);
+		jqMush("#posthf").css("width", 683);
+		jqMush("#leftfmn").css("width", 683);
+		jqMush(".hfdiv").css("width",600);
+	}
+})
+function resizeWe(){
+	if(jqMush(".wp").width()>990){
+		jqMush("#leftmain").css("width", 900);
+		jqMush(".con_box").css("width", 800);
+		jqMush(".dt").css("padding-left",60);
+		jqMush("#rightph").css("width", 180);
+		
+		jqMush("#leftdiv").css("width", jqMush(".wp").width()-300);
+		jqMush("#posthf").css("width", jqMush(".wp").width()-300);
+		jqMush("#leftfmn").css("width", jqMush(".wp").width()-300);
+		
+		jqMush(".hfdiv").css("width", jqMush(".wp").width()-400);
+	}else{
+		jqMush("#leftmain").css("width", 700);
+		jqMush(".con_box").css("width", 640);
+		jqMush(".dt").css("padding-left",40);
+		jqMush("#rightph").css("width", 200);
+
+		jqMush("#leftdiv").css("width", 703);
+		jqMush("#posthf").css("width", 683);
+		jqMush("#leftfmn").css("width", 683);
+		jqMush(".hfdiv").css("width",600);
+			
+	}
+	setTimeout("resizeWe()",1000);
+}
+
+setTimeout("resizeWe()",1000);
+
+function gmush_location(){
+
+	location.href=location.href;
+}
+
+ 
+
+</script>
+<div class="mush">
+<div class="fmn fmn728 ">
+<ul class="tb cl">
+	<li $actives[mgdt] ><a href="plugin.php?id=genee_everydaymushroom:genee_mushroom">{lang	genee_everydaymushroom:mgdt}</a></li>
+	<li $actives[mgdr]><a href="plugin.php?id=genee_everydaymushroom:genee_mushroom&mod=mgdr">{lang	genee_everydaymushroom:mgdr}</a></li>
+	<li $actives[myjl]><a href="plugin.php?id=genee_everydaymushroom:genee_mushroom&mod=myjl">{lang	genee_everydaymushroom:myjl}</a></li>
+	<li $actives[mgjs]><a href="plugin.php?id=genee_everydaymushroom:genee_mushroom&mod=mgjs">{lang	genee_everydaymushroom:mgjs}</a></li>
+</ul>
+</div>
+
+{if $gvar['lvshow']}
+<div class="zjshow">
+{lang genee_everydaymushroom:hyn} <font color="blue">{$_G['username']}</font>,
+{lang genee_everydaymushroom:cjcs}:<font color="red">{$alllj}</font>,
+{lang genee_everydaymushroom:mtkcj}: <font color="red">{$gvar[daynum]}</font>
+{lang genee_everydaymushroom:c}, {lang genee_everydaymushroom:zjgl}
+({$gvar[mushrooma]}:<font color="red">{eval echo sprintf("%.2f",
+$gvar ['mushroomalv']/$alllv*100);}%</font>, {$gvar[mushroomb]}:<font
+	color="red">{eval echo sprintf("%.2f", $gvar
+['mushroomblv']/$alllv*100);}%</font>, {$gvar[mushroomc]}:<font color="red">{eval
+echo sprintf("%.2f", $gvar ['mushroomclv']/$alllv*100);}%</font>,
+{$gvar[mushroomd]}:<font color="red">{eval echo sprintf("%.2f",
+$gvar ['mushroomdlv']/$alllv*100);}%</font>, {$gvar[mushroome]}:<font
+	color="red">{eval echo sprintf("%.2f", $gvar
+['mushroomelv']/$alllv*100);}%</font>, {$gvar[angel]}:<font color="red">{eval
+echo sprintf("%.2f", $gvar ['angellv']/$alllv*100);}%</font>, {$gvar[demon]}:<font
+	color="red">{eval echo sprintf("%.2f", $gvar
+['demonlv']/$alllv*100);}%</font> {lang genee_everydaymushroom:visualkm}:<font
+	color="red">{eval echo sprintf("%.2f", $gvar
+['visuallv']/$alllv*100);}%</font> )</div>
+{/if}
+
+{if $_G['genee_mod']=='mgdr'}
+ {template genee_everydaymushroom:mgdr}
+{elseif $_G['genee_mod']=='mgjs'}
+<div style="padding: 10px; border: 1px solid #CCC; border-top: none;">
+{$gvar['mgjs']}</div>
+
+{elseif $_G['genee_mod']=='myjl'}
+
+	<div style="border:1px solid #CCC;padding:5px;border-top: none;">
+<table width="100%" border="0" cellspacing="0" cellpadding="1" align="center">
+  <th style="padding:2px;"><strong>{lang genee_everydaymushroom:zjz}</strong></th><th><strong>{lang genee_everydaymushroom:zjxx}</strong></th><th><strong>{lang genee_everydaymushroom:zjsj}</strong></th>
+<!--{loop $myjl $v}-->
+  <tr>
+     <td style="padding:2px;">$v['username']</td>
+     <td style="padding:2px;">$v['message']</td>
+     <td style="padding:2px;"><!--{eval echo dgmdate($v[create_time],'Y-m-d H:i:s')}--></td>
+  </tr>
+<!--{/loop}-->
+</table>
+        </div>
+	<div style="padding:2px;">
+
+	</div>
+	<div>
+<!--{if $multi}-->
+$multi
+<!--{/if}-->
+	</div>
+	<div style="padding:2px;">
+
+	</div>
+{else}
+
+<div class="ad1"><a href="$ad[ad1][adlink]" target="_blank"><img src="$ad[ad1][adsrc]" /></a></div>
+
+<div class="bg_box wp"><!-- <div class="g_title">
+<h1>{lang genee_everydaymushroom:mushroombtjy}</h1>
+<span class="hot">{lang genee_everydaymushroom:wjsm}{$_G['username']}</span></div> -->
+
+<div class="dt">
+<ul
+	style="width: auto; height: 60px; overflow: hidden; line-height: 20px;"
+	id="scroll">
+	<!--{loop $mushdt $mu}-->
+	<li>{eval echo dgmdate($mu[create_time],'Y-m-d
+	H:i:s');}&nbsp;{$mu[username]}&nbsp;{$mu[log]}</li>
+	<!--{/loop}-->
+</ul>
+<ul id="scroll2"></ul>
+</div>
+
+<div>
+<div class="fzli"
+	style="width: 700px; margin-right: 10px; margin-left: 10px;"
+	id="leftmain">
+
+<div class="con_box">
+<div class="h2icon"><em class="til_icon"></em><span id="load"
+	class="til_text">{lang genee_everydaymushroom:zzcmg}</span></div>
+
+
+<ul>
+	<li class="con_list fixed" style="height: 150px;">
+	<div class="img_icon" id="imgmush"><img src="{$gvar['run']}"
+		alt=""></div>
+	<p></p>
+	<span class="span_a1" id="getmushroom"> <!--{if !$_G[uid]}-->{lang
+	genee_everydaymushroom:nxzsyk}<!--{else}-->{lang
+	genee_everydaymushroom:djcfcmg}<span class="span_a2"></span><!--{/if}--></span></li>
+
+
+	<li class="con_list">
+	<h3><em class="til_icon01"></em></h3>
+	</li>
+	<li class="con_list fixed tab_a" id="showplace"
+		style="position: relative; float: right;">
+	<!--{if !$_G[uid]}-->
+	<a href="javascript:void(0);"><button class="btn_dl"
+		onclick="showWindow('login', 'member.php?mod=logging&action=login&infloat=yes');"></a></button>
+	<!--{else}-->
+	<a href="javascript:void(0);"><button class="btn_cf" onclick="javascript:getMushRoom();"></a></button>
+	<!--{/if}--></li>
+
+	</li>
+	<li class="con_list" style="margin-top: 100px;">
+	<p class="con_list01" style="color: blue;">{lang
+	genee_everydaymushroom:xzssy}<span class="span_a3" id="geneemoney">{$geneemoney['extcredits'.$gvar['exttype']]}</span>{$credittype}</p>
+	<p class="con_list01" style="color: red;">{lang
+	genee_everydaymushroom:njtsheng}<span id="playnum"
+		style="color: green; font-size: 16px; font-weight: bold;">{$muser[playnum]}</span>{lang
+	genee_everydaymushroom:c}</p>
+
+	<!-- <div class="jd_line"><div class="jd_line01" style="width:30%;"></div></div> -->
+	</li>
+	<input type="hidden" id="hm" />
+	<div class="copy">{if $iscopy}$mycopy{else}{lang genee_everydaymushroom:genee_room}{/if}</div>
+
+</ul>
+</div>
+</div>
+<div class="fzli" style="width: 180px; height: auto;" id="rightph">
+<div class="con_box1">
+<div class="h2icon"><em class="til_icon1"></em><span id="load"
+	class="til_text">{lang genee_everydaymushroom:phb}</span></div>
+<ul id="ulph">
+	{eval $kk=1}
+	<!--{loop $mushph $k $mu}-->
+	<li class="phli"><span>{lang genee_everydaymushroom:d}<font
+		class="fdm">{$kk}</font>{lang genee_everydaymushroom:m}</span><span>{$mu[username]}</span><span
+		class="cspan">{$mu[credit]}</span></li>
+	{eval $kk+=1}
+	<!--{/loop}-->
+</ul>
+</div>
+
+</div>
+</div>
+
+</div>
+
+<div class="ad2"><a href="$ad[ad2][adlink]" target="_blank"><img src="$ad[ad2][adsrc]" /></a></div>
+
+<div style="width: 100%;">
+<div style="float: left; width: 703px;" id="leftdiv">
+
+<form action="plugin.php?id=genee_everydaymushroom:genee_mushroom&mod=post" method="post" name="postform" > 
+<input type="hidden" name="tid" value="{$gvar[tid]}"/>
+<div class="fmn" style="width: 683px;" id="leftfmn">
+<ul class="tb cl">
+	<li class="a"
+		style="background: url('source/plugin/genee_everydaymushroom/images/lplb.png') no-repeat 0 0; width: 270px; height: 32px; border: 1px solid #CDCDCD; border-bottom: 1px solid #FFF;"></li>
+
+</ul>
+
+<div class="tedt mtn" style="width: 683px;" id="posthf">
+<div class="bar"><!--{eval $seditor = array('send', array( 'at', 'bold', 'color', 'img', 'link', 'quote', 'code', 'smilies'));}-->
+<!--{subtemplate common/seditor}--> <span style="float: right;">{lang
+genee_everydaymushroom:plnr}</span></div>
+<div class="area"><textarea rows="6" cols="80" name="sendmessage"
+	id="sendmessage" tabindex="4" class="pt"></textarea></div>
+<div style="float: right; margin-bottom: 10px;"><a href="javascript:void(0)">
+<input type="hidden" name="formhash" value="{FORMHASH}"/>
+<!-- <img
+	style="top: 8px; position: relative;"
+	onclick="javascript:document.all['postform'].submit()"
+	style="margin-top:5px;cursor: pointer;"
+	src="source/plugin/genee_everydaymushroom/images/post.png"> -->
+	<input type="submit" name="postsubmit" value=" "   style="cursor:pointer;top: 8px; position: relative;border:none;background:url('source/plugin/genee_everydaymushroom/images/post.png') no-repeat;width:74px;height:24px"/>
+	
+	</a></div>
+
+</div>
+
+	<div style="margin-top:25px;">
+	<!--{loop $postlist $v}-->
+	<div style="margin-bottom:15px;height:auto;min-height:60px;">
+		<div style="float:left;width:54px;" class="avt y">
+			<a href="home.php?mod=space&uid={$v[authorid]}"   target="_blank">
+			<img src="uc_server/avatar.php?uid={$v[authorid]}&size=small"  ></a>
+		</div>
+		<div style="float:left;padding-left:20px;width:600px;margin-bottom:15px;overflow:hidden;" class="hfdiv">
+		 	<div style="margin-bottom:5px;"><a href="home.php?mod=space&uid={$v[authorid]}"   target="_blank"><font color="blue">{$v[author]}</font></a>&nbsp;{lang genee_everydaymushroom:fbsj}:{$v[dateline]}<span style="float:right"><a target="_blank" href="javascript:void();">#{$v[position]}{lang genee_everydaymushroom:lc}</a>&nbsp;<a   href="javascript:;" id="gmush_reply" onclick="showWindow(this.id, 'forum.php?mod=post&action=reply&repquote={$v[pid]}&tid={$v[tid]}')">{lang genee_everydaymushroom:hf}</a><!--{if $adminid == '1'}-->&nbsp;<a  href="javascript:deletepost($v[pid])">{lang genee_everydaymushroom:sc}</a><!--{/if}--></span></div>
+		 	<div>{$v[message]}</div>
+		 </div>
+		
+	</div>
+	<div style="margin-top:10px;" ><HR color="#cfdde8" ></div>
+	<!--{/loop}-->
+	</div>
+				
+				
+ 	<div style="padding:2px;">
+
+	</div>
+	<div style="margin-right:20px;">
+	<!--{if $multi}-->
+	$multi
+	<!--{/if}-->
+	</div>
+				
+
+</div>
+</form>
+
+</div>
+
+<div style="float: right; width: 257px; margin-top: 30px;">
+
+<div class="ddr">
+<dl>
+	<dt><span>{lang genee_everydaymushroom:rmgdr}</span></dt>
+	<dd class="fixed">
+	<ul>
+		<!--{loop $rmgdr $v1}-->
+		<li>
+		<div class="avt y" style="height: auto; text-align: center;"><a
+			href="home.php?mod=space&amp;uid={$v1[uid]}" target="_blank"> <img
+			src="uc_server/avatar.php?uid={$v1[uid]}&size=small"></a> <span
+			style="color: blue;" title="{$v1[username]}">{eval echo
+		cutstr($v1[username],10,'');}</span><p>{$v1[credit]}</p></div>
+		</li>
+		<!--{/loop}-->
+	</ul>
+	</dd>
+</dl>
+
+</div>
+
+
+<div class="ddr">
+<dl>
+	<dt><span>{lang genee_everydaymushroom:zmgdr}</span></dt>
+	<dd class="fixed">
+	<ul>
+		<!--{loop $zmgdr $v1}-->
+		<li>
+		<div class="avt y" style="height: auto; text-align: center;"><a
+			href="home.php?mod=space&amp;uid={$v1[uid]}" target="_blank"> <img
+			src="uc_server/avatar.php?uid={$v1[uid]}&size=small"></a> <span
+			style="color: blue;" title="{$v1[username]}">{eval echo
+		cutstr($v1[username],10,'');}</span>
+		<p>{$v1[credit]}</p>
+		</div>
+		</li>
+		<!--{/loop}-->
+	</ul>
+	</dd>
+</dl>
+
+</div>
+
+<div class="ddr">
+<dl>
+	<dt><span>{lang genee_everydaymushroom:ymgdr}</span></dt>
+	<dd class="fixed">
+	<ul>
+		<!--{loop $ymgdr $v1}-->
+		<li>
+		<div class="avt y" style="height: auto; text-align: center;"><a
+			href="home.php?mod=space&amp;uid={$v1[uid]}" target="_blank"> <img
+			src="uc_server/avatar.php?uid={$v1[uid]}&size=small"></a> <span
+			style="color: blue;" title="{$v1[username]}">{eval echo
+		cutstr($v1[username],10,'');}</span><p>{$v1[credit]}</p></div>
+		</li>
+		<!--{/loop}-->
+	</ul>
+	</dd>
+</dl>
+
+</div>
+
+
+<div class="ddr">
+<dl>
+	<dt><span>{lang genee_everydaymushroom:ljmgdr}</span></dt>
+	<dd class="fixed">
+	<ul>
+		<!--{loop $ljmgdr $v1}-->
+		<li>
+		<div class="avt y" style="height: auto; text-align: center;"><a
+			href="home.php?mod=space&amp;uid={$v1[uid]}" target="_blank"> <img
+			src="uc_server/avatar.php?uid={$v1[uid]}&size=small"></a> <span
+			style="color: blue;" title="{$v1[username]}">{eval echo
+		cutstr($v1[username],10,'');}</span><p>{$v1[credit]}</p></div>
+		</li>
+		<!--{/loop}-->
+	</ul>
+	</dd>
+</dl>
+
+</div>
+</div>
+</div>
+
+{/if} 
+
+<script type="text/javascript"
+	src="plugin.php?id=genee_everydaymushroom:geneejsdt"></script> <script
+	type="text/javascript"
+	src="plugin.php?id=genee_everydaymushroom:geneejsph"></script>
+</div>
+{subtemplate common/footer}

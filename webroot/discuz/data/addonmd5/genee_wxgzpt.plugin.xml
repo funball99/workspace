@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[genee_wxgzpt.plugin]]></item>
+	<item id="RevisionID"><![CDATA[27666,27735]]></item>
+	<item id="SN"><![CDATA[20140107209R9zVr4YIv,20140107206hT9G7K7H7]]></item>
+	<item id="RevisionDateline"><![CDATA[1386568802,1386568802]]></item>
+	<item id="Data">
+		<item id="/template/genee_author.htm"><![CDATA[03259dc915c9474d3a9f77cfffe7f5f2]]></item>
+		<item id="/template/gzh.htm"><![CDATA[c82b40acd8bc5f30c31da3142503403c]]></item>
+		<item id="/admin_module.inc.php"><![CDATA[5d323b2cc5c5c2bf1022ab3ddf948028]]></item>
+		<item id="/include/genee.inc.php"><![CDATA[2a95dcb2e1afa8833e98fa047bce8092]]></item>
+		<item id="/discuz_plugin_genee_wxgzpt_SC_UTF8.xml"><![CDATA[b884404fe29feb90ef2b9c6cc608158e]]></item>
+		<item id="/discuz_plugin_genee_wxgzpt_TC_BIG5.xml"><![CDATA[0ebfce01e32e40555747f33faef306a1]]></item>
+		<item id="/discuz_plugin_genee_wxgzpt_TC_UTF8.xml"><![CDATA[72dc81935f7bbad062fedc0721337d31]]></item>
+		<item id="/discuz_plugin_genee_wxgzpt_SC_GBK.xml"><![CDATA[d799d6c0582e96e2421af8b9989745ff]]></item>
+		<item id="/admin_ggl.inc.php"><![CDATA[c6dc8beabb20425cf1ccb34634144fca]]></item>
+		<item id="/genee_gzh.inc.php"><![CDATA[197468609cd814f4b4c15923865f6632]]></item>
+		<item id="/genee_wxgzpt.inc.php"><![CDATA[b68cbd2db52c5776ae6711b9ac224cf6]]></item>
+		<item id="/hook.class.php"><![CDATA[b77aa6e5da9ca6e7ef5edbde8fd3d479]]></item>
+		<item id="/check.php"><![CDATA[ccfafd799468dcc31f3b60f5cf89cf0f]]></item>
+		<item id="/genee_author.inc.php"><![CDATA[8bba3d3e6bef017a9bd1c725e9450787]]></item>
+		<item id="/geneewxapi.class.php"><![CDATA[ecf8566fc543ec50fc973106a1291051]]></item>
+		<item id="/genee_wxgzh.jpg"><![CDATA[4166eb93664d2214299a667cb96004b3]]></item>
+		<item id="/module/zxzx1.inc.php"><![CDATA[5d77a85804c535a7f7f0e68da6f2eb2f]]></item>
+	</item>
+</root>

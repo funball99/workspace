@@ -1,0 +1,97 @@
+.moodfm_btn button.moodfm_btn button@charset "utf-8";
+/** forum::index **/
+#chart .y { display: none; }/*隐藏右侧查看新帖*/
+.fl_tb img { -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; }/*板块图标加入圆角效果*/
+#online { margin-top: 20px; }
+#online strong { font-weight: normal; }
+.fl_g dt { font-weight: normal; font-size: 18px; padding-bottom: 5px; }
+.lk_logo h5 { font-size: 12px; }
+.bm_h, .bm_c { padding: 0; }
+/*N格重定义*/
+.frame, .frame-tab { border: none; clear: both; margin-bottom: 0; }
+.block { margin: 0; }
+.bbs_index_thum { width: 450px; }
+.frame-1-1 { position: relative; }
+.frame-1-1-l { width: 450px; position: absolute; top: 0; left: 0; float: none; }
+.frame-1-1-r { margin-left: 465px; width: auto; float: none; }
+.frame-title, .frametitle, .tab-title { background: none; }
+.frame-tab .tb { line-height: normal; padding-left: 0; height: 31px; border-bottom: 1px solid {COMMONBORDER};}
+.frame-tab .tb li a { font-weight: normal; font-size: 14px; height: 31px; line-height: 31px; border-bottom:1px solid {COMMONBORDER}}
+.frame-tab .tb .a a { font-weight: normal; border-bottom:1px solid {MENUHOVERBGCOLOR}}
+.frame-tab .tb-c { padding: 10px 0; }
+.ml li { text-align: left; }
+.ml img { margin: 0; }
+.mls li { padding-bottom: 10px; }
+.member_thum { height: 70px; overflow: hidden; margin-bottom: 20px; }
+/** end **/
+
+
+
+
+
+/** forum::viewthread,portal::view,portal::comment,home::space **/
+#nv_portal .vw .h, #nv_forum .vw .h { margin-left: 0; margin-right: 0; }
+.vw .h { padding: 0 15px 15px 15px; text-align: left; background-color: {SPECIALBG};border-top:1px solid #FFFFFF;border-bottom: 1px solid {COMMONBORDER};}
+.tdats .tfxf { width: 630px; }
+/** end **/
+
+
+
+
+
+/** forum::forumdisplay **/
+.bm { border: none; }
+.bm_c { padding: 10px 0; }
+.bml .bm_h { padding: 0 0 10px 0; }
+.bmw .bm_h { background-image: none; border-top: none; }
+.bdl dl div a { height: auto; margin-bottom: 10px; margin-top: 10px; }
+.bdl dd a { margin: 5px 3px; }
+.xl2 li { height: 1.6em; }/*版主推荐高度*/
+#f_pst .bm_c { padding: 20px 0; }
+.boardnav .mn .bml { background-color: {SPECIALBG};padding: 10px;border-left: 5px solid {SPECIALBORDER};}/*板块名称板块规则处修改*/
+/*板块列表修改*/
+.bdl { border-color: {SPECIALBORDER}}
+.bdl dt { background-image: none; }
+.bdl dd.bdl_a a { background: {HIGHLIGHTLINK};color:#fff;}
+.tl th, .tl td {border-bottom-color: #eee;}
+.tl .threadpre .threadpretd { border-color: #eee;}
+.fastpreview {padding: 0 10px;}
+.previewvfastpost {margin: 0 0 3px 0}
+/** end **/
+
+
+
+
+/** search **/
+#ft { width: auto; }
+/** end **/
+
+
+
+
+/** home::follow **/
+.ct2_a .mn { padding-top: 0; margin-right: 0; }
+#flw_header { padding: 0; }
+.bbs { border: none !important; }
+.tb { margin-bottom: 10px; }
+.flw_avt { width: 48px; }
+.flw_avt img { margin-left: 0; }
+.flw_article { margin-left: 50px; border-color: {COMMONBORDER}}
+#flw_post_subject { width: auto; }/*发微播标题栏外宽度*/
+#flw_header #subject { width: 90%; }/*发微播标题栏内宽度*/
+#flw_post_extra { width: 100% }/*发微播内容栏宽度*/
+.mbm { margin: 5px 0 !important; }
+#flw_header .area .pt { height: 4.3em; }/*发微播高度*/
+.sd { border-radius: 5px; background: {COMMONBG};border:1px solid {COMMONBORDER};}/*右侧收听资料样式*/
+#flw_bar .fpd { width: 200px; }/*转播框宽度*/
+.flw_replybox { margin-left: 50px; float: right; width: 370px; background: {COMMONBG};}/*转播框样式*/
+.flw_replybox li { border-top-color: {COMMONBORDER};}
+.flw_autopt { width: 200px; }
+.flw_quote { border-left: 3px solid {CONTENTSEPARATE};padding:10px;margin-left:0;background-color: {COMMONBG}}/*引用样式*/
+.bm_c { padding: 0; }
+#nv_menu { top: 300px; }
+#fastpostsubmit { background: url({STYLEIMGDIR}/re/pn_follow.png) }
+/** end **/
+
+
+

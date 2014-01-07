@@ -1,0 +1,1 @@
+{"0":"id","1":"name","2":"img","3":"ordid","4":"albums","5":"status","6":"seo_title","7":"seo_keys","8":"seo_desc","_autoinc":true,"_pk":"id","_type":{"id":"smallint(4)","name":"varchar(50)","img":"varchar(255)","ordid":"tinyint(3) unsigned","albums":"int(10)","status":"tinyint(1)","seo_title":"varchar(255)","seo_keys":"varchar(255)","seo_desc":"text"}}
