@@ -8432,3 +8432,36 @@ latest version at 201401071726 !
 =========================201401071730========================
 latest version at 201401071730 !
 /usr/bin:/bin:/root/bin:/myDisk/wilson/workspace/shell/bin:/usr/local/bin
+[master 976cfbc] 201401071730
+ 2 files changed, 8402 insertions(+), 1 deletion(-)
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Warning: Permanently added the RSA host key for IP address '192.30.252.128' to the list of known hosts.
+To git@github.com:funball99/workspace.git
+   212959a..976cfbc  master -> master
+sync succeed at 201401071730!
+=========================================================================
+/usr/bin:/bin
+/usr/bin:/bin:/root/bin:/myDisk/wilson/workspace/shell/bin:/usr/local/bin
+=========================201401071736========================
+latest version at 201401071736 !
+/usr/bin:/bin:/root/bin:/myDisk/wilson/workspace/shell/bin:/usr/local/bin
