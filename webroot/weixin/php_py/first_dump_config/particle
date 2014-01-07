@@ -1,0 +1,24 @@
+id	name	BindDataId	itemType	desc
+1	fx_hand_01	1	0	手部光效
+2	fx_hand_sidai_01	13	0	
+3	fx_ground_01	3	0	
+4	fx_ground_02	4	0	
+5	fx_ground_03	5	0	
+6	fx_hand_sidai_01	14	0	
+7	fx_wind_07	7	3238136832	win_c007_dod
+8	fx_cloth_g0004_j01	8	0	
+9	fx_cloth_g0004_j01	9	0	
+10	fx_skylight01	10	0	
+11	fx_skylight02	11	0	
+12	fx_body_01	12	0	
+15	fx_ground_04	15	0	
+16	fx_ground_05	16	0	
+17	fx_ground_05	17	0	
+18	fx_ground_06	18	0	
+22	fx_wind_01	22	3238136832	win_c001_dod
+23	fx_cloud_01	23	0	
+24	fx_wind_02	24	3238136832	win_c006_dod
+25	fx_wind_03	25	3238136832	win_c002_dod
+26	fx_wind_04	26	3238136832	win_c005_dod
+27	fx_wind_05	27	3238136832	win_c004_dod
+28	fx_hand_02	28	0	

@@ -8465,3 +8465,14 @@ sync succeed at 201401071730!
 =========================201401071736========================
 latest version at 201401071736 !
 /usr/bin:/bin:/root/bin:/myDisk/wilson/workspace/shell/bin:/usr/local/bin
+[master d282e68] 201401071736
+ 1 file changed, 33 insertions(+)
+To git@github.com:funball99/workspace.git
+   976cfbc..d282e68  master -> master
+sync succeed at 201401071736!
+=========================================================================
+/usr/bin:/bin
+/usr/bin:/bin:/root/bin:/myDisk/wilson/workspace/shell/bin:/usr/local/bin
+=========================201401071738========================
+latest version at 201401071738 !
+/usr/bin:/bin:/root/bin:/myDisk/wilson/workspace/shell/bin:/usr/local/bin

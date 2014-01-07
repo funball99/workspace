@@ -1,0 +1,1186 @@
+Requirement already satisfied (use --upgrade to upgrade): Logbook==0.4.1 in /usr/lib/python2.6/site-packages (from -r requirements.txt (line 1))
+Downloading/unpacking MySQL-python==1.2.4b5 (from -r requirements.txt (line 2))
+  Running setup.py egg_info for package MySQL-python
+    Downloading http://pypi.python.org/packages/source/d/distribute/distribute-0.6.28.tar.gz
+    Extracting in /tmp/tmpL8T3N0
+    Now working in /tmp/tmpL8T3N0/distribute-0.6.28
+    Building a Distribute egg in /tmp/pip_build_root/MySQL-python
+    /tmp/pip_build_root/MySQL-python/distribute-0.6.28-py2.6.egg
+Downloading/unpacking argparse==1.2.1 (from -r requirements.txt (line 3))
+  You are installing an externally hosted file. Future versions of pip will default to disallowing externally hosted files.
+  Running setup.py egg_info for package argparse
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no previously-included files matching '*.pyo' found anywhere in distribution
+    warning: no previously-included files matching '*.orig' found anywhere in distribution
+    warning: no previously-included files matching '*.rej' found anywhere in distribution
+    no previously-included directories found matching 'doc/_build'
+    no previously-included directories found matching 'env24'
+    no previously-included directories found matching 'env25'
+    no previously-included directories found matching 'env26'
+    no previously-included directories found matching 'env27'
+Downloading/unpacking coverage==3.6 (from -r requirements.txt (line 4))
+  Running setup.py egg_info for package coverage
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+Downloading/unpacking cssselect==0.7.1 (from -r requirements.txt (line 5))
+  Downloading cssselect-0.7.1.tar.gz
+  Running setup.py egg_info for package cssselect
+    no previously-included directories found matching 'docs/_build'
+Downloading/unpacking distribute==0.6.34 (from -r requirements.txt (line 6))
+  Running setup.py egg_info for package distribute
+Downloading/unpacking lxml==3.1.1 (from -r requirements.txt (line 7))
+  Running setup.py egg_info for package lxml
+    /usr/lib64/python2.6/distutils/dist.py:266: UserWarning: Unknown distribution option: 'bugtrack_url'
+      warnings.warn(msg)
+    Building lxml version 3.1.1.
+    Building without Cython.
+    ERROR: /bin/sh: xslt-config: command not found
+    
+    ** make sure the development packages of libxml2 and libxslt are installed **
+    
+    Using build configuration of libxslt
+    warning: no previously-included files found matching '*.py'
+    warning: no files found matching '*.txt' under directory 'src/lxml/tests'
+Downloading/unpacking nose==1.2.1 (from -r requirements.txt (line 8))
+  Running setup.py egg_info for package nose
+    no previously-included directories found matching 'doc/.build'
+Downloading/unpacking pep8==1.4 (from -r requirements.txt (line 9))
+  Running setup.py egg_info for package pep8
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+    warning: no previously-included files matching '*.pyc' found under directory 'testsuite'
+    warning: no previously-included files matching '*.pyo' found under directory 'testsuite'
+    no previously-included directories found matching 'docs/_build'
+Downloading/unpacking pyquery==1.2.4 (from -r requirements.txt (line 10))
+  Downloading pyquery-1.2.4.tar.gz
+  Running setup.py egg_info for package pyquery
+Downloading/unpacking python-dateutil==2.1 (from -r requirements.txt (line 11))
+  Running setup.py egg_info for package python-dateutil
+Downloading/unpacking pytz==2012j (from -r requirements.txt (line 12))
+  Running setup.py egg_info for package pytz
+    warning: no files found matching '*.pot' under directory 'pytz'
+    warning: no previously-included files found matching 'test_zdump.py'
+Downloading/unpacking redis==2.7.2 (from -r requirements.txt (line 13))
+  Running setup.py egg_info for package redis
+Downloading/unpacking requests==1.1.0 (from -r requirements.txt (line 14))
+  Running setup.py egg_info for package requests
+Downloading/unpacking rq==0.3.2 (from -r requirements.txt (line 15))
+  Downloading rq-0.3.2.tar.gz
+  Running setup.py egg_info for package rq
+Downloading/unpacking six==1.2.0 (from -r requirements.txt (line 16))
+  Downloading six-1.2.0.tar.gz
+  Running setup.py egg_info for package six
+Downloading/unpacking times==0.6 (from -r requirements.txt (line 17))
+  Downloading times-0.6.tar.gz
+  Running setup.py egg_info for package times
+Downloading/unpacking wsgiref==0.1.2 (from -r requirements.txt (line 18))
+  Downloading wsgiref-0.1.2.zip
+  Running setup.py egg_info for package wsgiref
+Downloading/unpacking sympy==0.7.2 (from -r requirements.txt (line 19))
+  Running setup.py egg_info for package sympy
+    package init file 'sympy/categories/tests/__init__.py' not found (or not a regular file)
+    package init file 'sympy/interactive/tests/__init__.py' not found (or not a regular file)
+    package init file 'sympy/plotting/intervalmath/tests/__init__.py' not found (or not a regular file)
+    package init file 'sympy/plotting/pygletplot/tests/__init__.py' not found (or not a regular file)
+    package init file 'sympy/polys/agca/tests/__init__.py' not found (or not a regular file)
+    package init file 'sympy/sets/tests/__init__.py' not found (or not a regular file)
+    package init file 'sympy/stats/tests/__init__.py' not found (or not a regular file)
+Requirement already satisfied (use --upgrade to upgrade): setuptools in /usr/lib/python2.6/site-packages/setuptools-2.0.2-py2.6.egg (from pep8==1.4->-r requirements.txt (line 9))
+Downloading/unpacking importlib (from rq==0.3.2->-r requirements.txt (line 15))
+  Downloading importlib-1.0.2.tar.bz2
+  Running setup.py egg_info for package importlib
+Installing collected packages: MySQL-python, argparse, coverage, cssselect, distribute, lxml, nose, pep8, pyquery, python-dateutil, pytz, redis, requests, rq, six, times, wsgiref, sympy, importlib
+  Running setup.py install for MySQL-python
+    building '_mysql' extension
+    gcc -pthread -fno-strict-aliasing -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m64 -mtune=generic -D_GNU_SOURCE -fPIC -fwrapv -DNDEBUG -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m64 -mtune=generic -D_GNU_SOURCE -fPIC -fwrapv -fPIC -Dversion_info=(1,2,4,'beta',5) -D__version__=1.2.4b5 -I/usr/include/mysql -I/usr/include/python2.6 -c _mysql.c -o build/temp.linux-x86_64-2.6/_mysql.o -g -pipe -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -fno-strict-aliasing -fwrapv -fPIC -DUNIV_LINUX -DUNIV_LINUX
+    _mysql.c:29:20: 错误：Python.h：没有那个文件或目录
+    _mysql.c:40:26: 错误：structmember.h：没有那个文件或目录
+    _mysql.c:44:23: 错误：my_config.h：没有那个文件或目录
+    _mysql.c:46:19: 错误：mysql.h：没有那个文件或目录
+    _mysql.c:47:26: 错误：mysqld_error.h：没有那个文件或目录
+    _mysql.c:48:20: 错误：errmsg.h：没有那个文件或目录
+    _mysql.c:74: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:75: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:76: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:77: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:78: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:79: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:80: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:81: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:82: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:83: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:84: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:87: 错误：expected specifier-qualifier-list before ‘PyObject_HEAD’
+    _mysql.c:97: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘_mysql_ConnectionObject_Type’
+    _mysql.c:100: 错误：expected specifier-qualifier-list before ‘PyObject_HEAD’
+    _mysql.c:108: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘_mysql_ResultObject_Type’
+    _mysql.c:127: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:261: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:361: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:402: 错误：expected declaration specifiers or ‘...’ before ‘PyObject’
+    _mysql.c:403: 错误：expected declaration specifiers or ‘...’ before ‘PyObject’
+    _mysql.c: 在函数‘_mysql_ResultObject_Initialize’中:
+    _mysql.c:405: 错误：‘NULL’未声明(在此函数内第一次使用)
+    _mysql.c:405: 错误：(即使在一个函数内多次出现，每个未声明的标识符在其
+    _mysql.c:405: 错误：所在的函数内也只报告一次。)
+    _mysql.c:406: 错误：‘MYSQL_RES’未声明(在此函数内第一次使用)
+    _mysql.c:406: 错误：‘result’未声明(在此函数内第一次使用)
+    _mysql.c:406: 错误：双目运算符 * 操作数(‘char **’和‘char **’)无效
+    _mysql.c:406: 警告：语句不起作用
+    _mysql.c:407: 警告：从不兼容的指针类型初始化
+    _mysql.c:409: 错误：‘PyObject’未声明(在此函数内第一次使用)
+    _mysql.c:409: 错误：‘conv’未声明(在此函数内第一次使用)
+    _mysql.c:409: 错误：双目运算符 * 操作数(‘char **’和‘char **’)无效
+    _mysql.c:409: 警告：语句不起作用
+    _mysql.c:411: 错误：‘MYSQL_FIELD’未声明(在此函数内第一次使用)
+    _mysql.c:411: 错误：‘fields’未声明(在此函数内第一次使用)
+    _mysql.c:411: 错误：双目运算符 * 操作数(‘char **’和‘char **’)无效
+    _mysql.c:411: 警告：语句不起作用
+    _mysql.c:413: 警告：隐式声明函数‘PyArg_ParseTupleAndKeywords’
+    _mysql.c:413: 错误：‘args’未声明(在此函数内第一次使用)
+    _mysql.c:413: 错误：‘kwargs’未声明(在此函数内第一次使用)
+    _mysql.c:417: 警告：隐式声明函数‘PyDict_New’
+    _mysql.c:421: 警告：隐式声明函数‘Py_INCREF’
+    _mysql.c:423: 错误：‘_mysql_ResultObject’没有名为‘conn’的成员
+    _mysql.c:423: 错误：expected expression before ‘)’ token
+    _mysql.c:423: 错误：双目运算符 * 操作数(‘char **’和‘char **’)无效
+    _mysql.c:423: 警告：语句不起作用
+    _mysql.c:425: 错误：‘_mysql_ResultObject’没有名为‘use’的成员
+    _mysql.c:425: 警告：语句不起作用
+    _mysql.c:426: 错误：‘Py_BEGIN_ALLOW_THREADS’未声明(在此函数内第一次使用)
+    _mysql.c:426: 警告：语句不起作用
+    _mysql.c:428: 警告：隐式声明函数‘mysql_use_result’
+    _mysql.c:428: 错误：‘_mysql_ConnectionObject’没有名为‘connection’的成员
+    _mysql.c:428: 警告：语句不起作用
+    _mysql.c:430: 警告：隐式声明函数‘mysql_store_result’
+    _mysql.c:430: 错误：‘_mysql_ConnectionObject’没有名为‘connection’的成员
+    _mysql.c:430: 警告：语句不起作用
+    _mysql.c:431: 错误：‘_mysql_ResultObject’没有名为‘result’的成员
+    _mysql.c:431: 警告：语句不起作用
+    _mysql.c:432: 错误：‘Py_END_ALLOW_THREADS’未声明(在此函数内第一次使用)
+    _mysql.c:432: 警告：语句不起作用
+    _mysql.c:434: 警告：隐式声明函数‘mysql_field_count’
+    _mysql.c:434: 错误：‘_mysql_ConnectionObject’没有名为‘connection’的成员
+    _mysql.c:435: 警告：隐式声明函数‘_mysql_Exception’
+    _mysql.c:438: 错误：‘_mysql_ResultObject’没有名为‘converter’的成员
+    _mysql.c:438: 警告：隐式声明函数‘PyTuple_New’
+    _mysql.c:438: 警告：语句不起作用
+    _mysql.c:439: 警告：隐式声明函数‘Py_DECREF’
+    _mysql.c:442: 警告：隐式声明函数‘mysql_num_fields’
+    _mysql.c:443: 错误：‘_mysql_ResultObject’没有名为‘nfields’的成员
+    _mysql.c:443: 警告：语句不起作用
+    _mysql.c:444: 错误：‘_mysql_ResultObject’没有名为‘converter’的成员
+    _mysql.c:448: 警告：隐式声明函数‘mysql_fetch_fields’
+    _mysql.c:448: 警告：语句不起作用
+    _mysql.c:450: 错误：‘tmp’未声明(在此函数内第一次使用)
+    _mysql.c:450: 错误：双目运算符 * 操作数(‘char **’和‘char **’)无效
+    _mysql.c:450: 错误：‘fun’未声明(在此函数内第一次使用)
+    _mysql.c:450: 警告：逗号表达式的左操作数不起作用
+    _mysql.c:450: 警告：语句不起作用
+    _mysql.c:451: 警告：隐式声明函数‘PyInt_FromLong’
+    _mysql.c:451: 错误：在非结构或联合中请求成员‘type’
+    _mysql.c:451: 警告：语句不起作用
+    _mysql.c:456: 警告：隐式声明函数‘PyObject_GetItem’
+    _mysql.c:456: 警告：语句不起作用
+    _mysql.c:459: 警告：隐式声明函数‘PyErr_Occurred’
+    _mysql.c:460: 警告：隐式声明函数‘PyErr_ExceptionMatches’
+    _mysql.c:460: 错误：‘PyExc_KeyError’未声明(在此函数内第一次使用)
+    _mysql.c:464: 警告：隐式声明函数‘PyErr_Clear’
+    _mysql.c:466: 错误：‘Py_None’未声明(在此函数内第一次使用)
+    _mysql.c:466: 警告：语句不起作用
+    _mysql.c:469: 警告：隐式声明函数‘PySequence_Check’
+    _mysql.c:470: 警告：隐式声明函数‘PySequence_Size’
+    _mysql.c:471: 错误：‘fun2’未声明(在此函数内第一次使用)
+    _mysql.c:471: 错误：双目运算符 * 操作数(‘char **’和‘char **’)无效
+    _mysql.c:471: 警告：语句不起作用
+    _mysql.c:473: 错误：‘t’未声明(在此函数内第一次使用)
+    _mysql.c:473: 错误：双目运算符 * 操作数(‘char **’和‘char **’)无效
+    _mysql.c:473: 警告：隐式声明函数‘PySequence_GetItem’
+    _mysql.c:473: 警告：语句不起作用
+    _mysql.c:479: 警告：隐式声明函数‘PyTuple_Check’
+    _mysql.c:479: 警告：隐式声明函数‘PyTuple_GET_SIZE’
+    _mysql.c:481: 错误：‘pmask’未声明(在此函数内第一次使用)
+    _mysql.c:481: 错误：双目运算符 * 操作数(‘char **’和‘char **’)无效
+    _mysql.c:481: 警告：语句不起作用
+    _mysql.c:482: 警告：隐式声明函数‘PyTuple_GET_ITEM’
+    _mysql.c:482: 警告：语句不起作用
+    _mysql.c:483: 警告：语句不起作用
+    _mysql.c:484: 警告：隐式声明函数‘PyInt_Check’
+    _mysql.c:485: 警告：隐式声明函数‘PyInt_AS_LONG’
+    _mysql.c:486: 错误：在非结构或联合中请求成员‘flags’
+    _mysql.c:486: 警告：赋值时将指针赋给整数，未作类型转换
+    _mysql.c:487: 错误：在非结构或联合中请求成员‘charsetnr’
+    _mysql.c:487: 警告：比较指针和整数
+    _mysql.c:488: 错误：‘BINARY_FLAG’未声明(在此函数内第一次使用)
+    _mysql.c:488: 错误：按位取反的实参类型错误
+    _mysql.c:488: 错误：双目运算符 & 操作数(‘long int’和‘char **’)无效
+    _mysql.c:488: 警告：语句不起作用
+    _mysql.c:495: 警告：语句不起作用
+    _mysql.c:504: 警告：语句不起作用
+    _mysql.c:507: 警告：语句不起作用
+    _mysql.c:509: 警告：隐式声明函数‘PyTuple_SET_ITEM’
+    _mysql.c:509: 错误：‘_mysql_ResultObject’没有名为‘converter’的成员
+    _mysql.c: 在函数‘_mysql_ResultObject_clear’中:
+    _mysql.c:535: 警告：隐式声明函数‘Py_XDECREF’
+    _mysql.c:535: 错误：‘_mysql_ResultObject’没有名为‘converter’的成员
+    _mysql.c:536: 错误：‘_mysql_ResultObject’没有名为‘converter’的成员
+    _mysql.c:536: 错误：‘NULL’未声明(在此函数内第一次使用)
+    _mysql.c:536: 警告：语句不起作用
+    _mysql.c:537: 错误：‘_mysql_ResultObject’没有名为‘conn’的成员
+    _mysql.c:538: 错误：‘_mysql_ResultObject’没有名为‘conn’的成员
+    _mysql.c:538: 警告：语句不起作用
+    _mysql.c: 在文件层：
+    _mysql.c:545: 错误：expected declaration specifiers or ‘...’ before ‘PyObject’
+    _mysql.c:546: 错误：expected declaration specifiers or ‘...’ before ‘PyObject’
+    _mysql.c: 在函数‘_mysql_ConnectionObject_Initialize’中:
+    _mysql.c:548: 错误：‘MYSQL’未声明(在此函数内第一次使用)
+    _mysql.c:548: 错误：‘conn’未声明(在此函数内第一次使用)
+    _mysql.c:548: 错误：双目运算符 * 操作数(‘char **’和‘char **’)无效
+    _mysql.c:548: 错误：‘NULL’未声明(在此函数内第一次使用)
+    _mysql.c:548: 警告：语句不起作用
+    _mysql.c:549: 错误：‘PyObject’未声明(在此函数内第一次使用)
+    _mysql.c:549: 错误：‘conv’未声明(在此函数内第一次使用)
+    _mysql.c:549: 错误：双目运算符 * 操作数(‘char **’和‘char **’)无效
+    _mysql.c:549: 警告：语句不起作用
+    _mysql.c:550: 错误：‘ssl’未声明(在此函数内第一次使用)
+    _mysql.c:550: 错误：双目运算符 * 操作数(‘char **’和‘char **’)无效
+    _mysql.c:550: 警告：语句不起作用
+    _mysql.c:555: 警告：从不兼容的指针类型初始化
+    _mysql.c:555: 警告：从不兼容的指针类型初始化
+    _mysql.c:555: 警告：从不兼容的指针类型初始化
+    _mysql.c:556: 警告：从不兼容的指针类型初始化
+    _mysql.c:556: 警告：从不兼容的指针类型初始化
+    _mysql.c:569: 错误：初始值设定元素不是常量
+    _mysql.c:569: 错误：(在‘kwlist[16]’的初始化附近)
+    _mysql.c:575: 警告：从不兼容的指针类型初始化
+    _mysql.c:576: 警告：从不兼容的指针类型初始化
+    _mysql.c:577: 警告：从不兼容的指针类型初始化
+    _mysql.c:579: 错误：‘_mysql_ConnectionObject’没有名为‘converter’的成员
+    _mysql.c:579: 警告：语句不起作用
+    _mysql.c:580: 错误：‘_mysql_ConnectionObject’没有名为‘open’的成员
+    _mysql.c:580: 警告：语句不起作用
+    _mysql.c:583: 错误：‘args’未声明(在此函数内第一次使用)
+    _mysql.c:583: 错误：‘kwargs’未声明(在此函数内第一次使用)
+    _mysql.c:623: 警告：隐式声明函数‘PyErr_SetString’
+    _mysql.c:623: 错误：‘_mysql_NotSupportedError’未声明(在此函数内第一次使用)
+    _mysql.c:629: 错误：‘Py_BEGIN_ALLOW_THREADS’未声明(在此函数内第一次使用)
+    _mysql.c:629: 警告：语句不起作用
+    _mysql.c:630: 警告：隐式声明函数‘mysql_init’
+    _mysql.c:630: 错误：‘_mysql_ConnectionObject’没有名为‘connection’的成员
+    _mysql.c:630: 警告：语句不起作用
+    _mysql.c:633: 警告：隐式声明函数‘mysql_options’
+    _mysql.c:633: 错误：‘_mysql_ConnectionObject’没有名为‘connection’的成员
+    _mysql.c:633: 错误：‘MYSQL_OPT_CONNECT_TIMEOUT’未声明(在此函数内第一次使用)
+    _mysql.c:644: 错误：‘_mysql_ConnectionObject’没有名为‘connection’的成员
+    _mysql.c:644: 错误：‘MYSQL_OPT_COMPRESS’未声明(在此函数内第一次使用)
+    _mysql.c:645: 错误：‘CLIENT_COMPRESS’未声明(在此函数内第一次使用)
+    _mysql.c:645: 错误：双目运算符 | 操作数(‘unsigned int’和‘char **’)无效
+    _mysql.c:645: 警告：语句不起作用
+    _mysql.c:648: 错误：‘_mysql_ConnectionObject’没有名为‘connection’的成员
+    _mysql.c:648: 错误：‘MYSQL_OPT_NAMED_PIPE’未声明(在此函数内第一次使用)
+    _mysql.c:649: 警告：比较不相关的指针时缺少类型转换
+    _mysql.c:650: 错误：‘_mysql_ConnectionObject’没有名为‘connection’的成员
+    _mysql.c:650: 错误：‘MYSQL_INIT_COMMAND’未声明(在此函数内第一次使用)
+    _mysql.c:651: 警告：比较不相关的指针时缺少类型转换
+    _mysql.c:652: 错误：‘_mysql_ConnectionObject’没有名为‘connection’的成员
+    _mysql.c:652: 错误：‘MYSQL_READ_DEFAULT_FILE’未声明(在此函数内第一次使用)
+    _mysql.c:653: 警告：比较不相关的指针时缺少类型转换
+    _mysql.c:654: 错误：‘_mysql_ConnectionObject’没有名为‘connection’的成员
+    _mysql.c:654: 错误：‘MYSQL_READ_DEFAULT_GROUP’未声明(在此函数内第一次使用)
+    _mysql.c:657: 错误：‘_mysql_ConnectionObject’没有名为‘connection’的成员
+    _mysql.c:657: 错误：‘MYSQL_OPT_LOCAL_INFILE’未声明(在此函数内第一次使用)
+    _mysql.c:665: 警告：隐式声明函数‘mysql_real_connect’
+    _mysql.c:665: 错误：‘_mysql_ConnectionObject’没有名为‘connection’的成员
+    _mysql.c:666: 警告：语句不起作用
+    _mysql.c:668: 错误：‘Py_END_ALLOW_THREADS’未声明(在此函数内第一次使用)
+    _mysql.c:668: 警告：语句不起作用
+    _mysql.c:677: 警告：语句不起作用
+    _mysql.c:683: 错误：‘_mysql_ConnectionObject’没有名为‘converter’的成员
+    _mysql.c:683: 警告：语句不起作用
+    _mysql.c:691: 错误：‘_mysql_ConnectionObject’没有名为‘open’的成员
+    _mysql.c:691: 警告：语句不起作用
+    _mysql.c: 在文件层：
+    _mysql.c:749: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c: 在函数‘_mysql_ConnectionObject_clear’中:
+    _mysql.c:781: 错误：‘_mysql_ConnectionObject’没有名为‘converter’的成员
+    _mysql.c:782: 错误：‘_mysql_ConnectionObject’没有名为‘converter’的成员
+    _mysql.c:782: 错误：‘NULL’未声明(在此函数内第一次使用)
+    _mysql.c:782: 警告：语句不起作用
+    _mysql.c: 在文件层：
+    _mysql.c:789: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:817: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:833: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:851: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:870: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:896: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:918: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:950: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1039: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1055: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1077: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1124: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1167: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1169: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1203: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1233: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1267: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1299: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1335: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1359: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1389: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1414: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1453: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1492: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1497: 错误：expected declaration specifiers or ‘...’ before ‘PyObject’
+    _mysql.c:1500: 错误：expected declaration specifiers or ‘...’ before ‘_PYFUNC’
+    _mysql.c: 在函数‘_mysql__fetch_row’中:
+    _mysql.c:1503: 错误：‘MYSQL_ROW’未声明(在此函数内第一次使用)
+    _mysql.c:1503: 警告：语句不起作用
+    _mysql.c:1503: 错误：expected ‘;’ before ‘row’
+    _mysql.c:1506: 错误：‘PyObject’未声明(在此函数内第一次使用)
+    _mysql.c:1506: 错误：‘v’未声明(在此函数内第一次使用)
+    _mysql.c:1506: 错误：双目运算符 * 操作数(‘char **’和‘char **’)无效
+    _mysql.c:1506: 警告：语句不起作用
+    _mysql.c:1507: 错误：‘_mysql_ResultObject’没有名为‘use’的成员
+    _mysql.c:1508: 错误：‘row’未声明(在此函数内第一次使用)
+    _mysql.c:1508: 警告：隐式声明函数‘mysql_fetch_row’
+    _mysql.c:1508: 错误：‘_mysql_ResultObject’没有名为‘result’的成员
+    _mysql.c:1508: 警告：语句不起作用
+    _mysql.c:1510: 错误：‘Py_BEGIN_ALLOW_THREADS’未声明(在此函数内第一次使用)
+    _mysql.c:1510: 警告：语句不起作用
+    _mysql.c:1511: 错误：‘_mysql_ResultObject’没有名为‘result’的成员
+    _mysql.c:1511: 警告：语句不起作用
+    _mysql.c:1512: 错误：‘Py_END_ALLOW_THREADS’未声明(在此函数内第一次使用)
+    _mysql.c:1512: 警告：语句不起作用
+    _mysql.c:1514: 警告：隐式声明函数‘mysql_errno’
+    _mysql.c:1514: 错误：‘_mysql_ResultObject’没有名为‘conn’的成员
+    _mysql.c:1514: 错误：‘_mysql_ConnectionObject’没有名为‘connection’的成员
+    _mysql.c:1515: 错误：‘_mysql_ResultObject’没有名为‘conn’的成员
+    _mysql.c:1519: 警告：隐式声明函数‘_PyTuple_Resize’
+    _mysql.c:1519: 错误：‘r’未声明(在此函数内第一次使用)
+    _mysql.c:1522: 警告：隐式声明函数‘convert_row’
+    _mysql.c:1522: 警告：语句不起作用
+    _mysql.c: 在文件层：
+    _mysql.c:1540: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1647: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1755: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1774: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1793: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1808: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1828: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1867: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1885: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1908: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1925: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1941: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1970: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:1993: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:2023: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:2045: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:2072: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:2098: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:2139: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:2159: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c: 在函数‘_mysql_ConnectionObject_dealloc’中:
+    _mysql.c:2193: 错误：‘PyObject’未声明(在此函数内第一次使用)
+    _mysql.c:2193: 错误：‘o’未声明(在此函数内第一次使用)
+    _mysql.c:2193: 错误：双目运算符 * 操作数(‘char **’和‘char **’)无效
+    _mysql.c:2193: 警告：语句不起作用
+    _mysql.c:2196: 错误：‘_mysql_ConnectionObject’没有名为‘open’的成员
+    _mysql.c:2197: 警告：隐式声明函数‘_mysql_ConnectionObject_close’
+    _mysql.c:2197: 错误：‘NULL’未声明(在此函数内第一次使用)
+    _mysql.c:2197: 警告：语句不起作用
+    _mysql.c:2200: 警告：隐式声明函数‘PyMem_Free’
+    _mysql.c: 在文件层：
+    _mysql.c:2203: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:2224: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:2239: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:2261: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c: 在函数‘_mysql_ResultObject_dealloc’中:
+    _mysql.c:2283: 警告：隐式声明函数‘mysql_free_result’
+    _mysql.c:2283: 错误：‘_mysql_ResultObject’没有名为‘result’的成员
+    _mysql.c: 在文件层：
+    _mysql.c:2288: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:2302: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘_mysql_ConnectionObject_methods’
+    _mysql.c:2517: 错误：数组元素的类型不完全
+    _mysql.c:2518: 错误：‘T_INT’未声明(不在函数内)
+    _mysql.c:2518: 警告：隐式声明函数‘offsetof’
+    _mysql.c:2518: 错误：expected expression before ‘_mysql_ConnectionObject’
+    _mysql.c:2518: 错误：‘READONLY’未声明(不在函数内)
+    _mysql.c:2525: 错误：‘T_OBJECT’未声明(不在函数内)
+    _mysql.c:2525: 错误：expected expression before ‘_mysql_ConnectionObject’
+    _mysql.c:2532: 错误：‘T_UINT’未声明(不在函数内)
+    _mysql.c:2532: 错误：expected expression before ‘_mysql_ConnectionObject’
+    _mysql.c:2539: 错误：expected expression before ‘_mysql_ConnectionObject’
+    _mysql.c:2546: 错误：expected expression before ‘_mysql_ConnectionObject’
+    _mysql.c:2553: 错误：‘NULL’未声明(不在函数内)
+    _mysql.c:2556: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘_mysql_ResultObject_methods’
+    _mysql.c:2608: 错误：数组元素的类型不完全
+    _mysql.c:2609: 错误：expected expression before ‘_mysql_ResultObject’
+    _mysql.c:2619: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:2649: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:2681: 错误：expected declaration specifiers or ‘...’ before ‘PyObject’
+    _mysql.c: 在函数‘_mysql_ConnectionObject_setattr’中:
+    _mysql.c:2683: 错误：‘v’未声明(在此函数内第一次使用)
+    _mysql.c:2684: 错误：‘PyExc_AttributeError’未声明(在此函数内第一次使用)
+    _mysql.c:2689: 警告：隐式声明函数‘PyMember_Set’
+    _mysql.c: 在文件层：
+    _mysql.c:2706: 错误：expected declaration specifiers or ‘...’ before ‘PyObject’
+    _mysql.c: 在函数‘_mysql_ResultObject_setattr’中:
+    _mysql.c:2708: 错误：‘v’未声明(在此函数内第一次使用)
+    _mysql.c:2709: 错误：‘PyExc_AttributeError’未声明(在此函数内第一次使用)
+    _mysql.c: 在文件层：
+    _mysql.c:2727: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘_mysql_ConnectionObject_Type’
+    _mysql.c:2815: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘_mysql_ResultObject_Type’
+    _mysql.c:2905: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘_mysql_methods’
+    _mysql.c:2977: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    _mysql.c:3022: 警告：返回类型默认为‘int’
+    _mysql.c: 在函数‘DL_EXPORT’中:
+    _mysql.c:3022: 错误：expected declaration specifiers before ‘init_mysql’
+    _mysql.c:3130: 错误：expected ‘{’ at end of input
+    error: command 'gcc' failed with exit status 1
+    Complete output from command /usr/bin/python -c "import setuptools;__file__='/tmp/pip_build_root/MySQL-python/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-32X7RM-record/install-record.txt --single-version-externally-managed:
+    running install
+
+running build
+
+running build_py
+
+creating build
+
+creating build/lib.linux-x86_64-2.6
+
+copying _mysql_exceptions.py -> build/lib.linux-x86_64-2.6
+
+creating build/lib.linux-x86_64-2.6/MySQLdb
+
+copying MySQLdb/__init__.py -> build/lib.linux-x86_64-2.6/MySQLdb
+
+copying MySQLdb/converters.py -> build/lib.linux-x86_64-2.6/MySQLdb
+
+copying MySQLdb/connections.py -> build/lib.linux-x86_64-2.6/MySQLdb
+
+copying MySQLdb/cursors.py -> build/lib.linux-x86_64-2.6/MySQLdb
+
+copying MySQLdb/release.py -> build/lib.linux-x86_64-2.6/MySQLdb
+
+copying MySQLdb/times.py -> build/lib.linux-x86_64-2.6/MySQLdb
+
+creating build/lib.linux-x86_64-2.6/MySQLdb/constants
+
+copying MySQLdb/constants/__init__.py -> build/lib.linux-x86_64-2.6/MySQLdb/constants
+
+copying MySQLdb/constants/CR.py -> build/lib.linux-x86_64-2.6/MySQLdb/constants
+
+copying MySQLdb/constants/FIELD_TYPE.py -> build/lib.linux-x86_64-2.6/MySQLdb/constants
+
+copying MySQLdb/constants/ER.py -> build/lib.linux-x86_64-2.6/MySQLdb/constants
+
+copying MySQLdb/constants/FLAG.py -> build/lib.linux-x86_64-2.6/MySQLdb/constants
+
+copying MySQLdb/constants/REFRESH.py -> build/lib.linux-x86_64-2.6/MySQLdb/constants
+
+copying MySQLdb/constants/CLIENT.py -> build/lib.linux-x86_64-2.6/MySQLdb/constants
+
+running build_ext
+
+building '_mysql' extension
+
+creating build/temp.linux-x86_64-2.6
+
+gcc -pthread -fno-strict-aliasing -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m64 -mtune=generic -D_GNU_SOURCE -fPIC -fwrapv -DNDEBUG -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m64 -mtune=generic -D_GNU_SOURCE -fPIC -fwrapv -fPIC -Dversion_info=(1,2,4,'beta',5) -D__version__=1.2.4b5 -I/usr/include/mysql -I/usr/include/python2.6 -c _mysql.c -o build/temp.linux-x86_64-2.6/_mysql.o -g -pipe -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -fno-strict-aliasing -fwrapv -fPIC -DUNIV_LINUX -DUNIV_LINUX
+
+_mysql.c:29:20: 错误：Python.h：没有那个文件或目录
+
+_mysql.c:40:26: 错误：structmember.h：没有那个文件或目录
+
+_mysql.c:44:23: 错误：my_config.h：没有那个文件或目录
+
+_mysql.c:46:19: 错误：mysql.h：没有那个文件或目录
+
+_mysql.c:47:26: 错误：mysqld_error.h：没有那个文件或目录
+
+_mysql.c:48:20: 错误：errmsg.h：没有那个文件或目录
+
+_mysql.c:74: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:75: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:76: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:77: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:78: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:79: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:80: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:81: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:82: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:83: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:84: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:87: 错误：expected specifier-qualifier-list before ‘PyObject_HEAD’
+
+_mysql.c:97: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘_mysql_ConnectionObject_Type’
+
+_mysql.c:100: 错误：expected specifier-qualifier-list before ‘PyObject_HEAD’
+
+_mysql.c:108: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘_mysql_ResultObject_Type’
+
+_mysql.c:127: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:261: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:361: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:402: 错误：expected declaration specifiers or ‘...’ before ‘PyObject’
+
+_mysql.c:403: 错误：expected declaration specifiers or ‘...’ before ‘PyObject’
+
+_mysql.c: 在函数‘_mysql_ResultObject_Initialize’中:
+
+_mysql.c:405: 错误：‘NULL’未声明(在此函数内第一次使用)
+
+_mysql.c:405: 错误：(即使在一个函数内多次出现，每个未声明的标识符在其
+
+_mysql.c:405: 错误：所在的函数内也只报告一次。)
+
+_mysql.c:406: 错误：‘MYSQL_RES’未声明(在此函数内第一次使用)
+
+_mysql.c:406: 错误：‘result’未声明(在此函数内第一次使用)
+
+_mysql.c:406: 错误：双目运算符 * 操作数(‘char **’和‘char **’)无效
+
+_mysql.c:406: 警告：语句不起作用
+
+_mysql.c:407: 警告：从不兼容的指针类型初始化
+
+_mysql.c:409: 错误：‘PyObject’未声明(在此函数内第一次使用)
+
+_mysql.c:409: 错误：‘conv’未声明(在此函数内第一次使用)
+
+_mysql.c:409: 错误：双目运算符 * 操作数(‘char **’和‘char **’)无效
+
+_mysql.c:409: 警告：语句不起作用
+
+_mysql.c:411: 错误：‘MYSQL_FIELD’未声明(在此函数内第一次使用)
+
+_mysql.c:411: 错误：‘fields’未声明(在此函数内第一次使用)
+
+_mysql.c:411: 错误：双目运算符 * 操作数(‘char **’和‘char **’)无效
+
+_mysql.c:411: 警告：语句不起作用
+
+_mysql.c:413: 警告：隐式声明函数‘PyArg_ParseTupleAndKeywords’
+
+_mysql.c:413: 错误：‘args’未声明(在此函数内第一次使用)
+
+_mysql.c:413: 错误：‘kwargs’未声明(在此函数内第一次使用)
+
+_mysql.c:417: 警告：隐式声明函数‘PyDict_New’
+
+_mysql.c:421: 警告：隐式声明函数‘Py_INCREF’
+
+_mysql.c:423: 错误：‘_mysql_ResultObject’没有名为‘conn’的成员
+
+_mysql.c:423: 错误：expected expression before ‘)’ token
+
+_mysql.c:423: 错误：双目运算符 * 操作数(‘char **’和‘char **’)无效
+
+_mysql.c:423: 警告：语句不起作用
+
+_mysql.c:425: 错误：‘_mysql_ResultObject’没有名为‘use’的成员
+
+_mysql.c:425: 警告：语句不起作用
+
+_mysql.c:426: 错误：‘Py_BEGIN_ALLOW_THREADS’未声明(在此函数内第一次使用)
+
+_mysql.c:426: 警告：语句不起作用
+
+_mysql.c:428: 警告：隐式声明函数‘mysql_use_result’
+
+_mysql.c:428: 错误：‘_mysql_ConnectionObject’没有名为‘connection’的成员
+
+_mysql.c:428: 警告：语句不起作用
+
+_mysql.c:430: 警告：隐式声明函数‘mysql_store_result’
+
+_mysql.c:430: 错误：‘_mysql_ConnectionObject’没有名为‘connection’的成员
+
+_mysql.c:430: 警告：语句不起作用
+
+_mysql.c:431: 错误：‘_mysql_ResultObject’没有名为‘result’的成员
+
+_mysql.c:431: 警告：语句不起作用
+
+_mysql.c:432: 错误：‘Py_END_ALLOW_THREADS’未声明(在此函数内第一次使用)
+
+_mysql.c:432: 警告：语句不起作用
+
+_mysql.c:434: 警告：隐式声明函数‘mysql_field_count’
+
+_mysql.c:434: 错误：‘_mysql_ConnectionObject’没有名为‘connection’的成员
+
+_mysql.c:435: 警告：隐式声明函数‘_mysql_Exception’
+
+_mysql.c:438: 错误：‘_mysql_ResultObject’没有名为‘converter’的成员
+
+_mysql.c:438: 警告：隐式声明函数‘PyTuple_New’
+
+_mysql.c:438: 警告：语句不起作用
+
+_mysql.c:439: 警告：隐式声明函数‘Py_DECREF’
+
+_mysql.c:442: 警告：隐式声明函数‘mysql_num_fields’
+
+_mysql.c:443: 错误：‘_mysql_ResultObject’没有名为‘nfields’的成员
+
+_mysql.c:443: 警告：语句不起作用
+
+_mysql.c:444: 错误：‘_mysql_ResultObject’没有名为‘converter’的成员
+
+_mysql.c:448: 警告：隐式声明函数‘mysql_fetch_fields’
+
+_mysql.c:448: 警告：语句不起作用
+
+_mysql.c:450: 错误：‘tmp’未声明(在此函数内第一次使用)
+
+_mysql.c:450: 错误：双目运算符 * 操作数(‘char **’和‘char **’)无效
+
+_mysql.c:450: 错误：‘fun’未声明(在此函数内第一次使用)
+
+_mysql.c:450: 警告：逗号表达式的左操作数不起作用
+
+_mysql.c:450: 警告：语句不起作用
+
+_mysql.c:451: 警告：隐式声明函数‘PyInt_FromLong’
+
+_mysql.c:451: 错误：在非结构或联合中请求成员‘type’
+
+_mysql.c:451: 警告：语句不起作用
+
+_mysql.c:456: 警告：隐式声明函数‘PyObject_GetItem’
+
+_mysql.c:456: 警告：语句不起作用
+
+_mysql.c:459: 警告：隐式声明函数‘PyErr_Occurred’
+
+_mysql.c:460: 警告：隐式声明函数‘PyErr_ExceptionMatches’
+
+_mysql.c:460: 错误：‘PyExc_KeyError’未声明(在此函数内第一次使用)
+
+_mysql.c:464: 警告：隐式声明函数‘PyErr_Clear’
+
+_mysql.c:466: 错误：‘Py_None’未声明(在此函数内第一次使用)
+
+_mysql.c:466: 警告：语句不起作用
+
+_mysql.c:469: 警告：隐式声明函数‘PySequence_Check’
+
+_mysql.c:470: 警告：隐式声明函数‘PySequence_Size’
+
+_mysql.c:471: 错误：‘fun2’未声明(在此函数内第一次使用)
+
+_mysql.c:471: 错误：双目运算符 * 操作数(‘char **’和‘char **’)无效
+
+_mysql.c:471: 警告：语句不起作用
+
+_mysql.c:473: 错误：‘t’未声明(在此函数内第一次使用)
+
+_mysql.c:473: 错误：双目运算符 * 操作数(‘char **’和‘char **’)无效
+
+_mysql.c:473: 警告：隐式声明函数‘PySequence_GetItem’
+
+_mysql.c:473: 警告：语句不起作用
+
+_mysql.c:479: 警告：隐式声明函数‘PyTuple_Check’
+
+_mysql.c:479: 警告：隐式声明函数‘PyTuple_GET_SIZE’
+
+_mysql.c:481: 错误：‘pmask’未声明(在此函数内第一次使用)
+
+_mysql.c:481: 错误：双目运算符 * 操作数(‘char **’和‘char **’)无效
+
+_mysql.c:481: 警告：语句不起作用
+
+_mysql.c:482: 警告：隐式声明函数‘PyTuple_GET_ITEM’
+
+_mysql.c:482: 警告：语句不起作用
+
+_mysql.c:483: 警告：语句不起作用
+
+_mysql.c:484: 警告：隐式声明函数‘PyInt_Check’
+
+_mysql.c:485: 警告：隐式声明函数‘PyInt_AS_LONG’
+
+_mysql.c:486: 错误：在非结构或联合中请求成员‘flags’
+
+_mysql.c:486: 警告：赋值时将指针赋给整数，未作类型转换
+
+_mysql.c:487: 错误：在非结构或联合中请求成员‘charsetnr’
+
+_mysql.c:487: 警告：比较指针和整数
+
+_mysql.c:488: 错误：‘BINARY_FLAG’未声明(在此函数内第一次使用)
+
+_mysql.c:488: 错误：按位取反的实参类型错误
+
+_mysql.c:488: 错误：双目运算符 & 操作数(‘long int’和‘char **’)无效
+
+_mysql.c:488: 警告：语句不起作用
+
+_mysql.c:495: 警告：语句不起作用
+
+_mysql.c:504: 警告：语句不起作用
+
+_mysql.c:507: 警告：语句不起作用
+
+_mysql.c:509: 警告：隐式声明函数‘PyTuple_SET_ITEM’
+
+_mysql.c:509: 错误：‘_mysql_ResultObject’没有名为‘converter’的成员
+
+_mysql.c: 在函数‘_mysql_ResultObject_clear’中:
+
+_mysql.c:535: 警告：隐式声明函数‘Py_XDECREF’
+
+_mysql.c:535: 错误：‘_mysql_ResultObject’没有名为‘converter’的成员
+
+_mysql.c:536: 错误：‘_mysql_ResultObject’没有名为‘converter’的成员
+
+_mysql.c:536: 错误：‘NULL’未声明(在此函数内第一次使用)
+
+_mysql.c:536: 警告：语句不起作用
+
+_mysql.c:537: 错误：‘_mysql_ResultObject’没有名为‘conn’的成员
+
+_mysql.c:538: 错误：‘_mysql_ResultObject’没有名为‘conn’的成员
+
+_mysql.c:538: 警告：语句不起作用
+
+_mysql.c: 在文件层：
+
+_mysql.c:545: 错误：expected declaration specifiers or ‘...’ before ‘PyObject’
+
+_mysql.c:546: 错误：expected declaration specifiers or ‘...’ before ‘PyObject’
+
+_mysql.c: 在函数‘_mysql_ConnectionObject_Initialize’中:
+
+_mysql.c:548: 错误：‘MYSQL’未声明(在此函数内第一次使用)
+
+_mysql.c:548: 错误：‘conn’未声明(在此函数内第一次使用)
+
+_mysql.c:548: 错误：双目运算符 * 操作数(‘char **’和‘char **’)无效
+
+_mysql.c:548: 错误：‘NULL’未声明(在此函数内第一次使用)
+
+_mysql.c:548: 警告：语句不起作用
+
+_mysql.c:549: 错误：‘PyObject’未声明(在此函数内第一次使用)
+
+_mysql.c:549: 错误：‘conv’未声明(在此函数内第一次使用)
+
+_mysql.c:549: 错误：双目运算符 * 操作数(‘char **’和‘char **’)无效
+
+_mysql.c:549: 警告：语句不起作用
+
+_mysql.c:550: 错误：‘ssl’未声明(在此函数内第一次使用)
+
+_mysql.c:550: 错误：双目运算符 * 操作数(‘char **’和‘char **’)无效
+
+_mysql.c:550: 警告：语句不起作用
+
+_mysql.c:555: 警告：从不兼容的指针类型初始化
+
+_mysql.c:555: 警告：从不兼容的指针类型初始化
+
+_mysql.c:555: 警告：从不兼容的指针类型初始化
+
+_mysql.c:556: 警告：从不兼容的指针类型初始化
+
+_mysql.c:556: 警告：从不兼容的指针类型初始化
+
+_mysql.c:569: 错误：初始值设定元素不是常量
+
+_mysql.c:569: 错误：(在‘kwlist[16]’的初始化附近)
+
+_mysql.c:575: 警告：从不兼容的指针类型初始化
+
+_mysql.c:576: 警告：从不兼容的指针类型初始化
+
+_mysql.c:577: 警告：从不兼容的指针类型初始化
+
+_mysql.c:579: 错误：‘_mysql_ConnectionObject’没有名为‘converter’的成员
+
+_mysql.c:579: 警告：语句不起作用
+
+_mysql.c:580: 错误：‘_mysql_ConnectionObject’没有名为‘open’的成员
+
+_mysql.c:580: 警告：语句不起作用
+
+_mysql.c:583: 错误：‘args’未声明(在此函数内第一次使用)
+
+_mysql.c:583: 错误：‘kwargs’未声明(在此函数内第一次使用)
+
+_mysql.c:623: 警告：隐式声明函数‘PyErr_SetString’
+
+_mysql.c:623: 错误：‘_mysql_NotSupportedError’未声明(在此函数内第一次使用)
+
+_mysql.c:629: 错误：‘Py_BEGIN_ALLOW_THREADS’未声明(在此函数内第一次使用)
+
+_mysql.c:629: 警告：语句不起作用
+
+_mysql.c:630: 警告：隐式声明函数‘mysql_init’
+
+_mysql.c:630: 错误：‘_mysql_ConnectionObject’没有名为‘connection’的成员
+
+_mysql.c:630: 警告：语句不起作用
+
+_mysql.c:633: 警告：隐式声明函数‘mysql_options’
+
+_mysql.c:633: 错误：‘_mysql_ConnectionObject’没有名为‘connection’的成员
+
+_mysql.c:633: 错误：‘MYSQL_OPT_CONNECT_TIMEOUT’未声明(在此函数内第一次使用)
+
+_mysql.c:644: 错误：‘_mysql_ConnectionObject’没有名为‘connection’的成员
+
+_mysql.c:644: 错误：‘MYSQL_OPT_COMPRESS’未声明(在此函数内第一次使用)
+
+_mysql.c:645: 错误：‘CLIENT_COMPRESS’未声明(在此函数内第一次使用)
+
+_mysql.c:645: 错误：双目运算符 | 操作数(‘unsigned int’和‘char **’)无效
+
+_mysql.c:645: 警告：语句不起作用
+
+_mysql.c:648: 错误：‘_mysql_ConnectionObject’没有名为‘connection’的成员
+
+_mysql.c:648: 错误：‘MYSQL_OPT_NAMED_PIPE’未声明(在此函数内第一次使用)
+
+_mysql.c:649: 警告：比较不相关的指针时缺少类型转换
+
+_mysql.c:650: 错误：‘_mysql_ConnectionObject’没有名为‘connection’的成员
+
+_mysql.c:650: 错误：‘MYSQL_INIT_COMMAND’未声明(在此函数内第一次使用)
+
+_mysql.c:651: 警告：比较不相关的指针时缺少类型转换
+
+_mysql.c:652: 错误：‘_mysql_ConnectionObject’没有名为‘connection’的成员
+
+_mysql.c:652: 错误：‘MYSQL_READ_DEFAULT_FILE’未声明(在此函数内第一次使用)
+
+_mysql.c:653: 警告：比较不相关的指针时缺少类型转换
+
+_mysql.c:654: 错误：‘_mysql_ConnectionObject’没有名为‘connection’的成员
+
+_mysql.c:654: 错误：‘MYSQL_READ_DEFAULT_GROUP’未声明(在此函数内第一次使用)
+
+_mysql.c:657: 错误：‘_mysql_ConnectionObject’没有名为‘connection’的成员
+
+_mysql.c:657: 错误：‘MYSQL_OPT_LOCAL_INFILE’未声明(在此函数内第一次使用)
+
+_mysql.c:665: 警告：隐式声明函数‘mysql_real_connect’
+
+_mysql.c:665: 错误：‘_mysql_ConnectionObject’没有名为‘connection’的成员
+
+_mysql.c:666: 警告：语句不起作用
+
+_mysql.c:668: 错误：‘Py_END_ALLOW_THREADS’未声明(在此函数内第一次使用)
+
+_mysql.c:668: 警告：语句不起作用
+
+_mysql.c:677: 警告：语句不起作用
+
+_mysql.c:683: 错误：‘_mysql_ConnectionObject’没有名为‘converter’的成员
+
+_mysql.c:683: 警告：语句不起作用
+
+_mysql.c:691: 错误：‘_mysql_ConnectionObject’没有名为‘open’的成员
+
+_mysql.c:691: 警告：语句不起作用
+
+_mysql.c: 在文件层：
+
+_mysql.c:749: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c: 在函数‘_mysql_ConnectionObject_clear’中:
+
+_mysql.c:781: 错误：‘_mysql_ConnectionObject’没有名为‘converter’的成员
+
+_mysql.c:782: 错误：‘_mysql_ConnectionObject’没有名为‘converter’的成员
+
+_mysql.c:782: 错误：‘NULL’未声明(在此函数内第一次使用)
+
+_mysql.c:782: 警告：语句不起作用
+
+_mysql.c: 在文件层：
+
+_mysql.c:789: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:817: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:833: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:851: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:870: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:896: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:918: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:950: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1039: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1055: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1077: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1124: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1167: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1169: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1203: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1233: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1267: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1299: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1335: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1359: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1389: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1414: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1453: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1492: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1497: 错误：expected declaration specifiers or ‘...’ before ‘PyObject’
+
+_mysql.c:1500: 错误：expected declaration specifiers or ‘...’ before ‘_PYFUNC’
+
+_mysql.c: 在函数‘_mysql__fetch_row’中:
+
+_mysql.c:1503: 错误：‘MYSQL_ROW’未声明(在此函数内第一次使用)
+
+_mysql.c:1503: 警告：语句不起作用
+
+_mysql.c:1503: 错误：expected ‘;’ before ‘row’
+
+_mysql.c:1506: 错误：‘PyObject’未声明(在此函数内第一次使用)
+
+_mysql.c:1506: 错误：‘v’未声明(在此函数内第一次使用)
+
+_mysql.c:1506: 错误：双目运算符 * 操作数(‘char **’和‘char **’)无效
+
+_mysql.c:1506: 警告：语句不起作用
+
+_mysql.c:1507: 错误：‘_mysql_ResultObject’没有名为‘use’的成员
+
+_mysql.c:1508: 错误：‘row’未声明(在此函数内第一次使用)
+
+_mysql.c:1508: 警告：隐式声明函数‘mysql_fetch_row’
+
+_mysql.c:1508: 错误：‘_mysql_ResultObject’没有名为‘result’的成员
+
+_mysql.c:1508: 警告：语句不起作用
+
+_mysql.c:1510: 错误：‘Py_BEGIN_ALLOW_THREADS’未声明(在此函数内第一次使用)
+
+_mysql.c:1510: 警告：语句不起作用
+
+_mysql.c:1511: 错误：‘_mysql_ResultObject’没有名为‘result’的成员
+
+_mysql.c:1511: 警告：语句不起作用
+
+_mysql.c:1512: 错误：‘Py_END_ALLOW_THREADS’未声明(在此函数内第一次使用)
+
+_mysql.c:1512: 警告：语句不起作用
+
+_mysql.c:1514: 警告：隐式声明函数‘mysql_errno’
+
+_mysql.c:1514: 错误：‘_mysql_ResultObject’没有名为‘conn’的成员
+
+_mysql.c:1514: 错误：‘_mysql_ConnectionObject’没有名为‘connection’的成员
+
+_mysql.c:1515: 错误：‘_mysql_ResultObject’没有名为‘conn’的成员
+
+_mysql.c:1519: 警告：隐式声明函数‘_PyTuple_Resize’
+
+_mysql.c:1519: 错误：‘r’未声明(在此函数内第一次使用)
+
+_mysql.c:1522: 警告：隐式声明函数‘convert_row’
+
+_mysql.c:1522: 警告：语句不起作用
+
+_mysql.c: 在文件层：
+
+_mysql.c:1540: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1647: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1755: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1774: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1793: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1808: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1828: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1867: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1885: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1908: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1925: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1941: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1970: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:1993: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:2023: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:2045: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:2072: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:2098: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:2139: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:2159: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c: 在函数‘_mysql_ConnectionObject_dealloc’中:
+
+_mysql.c:2193: 错误：‘PyObject’未声明(在此函数内第一次使用)
+
+_mysql.c:2193: 错误：‘o’未声明(在此函数内第一次使用)
+
+_mysql.c:2193: 错误：双目运算符 * 操作数(‘char **’和‘char **’)无效
+
+_mysql.c:2193: 警告：语句不起作用
+
+_mysql.c:2196: 错误：‘_mysql_ConnectionObject’没有名为‘open’的成员
+
+_mysql.c:2197: 警告：隐式声明函数‘_mysql_ConnectionObject_close’
+
+_mysql.c:2197: 错误：‘NULL’未声明(在此函数内第一次使用)
+
+_mysql.c:2197: 警告：语句不起作用
+
+_mysql.c:2200: 警告：隐式声明函数‘PyMem_Free’
+
+_mysql.c: 在文件层：
+
+_mysql.c:2203: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:2224: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:2239: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:2261: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c: 在函数‘_mysql_ResultObject_dealloc’中:
+
+_mysql.c:2283: 警告：隐式声明函数‘mysql_free_result’
+
+_mysql.c:2283: 错误：‘_mysql_ResultObject’没有名为‘result’的成员
+
+_mysql.c: 在文件层：
+
+_mysql.c:2288: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:2302: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘_mysql_ConnectionObject_methods’
+
+_mysql.c:2517: 错误：数组元素的类型不完全
+
+_mysql.c:2518: 错误：‘T_INT’未声明(不在函数内)
+
+_mysql.c:2518: 警告：隐式声明函数‘offsetof’
+
+_mysql.c:2518: 错误：expected expression before ‘_mysql_ConnectionObject’
+
+_mysql.c:2518: 错误：‘READONLY’未声明(不在函数内)
+
+_mysql.c:2525: 错误：‘T_OBJECT’未声明(不在函数内)
+
+_mysql.c:2525: 错误：expected expression before ‘_mysql_ConnectionObject’
+
+_mysql.c:2532: 错误：‘T_UINT’未声明(不在函数内)
+
+_mysql.c:2532: 错误：expected expression before ‘_mysql_ConnectionObject’
+
+_mysql.c:2539: 错误：expected expression before ‘_mysql_ConnectionObject’
+
+_mysql.c:2546: 错误：expected expression before ‘_mysql_ConnectionObject’
+
+_mysql.c:2553: 错误：‘NULL’未声明(不在函数内)
+
+_mysql.c:2556: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘_mysql_ResultObject_methods’
+
+_mysql.c:2608: 错误：数组元素的类型不完全
+
+_mysql.c:2609: 错误：expected expression before ‘_mysql_ResultObject’
+
+_mysql.c:2619: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:2649: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:2681: 错误：expected declaration specifiers or ‘...’ before ‘PyObject’
+
+_mysql.c: 在函数‘_mysql_ConnectionObject_setattr’中:
+
+_mysql.c:2683: 错误：‘v’未声明(在此函数内第一次使用)
+
+_mysql.c:2684: 错误：‘PyExc_AttributeError’未声明(在此函数内第一次使用)
+
+_mysql.c:2689: 警告：隐式声明函数‘PyMember_Set’
+
+_mysql.c: 在文件层：
+
+_mysql.c:2706: 错误：expected declaration specifiers or ‘...’ before ‘PyObject’
+
+_mysql.c: 在函数‘_mysql_ResultObject_setattr’中:
+
+_mysql.c:2708: 错误：‘v’未声明(在此函数内第一次使用)
+
+_mysql.c:2709: 错误：‘PyExc_AttributeError’未声明(在此函数内第一次使用)
+
+_mysql.c: 在文件层：
+
+_mysql.c:2727: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘_mysql_ConnectionObject_Type’
+
+_mysql.c:2815: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘_mysql_ResultObject_Type’
+
+_mysql.c:2905: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘_mysql_methods’
+
+_mysql.c:2977: 错误：expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+
+_mysql.c:3022: 警告：返回类型默认为‘int’
+
+_mysql.c: 在函数‘DL_EXPORT’中:
+
+_mysql.c:3022: 错误：expected declaration specifiers before ‘init_mysql’
+
+_mysql.c:3130: 错误：expected ‘{’ at end of input
+
+error: command 'gcc' failed with exit status 1
+
+----------------------------------------
+Cleaning up...
+Command /usr/bin/python -c "import setuptools;__file__='/tmp/pip_build_root/MySQL-python/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-32X7RM-record/install-record.txt --single-version-externally-managed failed with error code 1 in /tmp/pip_build_root/MySQL-python

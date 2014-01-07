@@ -1,0 +1,277 @@
+ZoneID	ServerType	ServerID	SubServerType	Key	Type	ValueInt	ValueString	Desc
+-1	-1	-1		NewPlayerTime	1	604800		新用户创建角色后的时间
+-1	-1	-1		UseMoney	1	0		客户端不可以使用Money购买东西
+-1	0	-1	12|19|	delaydeletesec	1	604800		物品过期的延迟删除时间
+-1	0	-1	8|9|	weddingRoomPriceUnit	1	100		婚房每小时100梦点
+-1	0	0			0	0		
+-1	2	-1		allRankName	2	0	17:人气|18:情侣|19:舞团|20:师徒|33:日消费|34:大喇叭|35:总消费|49:等级|50:成就|51:竞技|52:精灵馆|53:声望|54:GM星球|55:玩家星球|56:舞艺|57:星爵|58:总充值|59:日充值|65:宠物等级|66宠物PK|81:挑战进度|82:挑战次数|97:服装装扮|98:室外装扮|99:室内装扮	排行榜对应的名字
+-1	2	-1		fristRankIsNoti	1	0		第一名上线是否同
+-1	2	-1		Indulge	1	0		是否打开系统防沉迷
+-1	2	-1		IndulgeBreakTime	1	7200		防沉迷休息冷却时间:7200
+-1	2	-1		IsOpenIndulge	1	0		是否打开防沉迷
+-1	2	-1		NormalRemainTime	1	3600		防沉迷的玩家提醒时间间隔(3600)
+-1	2	-1		ranktype	2	0	33:34:49:50:18	排行榜默认排名顺序://日消费榜 喇叭榜 等级榜 成就榜 情侣榜
+-1	2	-1		TimeIntervalOfRank	1	1		排行榜刷新时间间隔
+-1	2	-1		TiredRemaindTime	1	1800		疲倦阶段提醒时间(1800)
+-1	2	-1		TiredTime	1	10800		进入疲劳的时间(10800)
+-1	2	-1		UnhealthyRemaindTime	1	900		不健康阶段提醒时间(900)
+-1	2	-1		UnhealthyTime	1	18000		进入不健康的时间长度(18000)
+-1	2	-1		WriteDBTime	1	300		在线时间刷新入库时间
+-1	8	-1		authEnable	1	1		是否认证
+-1	8	-1		fixupApplyCD	1	1800		撮合申请冷却时间
+-1	8	-1		getSessionTimes	1	1	0	拉取加密串的心跳间隔
+-1	8	-1		heartBeatGameServer	1	30		游戏服务器心跳超时
+-1	8	-1		heartBeatPlayer	1	300		玩家心跳超时
+-1	8	-1		heartBeatRoom	1	300		房间心跳超时
+-1	8	-1		maxSpringPerPage	1	6		每页显示的温泉个数
+-1	8	-1		registerCheck	1	0		激活码检查
+-1	8	-1		topRoomUnitPrice	1	50		房间置顶基准价
+-1	8	-1		weddingLoverLevel	1	2		情侣等级2级才能开设婚房
+-1	9	-1		autoStartPlayerPercent	1	80		游戏自动开始就绪玩家的百分比
+-1	9	-1		autoStartSeconds	1	10		游戏自动开始倒计时
+-1	9	-1		balloonExp	1	10		婚房每气球10经验
+-1	9	-1		balloonFreshCount	1	10		婚房每次刷新10个气球
+-1	9	-1		balloonFreshTime	1	60		婚房每1分钟刷新气球
+-1	9	-1		balloonGCoin	1	10		婚房每气球10金币
+-1	9	-1		baseExpPerGameCoin	1	2		基础经验值与游戏币比例
+-1	9	-1		dateWeight	2	0	0,0,0,0|0,1,2,3|0,0,1,2|0,0,1,2|0,0,0,0	约会模式好感度提交结果的权值
+-1	9	-1		freshPlayerLevel	1	15		新手保护最高等级
+-1	9	-1		freshPlayerStar	1	3		新手保护最高星级
+-1	9	-1		guildPKDefaultBombCount	1	1		舞团战初始炮弹个数
+-1	9	-1		hpDropRhythmKeyMiss	1	5		节奏玩法单键Miss掉血百分比
+-1	9	-1		hpDropTradRoundMiss	1	20		传统玩法每轮Miss掉血百分比
+-1	9	-1		hpDropWaveKeyMiss	1	5		音浪玩法单键Miss掉血百分比
+-1	9	-1		hpDropWaveRoundMiss	1	15		音浪玩法每轮Miss掉血百分比
+-1	9	-1		hpRaiseRhythmComb10	1	1		节奏玩法每10连击加血百分比
+-1	9	-1		hpRaiseRhythmComb100	1	10		节奏玩法每100连击加血百分比
+-1	9	-1		hpRaiseRhythmComb50	1	5		节奏玩法每50连击加血百分比
+-1	9	-1		hpRaiseRhythmKeyPerfect	1	1		节奏玩法单键Perfect加血百分比
+-1	9	-1		hpRaiseTradComb20	1	5		传统玩法每50连击加血百分比
+-1	9	-1		hpRaiseTradComb5	1	1		传统玩法每10连击加血百分比
+-1	9	-1		hpRaiseTradComb50	1	10		传统玩法每100连击加血百分比
+-1	9	-1		hpRaiseTradRoundPerfect	1	1		传统玩法每轮Perfect加血百分比
+-1	9	-1		hpRaiseWaveComb10	1	1		音浪玩法每10连击加血百分比
+-1	9	-1		hpRaiseWaveComb100	1	10		音浪玩法每100连击加血百分比
+-1	9	-1		hpRaiseWaveComb50	1	5		音浪玩法每50连击加血百分比
+-1	9	-1		hpRaiseWaveKeyPerfect	1	1		音浪玩法单键Perfect加血百分比
+-1	9	-1		hpRaiseWaveRoundPerfect	1	2		音浪玩法每键Perfect加血百分比
+-1	9	-1		pk_0v0TeamRoundCount	1	4		pK玩法默认的回合数（不包括热身回合）
+-1	9	-1		pk_2v2TeamRoundCount	1	5		2v2的时候共有5个回合（不包括热身回合）
+-1	9	-1		pk_firstWeight	1	100		PK 第一站位的权重
+-1	9	-1		pk_lastpoint_deuce	1	2		最后一回合平局一局获得的点数
+-1	9	-1		pk_lastpoint_lost	1	0		最后一回合失败一局获得的点数
+-1	9	-1		pk_lastpoint_win	1	2		最后一回合胜利一局获得的点数
+-1	9	-1		pk_notlastpoint_deuce	1	1		非最后一回合平局一局获得的点数
+-1	9	-1		pk_notlastpoint_lost	1	0		非最后一回合失败一局获得的点数
+-1	9	-1		pk_notlastpoint_win	1	1		非最后一回合胜利一局获得的点数
+-1	9	-1		pk_otherWeight	1	20		其他站位的权重之后
+-1	9	-1		pk_preFightRoundCount	1	2		PK玩法热身的音乐轮数
+-1	9	-1		practiseMusicGain	1	5		练习歌曲收益是普通歌曲的几分之几
+-1	9	-1		sameRankFlag	1	1		排名相等的时候计算基础得分的类型
+-1	9	-1		teamWeight	2	0	0,0,0,0|0,1,2,4|0,0,1,2|0,0,1,3|0,0,0,0	团队玩法各个模式的权值
+-1	9	-1		timeOutRoomInactive	1	3600		房间中不活跃超时
+-1	9	-1		timeOutRound	1	3000		每轮超时
+-1	9	-1		timeSyn	1	4000		服务器客户端同步预留时间
+-1	9	-1		weddingAssetBufTime	1	10		婚房每3分钟获得一次资产buf
+-1	9	-1		weddingItemBufTime	1	60		婚房每10分钟获得一次物品buf
+-1	9	1001		timeOutRoomInactive	1	120		房间中不活跃超时
+-1	9	2001		timeOutRoomInactive	1	120		房间中不活跃超时
+-1	10	-1		challengeChance	1	5	0	每日挑战次数5次
+-1	10	-1		createRoleCoupon	1	0		建号初始购物券
+-1	10	-1		createRoleExp	1	0	0	建号初始经验值0
+-1	10	-1		createRoleGcoin	1	0		建号初始g币
+-1	10	-1		createRoleMoney	1	0		建号初始梦点
+-1	10	-1		createRoleScore	1	0		建号初始点券
+-1	10	-1		playerLabelCountMax	1	5		玩家的标签个数
+-1	10	-1		roleCountPerAccount	1	10		每个账号在平台的最大角色个数
+-1	10	-1		roleCountPerZone	1	1		每个分区的最大角色个数
+-1	10	-1		roleNameLength	1	21		玩家昵称长度
+-1	11	-1		addFriendTimeout	1	604800		添加好友的有效时间
+-1	11	-1		confessFailCrad	1	675		表白被拒绝之后赠送好人看（现在已普通表白卡来替代）
+-1	11	-1		DefualtLoveDeclaration	2	0	你存在我深深的脑海里，我的梦里我的心里都是你	默认情侣宣言
+-1	11	-1		DefualtLoveNickname	2	0	哈尼宝贝	默认情侣昵称
+-1	11	-1		divorceTmieOut	1	259200		离婚申请有效期 (3天)
+-1	11	-1		friendGroupCount	1	11		好友分组的个数，包括系统自定义分组
+-1	11	-1		friendGroupNameLength	1	15		分组名称最大的字符长度
+-1	11	-1		InitimateLevel	1	2520		情侣或者夫妻升级需要的心动值
+-1	11	-1		level_lover	1	80		成为情侣需要的亲友度
+-1	11	-1		level_master	1	30		成为师徒需要的亲友度
+-1	11	-1		level_relative	1	100		加为亲友需要的亲友度
+-1	11	-1		maxBlackListCount	1	20		添加黑名单玩家最大数量
+-1	11	-1		MaxCouplesCount	1	1		每个人拥有的伴侣最大个数
+-1	11	-1		maxFriendLevel	1	100		玩家亲密值上线
+-1	11	-1		MaxLoveLevel	1	100		情侣最大等级
+-1	11	-1		MaxLoverCount	1	1		每个人拥有的情人的最大个数
+-1	11	-1		MaxMateCount	1	16	0	玩伴个数
+-1	11	-1		RecvWishCount	1	20		接收好友祝福的次数
+-1	11	-1		RecvWishMaxCount	1	20		单日接收祝福的次数
+-1	11	-1		SendWishCount	1	10		发送好友祝福的次数
+-1	11	-1		SendWishMaxCount	1	10		单日发送祝福的次数
+-1	11	-1		systemgroup	2	0	200:我的情侣|100:我的好友|101:我的亲友|300:我的玩伴|800:黑名单|400:我的师父|402:我的徒弟|500:我的舞团|201:我的夫妻	好友系统分组
+-1	11	-1		vip_0_friendCount	1	100		好友个数
+-1	11	-1		WishExperience	1	200		单日接收祝福的次数
+-1	11	-1		WishExperienceDouble	1	100		单日发送祝福的次数
+-1	11	-1		WishGCoin	1	500		好友祝福赠送GCoin的数值
+-1	12	-1		DeaultBagCap	1	80	0	玩家默认背包的容量
+-1	12	-1		ForeverText	2	0	|物品:%s,永久有效|	购买永久物品的时间描述
+-1	12	-1		GiftNotice	2	0	亲爱的玩家，您的背包已满，获得的物品暂时存放于礼物盒中，您可以在精品屋购买、声望兑换【背包包裹栏】来扩充背包容量或背包中出售您不需要的物品。	
+-1	12	-1		GiftText	2	0	|物品:%s,%d天%d小时%d分|	
+-1	12	-1		GiftText1	2	0	|物品:%s,%d个|	
+-1	12	-1		GiftTitle	2	0	背包满了哦	
+-1	12	-1		maxSuitPerRole	1	7		每个角色的最大套装个数
+-1	12	-1		RoleBagCount	1	4	0	玩家背包的个数
+-1	13	-1		bDoChatLog	1	0		聊天记录
+-1	13	-1		nBroadCastCD	1	4		系统/全平台广播CD(秒)
+-1	13	-1		nBroadCastTimesLimit	1	1		广播循环次数
+-1	13	-1		nChatGroupMemberLimit	1	20		聊天群人数上限
+-1	13	-1		nChatGroupOwnLimit	1	10		拥有的聊天群上限
+-1	14	-1		MaxMsgIntervalCount	1	200		客户端在统计时间间隔内的消息个数
+-1	14	-1		MaxMsgIntervalTime	1	3		客户端统计消息的时间间隔
+-1	15	-1		4137	2	0	4134:5|4135:1|4136:1	合成4137需要的物品
+-1	15	-1		83_rankLimit	1	3999		83上榜活动的条件
+-1	15	-1		91_rankLimit	1	1314		91上榜活动的条件
+-1	15	-1		ActSendContent	2	0	亲爱的玩家，您因为参加[%s]，完成对应的条件，获得奖励啦，请注意查收哦~	
+-1	15	-1		ActSender	2	0	天空之舞活动组	
+-1	15	-1		ActSendTitle	2	0	[%s]	
+-1	15	-1		ActSysMail85_1	2	0	亲爱的玩家，对于之前的结婚系统出现的体验问题深表歉意，sky5官方运营团队赠送给亲们赠送豪华的结婚大礼包,可直接建立婚房使用哦。sky5官方团队感谢亲们一直以来的支持和信任，sky5有你们的支持而更精彩! 祝福亲们在游戏中甜甜蜜蜜，找到真爱，同时祝福亲们十一快乐，玩游戏玩得开心!	
+-1	15	-1		ActSysMail85_2	2	0	亲爱的玩家，对于之前的结婚系统出现的体验问题深表歉意，sky5官方运营团队赠送给亲们赠送豪华的结婚补偿普通礼包。sky5官方团队感谢亲们一直以来的支持和信任，sky5有你们的支持而更精彩! 祝福亲们在游戏中甜甜蜜蜜，找到真爱，同时祝福亲们十一快乐，玩游戏玩得开心!	
+-1	15	-1		ActSysMail85_3	2	0	亲爱的玩家，对于之前的结婚系统出现的体验问题深表歉意，sky5官方运营团队赠送给亲们赠送豪华的结婚补偿中级礼包。sky5官方团队感谢亲们一直以来的支持和信任，sky5有你们的支持而更精彩! 祝福亲们在游戏中甜甜蜜蜜，找到真爱，同时祝福亲们十一快乐，玩游戏玩得开心!	
+-1	15	-1		ActSysMail85_4	2	0	亲爱的玩家，对于之前的结婚系统出现的体验问题深表歉意，sky5官方运营团队赠送给亲们赠送豪华的结婚补偿高级礼包。sky5官方团队感谢亲们一直以来的支持和信任，sky5有你们的支持而更精彩! 祝福亲们在游戏中甜甜蜜蜜，找到真爱，同时祝福亲们十一快乐，玩游戏玩得开心!	
+-1	15	-1		BombMaxStone	1	10		约会玩法掉宝石的最大个数
+-1	15	-1		ConsumeGift	1	10		累计消费礼物的最大个数
+-1	15	-1		RankActDelay	1	432000		排行榜活动延迟关闭
+-1	15	-1		SendLover	2	0	%s 玩家申请兑换礼品，需要扣除神之祝福%d个，由于自己的不足, 扣除自己%d,扣除情侣%d个。	
+-1	15	-1		SpecActBaseTime	1	1800		专题活动的在线时长参数
+-1	15	-1		SpecActRoleTime	1	1591372800	1362585600	专题活动的创建角色的限制
+-1	15	-1		WinxinKey	2	0	6174	微信活动key
+-1	15	-1		YuanEndDate	1	20130331		一元超值礼包结束时间
+-1	15	-1		YuanStartDate	1	20130325		一元超值礼包
+-1	16	-1		MaxBeBlagCount	1	5		一天免费礼物被索要的最大值
+-1	16	-1		MaxCallOldFriendCount	1	1		每天召回好友限制
+-1	16	-1		MaxFrizeCount	1	6		一天免费礼物的最大值（赠送和索要）
+-1	16	-1		MaxMailCount	1	100	0	每天发送邮件的最大个数
+-1	16	-1		NeedFrizeCount	1	6		领取爱心礼包所需要的免费礼物的次数
+-1	16	-1		NeedRealRank	1	2	0	发送邮件所需要的星爵
+-1	16	-1		PrizeLiveTime	1	8553600		礼包生存周期
+-1	16	-1		ReadedMailLiveTime	1	1296000	0	阅读后邮件生存周期
+-1	16	1		MailLiveTime	1	5184000	0	邮件生存周期
+-1	17	-1		effHigh	1	100		光效的随机下限
+-1	17	-1		effLow	1	10		光效的随机上限
+-1	17	-1		GiveGiftTitle	2	0	玩家赠送	玩家赠送
+-1	17	-1		halfHigh	1	5		每次增加随机上限
+-1	17	-1		halfLow	1	0		每次增加随机下限
+-1	17	-1		LoverBox1	2	0	你的情侣购买了情侣包裹，同时你也获得相应的情侣包裹~	玩家赠送
+-1	17	-1		LoverBox2	2	0	你的情侣接收了好友的情侣包裹，同时你也获得该情侣包裹哦~	玩家赠送
+-1	17	-1		LoverBox3	2	0	你赠送情侣包裹给你的情侣了，同时你也获得该情侣包裹哦~	玩家赠送
+-1	17	-1		LoverTitle	2	0	情侣包裹	情侣包裹
+-1	17	-1		MoreDiscount	2	0	1-9000|2-8000|3-7000	折上折活动的折扣率
+-1	17	-1		NewDiscount	1	0		新用户打8折 计数是10000
+-1	17	-1		NewDiscountLimit	1	0		新用户打8折的时间限制
+-1	17	-1		noeffHigh	1	200		非光效的随机上限
+-1	17	-1		noeffLow	1	50		非光效的随机下限
+-1	17	-1		OldDiscount	1	0		
+-1	17	-1		OldDiscountBegTime	2	0	2013-09-24 00:00:00	
+-1	17	-1		OldDiscountEndTime	2	0	2013-09-24 00:00:00	
+-1	17	-1		PriceCorr	1	0	0	价格修正\n0 向下取整\n1 向上取整\n2 四舍五入
+-1	17	-1		SaleDisBeginEnd	1	1366300800		折上者活动的结束时间
+-1	17	-1		SaleDisBeginTime	1	1365955200		折上折活动的开始时间
+-1	17	-1		virtualLimit	1	172800		虚拟销售的时间限制
+-1	17	-1		YellowVIPDiscount	1	8000	0	黄钻用户打折比率
+-1	18	-1		littleGameSwitch	2	0	1:1|2:1|3:0	小游戏开关（游戏类型：是否关闭）
+-1	18	-1		questionCount	1	40		答题题数
+-1	18	-1		ShotEnd	1	1383494399		
+-1	18	-1		shotinittimes	1	3		每日赠送免费弓箭数
+-1	18	-1		ShotStart	1	1382630400		
+-1	19	-1		pet_autoDeposit_PetExpPerHour	1	100		托管栏中宠物每小时获得的经验
+-1	19	-1		pet_autoFollow_Intimate	1	2		玩家在线且携带宠物每小时增加的亲和值
+-1	19	-1		pet_autoGuide_Intimate	1	2		守卫星球的宠物每小时减少的亲和值
+-1	19	-1		pet_autoGuide_Stamia	1	2		守护星球每小时扣除的行动值
+-1	19	-1		pet_autoRetrive_Intimate	1	2		宠物栏中的宠物每小时减少的亲和值
+-1	19	-1		pet_autoRetrive_Stamina	1	5		宠物在宠物栏中每小时增加的行动值
+-1	19	-1		pet_bonusAssetTypeFeed	1	32		玩家喂养宠物获得的奖励类型enmAssetType
+-1	19	-1		pet_bonusAssetTypeTakeCareEgg	1	32		玩家照顾宠物获得的奖励类型enmAssetType
+-1	19	-1		pet_bonusAssetValueFeed	1	100		玩家喂养宠物获得的奖励数值
+-1	19	-1		pet_bonusAssetValueTakeCareEgg	1	100		玩家照顾宠物获得的奖励数值
+-1	19	-1		pet_bonusHatchTimeTakeCareEgg	1	1800		照顾宠物蛋所减少的宠物孵化时间(秒)
+-1	19	-1		pet_defaultPetSlotCount	1	2		玩家出生时宠物栏的个数(包括黄钻槽，不能大于pet_maxPetSlotCount)
+-1	19	-1		pet_defaultRepositCount	1	1		玩家出生时托管栏的个数(不能大于pet_maxRepositCount)
+-1	19	-1		pet_gameEnd_Stamia	1	5		玩家对局每次宠物减少的行动值
+-1	19	-1		pet_maxFriendsPetsFeedCount	1	20		宠物每天可被好友喂养的次数
+-1	19	-1		pet_maxIntimate	1	100		宠物最大亲和值
+-1	19	-1		pet_maxIntimateViaFeed	1	15		宠物每天通过喂养获得的最大亲和值
+-1	19	-1		pet_maxPetSlotCount	1	36		玩家宠物栏最大个数(不能大于enmMaxPetPerRole)
+-1	19	-1		pet_maxRepositCount	1	5		最大托管栏个数(不能大于pet_maxRepositCount)
+-1	19	-1		pet_maxRoleFeedFriendsPetsCount	1	20		宠物每天可喂养好友宠物的次数
+-1	19	-1		pet_maxStaminaViaFeed	1	50		宠物每天通过喂养获得的最大行动值
+-1	19	-1		pet_petIntimateExpBonus	2	0	0:0|10:400|20:800|30:1200|40:1600|0:0|50:2000|60:2400|70:2800|80:3200|90:3600|100:4400|	宠物亲和值的经验加成
+-1	20	-1		defaultfilesname	2	0	10:热歌|11:新歌|12:国语|13:粤语|14:欧美|15:日韩|16:其他|100:默认收藏|101:我最爱听|102:超级明星|103:劲歌热舞|104:抒情曲调|105:电音爵士	默认收藏和系统推荐列表和原始分组
+-1	20	-1		enmMaxFavoritesInfoCount	1	50		单个玩家收藏夹个数上限值
+-1	20	-1		enmMaxFavoritesMusicCount	1	200		每个收藏夹最多收藏歌曲的上限值
+-1	20	-1		enmMaxMusicCountPerPage	1	20		每页歌曲最大数量，添加和删除歌曲时候一次可以发送的上限值
+-1	20	-1		MaxMusicGroupCount	1	5		音乐盒玩家自定义最大分组
+-1	21	-1		0	2	0	团长	
+-1	21	-1		1	2	0	副团长	
+-1	21	-1		2	2	0	实习成员	
+-1	21	-1		3	2	0	普通成员	
+-1	21	-1		cancelDropGuildCost	1	400		取消解散舞团
+-1	21	-1		createGuildLevel	1	15	0	创建舞团等级
+-1	21	-1		guildCabage	2	300	自定义	自定义职位名称
+-1	21	-1		incType01	2	0	%d月%d日%d点，舞团正式成立，大家一起奋斗吧!	舞团事件
+-1	21	-1		incType02	2	0	%d月%d日%d点，%s将团长转让给%s，紧密团结在新团长周围哦!	舞团事件
+-1	21	-1		incType03	2	0	%d月%d日%d点，%s加入了舞团，舞团又增了一份活力!	舞团事件
+-1	21	-1		incType04	2	0	%d月%d日%d点，%s向舞团捐献了星舞之尘x%d,荣耀结晶x%d,梦舞之星x%d,梦舞碎片x%d，真是一个好孩子!	舞团事件
+-1	21	-1		incType05	2	0	%d月%d日%d点，%s 将职位 %s 更名为 %s;	舞团事件
+-1	21	-1		incType06	2	0	%d月%d日%d点，%s将舞团升级到LV %d!\t\t\t	舞团事件
+-1	21	-1		incType07	2	0	%d月%d日%d点，%s将舞团更名为：%s!	舞团事件
+-1	21	-1		incType08	2	0	%d月%d日%d点，舞团%d周年，好好庆祝下吧!	舞团事件
+-1	21	-1		incType09	2	0	%d月%d日%d点，%s对舞团公告进行了更改!	舞团事件
+-1	21	-1		incType10	2	0	%d月%d日%d点，%s对舞团徽章进行了更改。	舞团事件
+-1	21	-1		incType11	2	0	%d月%d日%d点，团长回心转意，取消了对舞团的解散	舞团事件
+-1	21	-1		incType12	2	0	%d月%d日%d点，团长解散了舞团，还有3天舞团正式解散.	舞团事件
+-1	21	-1		passMasterTime	1	0		团长转让时间要求
+-1	21	-1		praxisTime	1	86400	0	舞团实习成员实习期
+-1	22	-1		coina	1	36	0	
+-1	22	-1		dramaTaskID	1	0		剧情任务ID
+-1	22	-1		expr	2	0	0*0/1+2	
+-1	22	-1		expria	1	18	0	
+-1	22	-1		normalTaskLevel	1	20	0	每日任务开始等级
+-1	22	-1		personSpecialTimes	1	50		个人触发次数
+-1	22	-1		race	1	100	0	
+-1	22	-1		randomTaskLevel	1	10	0	接取任务数
+-1	22	-1		randomTaskTimer	1	3600		随即任务时间间隔
+-1	22	-1		systemSpecialTimes	1	1000		服务器出发次数
+-1	23	-1		chestRefreshTime	1	20		星球房宝箱刷新时间
+-1	23	-1		friendHarvestRate	1	10		好友收取朋友果实的比率
+-1	23	-1		hookExpTime	1	7200	0	普通玩家每天在星球的挂机时间
+-1	23	-1		profitTimePeriod	1	300	0	玩家在星球房间的挂机收益时间
+-1	24	-1		chestRefreshTime	1	20		温泉宝箱刷新时间
+-1	24	-1		maxTimeInSpringPerDay	1	3600		普通玩家每天在温泉最长时间
+-1	24	-1		maxTimeInSpringVIPPerDay	1	7200		VIP玩家每天在温泉最长时间
+-1	24	-1		profitTimePeriod	1	10		-1
+-1	24	-1		rateExp	1	300		每次获益10点经验
+-1	26	-1		OnlineTimeUpdate	1	300		在线时长更新时间
+-1	28	-1		despartOptTime	1	7200		强制解除师徒惩罚时间 秒
+-1	28	-1		masActOptTimes	1	14400	14400	师徒动作间隔时间
+-1	29	-1		allRankName	2	0	17:人气|18:情侣|19:舞团|20:师徒|33:日消费|34:大喇叭|35:总消费|49:等级|50:成就|51:竞技|52:精灵馆|53:声望|54:GM星球|55:玩家星球|56:舞艺|57:星爵|58:总充值|59:日充值|65:宠物等级|66宠物PK|81:挑战进度|82:挑战次数|97:服装装扮|98:室外装扮|99:室内装扮	排行榜对应的名字
+0	11	-1		WishMsgWisher	2	0	由于您的好友[%s]给你送上了一份真挚的祝福，您获得了%d经验作为奖励！	好友祝福
+1001	-1	-1		UseMoney	1	1		客户端可以使用Money购买东西
+1001	8	-1		authEnable	1	0		是否认证
+1001	10	-1		createRoleMoney	1	10000		建号初始梦点
+1002	-1	-1		UseMoney	1	1		客户端可以使用Money购买东西
+1002	8	-1		authEnable	1	0		是否认证
+1002	10	-1		createRoleMoney	1	10000		建号初始梦点
+1003	-1	-1		UseMoney	1	1		客户端可以使用Money购买东西
+1003	8	-1		authEnable	1	0		是否认证
+1003	10	-1		createRoleMoney	1	0		建号初始梦点
+1004	-1	-1		UseMoney	1	1		客户端可以使用Money购买东西
+1004	8	-1		authEnable	1	0		是否认证
+3001	-1	-1		UseMoney	1	1		客户端可以使用Money购买东西
+3001	2	-1		fristRankIsNoti	1	0		第一名上线是否同
+3001	8	-1		authEnable	1	0		是否认证
+3001	10	-1		createRoleMoney	1	10000		建号初始梦点
+3002	-1	-1		UseMoney	1	1		客户端可以使用Money购买东西
+3002	8	-1		authEnable	1	0		是否认证
+3003	-1	-1		UseMoney	1	1		客户端可以使用Money购买东西
+3003	8	-1		authEnable	1	0		是否认证
+3004	-1	-1		UseMoney	1	1		客户端不可以使用Money购买东西
+3004	8	-1		authEnable	1	0		是否认证

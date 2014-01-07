@@ -1,0 +1,35 @@
+ID	CastType	Prio	IsClosed	ModuleName	Content	Desc	Option1	OPtion2
+20001	65541	1	0	交互类公告\n	%s舞团成立了，正在招兵买马，又一个潜力舞团诞生了！	舞团成立	0	0
+20002	65541	1	0	交互类公告\n	%s舞团升级成功，又一个Lv%d级舞团诞生了！	舞团升级	0	0
+30001	65541	2	0	消费类公告	也太幸运了吧，%s竟然从%s中开出了<font color='#FFFF00' >%s</font>！	舞团宝箱开出	4126	1
+30002	65541	2	0	消费类公告\n\n	真让人嫉妒，<font color='#FFFF00' >%s</font>从%s<a href="2_%d">(点击购买)</a>中开出了<font color='#FFFF00' >%s</font>！	幸运随机礼包	4127	2
+30003	65541	2	1	消费类公告\n\n	好羡慕啊，<font color='#FFFF00' >%s</font>使用了<font color='#FFFF00' >%s</font><a href="2_%d">(点击购买)</a>！	特效卡	2044	3
+30004	65541	2	1	消费类公告\n\n	运气太好了吧，<font color='#FFFF00' >%s</font>从%s<a href="2_%d">(点击购买)</a>中开出了<font color='#FFFF00' >%s</font>！	圣诞礼包	1010	0
+40001	65541	3	0	玩家成长类\n\n	恭喜<font color='#FFFF00' >%s</font>，利用挑战所累积的声望成功提升至%s！	玩家星爵升级	0	0
+40002	65541	3	0	玩家成长类\n\n	舞林高手如云，<font color='#FFFF00' >%s</font>再一次挑战了自己，通关了%s！	玩家挑战通关	0	0
+40003	65541	3	0	玩家成长类\n\n	串串门，长经验。<font color='#FFFF00' >%s</font>的精灵树得到了不少好友的照顾，达到<font color='#FF0000' >Lv%d</font>！	精灵树公告	0	0
+50001	65541	3	0	成就类公共	庆贺<font color='#FFFF00' >%s</font>完成了%s成就，太牛逼了！	成就类公共	0	0
+60001	65541	3	0	消费类公共	[%s]送给[%s]情侣服饰,祝愿他们爱情天长地久~~~	购买情侣包裹物品	0	0
+60002	65541	3	0	消费类公共	[%s]购买了情侣服饰,祝愿他们爱情天长地久~~~	购买情侣包裹物品	0	0
+70001	65540	1	0	排行榜	<font color='#FFFF00' >%s榜</font>第一名[<a href="7_%d_%s">%s</a>]上线了	第一名上线	0	0
+70002	65540	1	0	排行榜	<font color='#FFFF00' >%s榜</font>第一名 [VIP%d][<a href="7_%d_%s">%s</a>]上线了	第一名上线 VIP玩家的通知	0	0
+80001	65541	1	0	活动	[%s]在《鲜花代表我的心》活动中给[%s]赠送了%d朵<a href="8_%d">相约玫瑰</a>，真是让人羡慕妒忌恨!!!	鲜花活动	0	0
+80002	65541	1	0	活动	[%s] 赠送了 [%s]<a href="8_%d">%d朵鲜花</a>，心动值猛增%d，让我们一起祝福他们的爱天长地久吧!		5181	0
+80003	102	0	0	活动	你的情侣 [%s] 送给你<a href="8_%d">%d朵鲜花</a>，你们的心动值猛增%d.		0	0
+80004	65544	0	0	活动	<font color='#FFB5E3' >[%s]</font> [%s] 赠送了 [%s]<a href="8_%d">%d朵鲜花</a>，心动值猛增%d，让我们一起祝福他们的爱天长地久吧!		5182	0
+80005	103	0	0	活动	收到亲爱的香吻一个~~~		0	0
+90001	65544	1	0	结婚	<font color='#FFB5E3' >[%s]%s</font>献上<font color='#9BCFFF' >%d朵鲜花</font>,祝贺<font color='#FFB5E3' >[%s]%s</font>和<font color='#FFB5E3' >[%s]%s</font>新婚大喜，祝福他们幸福一生一世！	送1314朵鲜花	1314	0
+90002	65544	1	0	结婚	<font color='#FFB5E3' >[%s]%s</font>和<font color='#FFB5E3' >[%s]%s</font>新婚大喜，使用<font color='#9BCFFF' >全服礼包雨</font>，为<font color='#FFB5E3' >[%s]</font>所有玩家献上一份<font color='#FFFF00' >惊喜大礼包</font>！，祝全服玩家也早日找到自己的幸福！	结婚双方使用全服礼包	0	0
+90003	65544	1	0	结婚	<font color='#FFB5E3' >[%s]%s</font>使用<font color='#9BCFFF' >全服礼包雨</font>,祝贺<font color='#FFB5E3' >[%s]%s</font>和<font color='#FFB5E3' >[%s]%s</font>新婚大喜，祝福他们幸福美满!<font color='#FFB5E3' >[%s]</font>所有玩家将获得<font color='#FFFF00'>一份惊喜大礼包</font>！	宾客使用全服礼包	0	0
+90004	65541	1	0	情侣	<font color='#FFB5E3' >%s</font>对<font color='#FFB5E3' >%s</font>进行了一场华丽的表白,让我们一起祝福他们吧!!!	使用表白卡	673	0
+90005	65541	1	0	情侣	<font color='#FFB5E3' >%s</font>对<font color='#FFB5E3' >%s</font>进行了一场奢华的表白,让我们一起祝福他们吧!!!	使用表白卡	674	0
+90006	65543	1	0	结婚	<font color='#FFB5E3' >%s</font>使用了<font color='#9BCFFF'>经验雨</font>，祝<font color='#FFB5E3' >%s</font>和<font color='#FFB5E3' >%s</font>新婚快乐，房间内所有人将获得<font color='#FFFF00'>7800经验</font>！	使用经验雨	0	0
+90007	65543	1	0	结婚	<font color='#FFB5E3' >%s</font>使用了<font color='#9BCFFF'>金币雨</font>，祝<font color='#FFB5E3' >%s</font>和<font color='#FFB5E3' >%s</font>新婚快乐，房间内所有人将获得<font color='#FFFF00'>7800金币</font>！	使用金币雨	0	0
+90008	65543	1	0	结婚	<font color='#FFB5E3' >%s</font>使用了<font color='#9BCFFF'>鲜花雨</font>，祝<font color='#FFB5E3' >%s</font>和<font color='#FFB5E3' >%s</font>新婚快乐，房间内所有人将获得<font color='#FFFF00'>1朵鲜花</font>！	使用鲜花雨	0	0
+90009	65543	1	0	结婚	<font color='#FFB5E3' >%s</font>使用了<font color='#9BCFFF'>礼包雨</font>，祝<font color='#FFB5E3' >%s</font>和<font color='#FFB5E3' >%s</font>新婚快乐，房间内所有人将获得<font color='#FFFF00'>1份惊喜大礼包</font>！	使用礼包雨	0	0
+90010	65543	1	0	结婚	<font color='#FFB5E3' >%s</font>送上<font color='#FFFF00'>%d朵鲜花</font>，祝<font color='#FFB5E3' >%s</font>和<font color='#FFB5E3' >%s</font>新婚快乐	送100朵以上1314朵以下献花	0	0
+100001	65541	3	0	小游戏公告	<font color='#FFFF00' >%s</font>在<a href="9_%d">《爱的射击》</a>小游戏，今日积分超过了%d。	玩家完成一回合挑战	0	0
+100002	65541	3	0	小游戏公告	<font color='#FFFF00' >%s</font>参与了<a href="9_%d">《爱的射击》</a>小游戏，赢得了很多积分和礼包啦！		0	0
+100003	65541	3	0	小游戏公告	恭喜<font color='#FFFF00' >%s</font>在<font color='#FFFF00' > “金牌讲堂”</font>中表现出色，领取了<font color='#FFFF00' >%d分奖励礼包</font>!	答题积分领取	0	0
+100004	101	3	0	小游戏公告	金牌讲堂开课啦，积极回答问题就有丰厚奖励哦，赶紧来参加吧^_^	答题活动开始	0	0
+100005	65541	1	0	小游戏公告	《金牌讲堂》活动还有%d分钟就要开始啦，积极回答问题可以获得丰厚奖励，记得准时参加哦	答题活动开始前通知	0	0

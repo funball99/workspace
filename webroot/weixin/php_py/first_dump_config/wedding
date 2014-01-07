@@ -1,0 +1,4 @@
+WeddingType	MaxPlayerCnt	MaxObserverCnt	RoomTime	CGTime	Exp	GCoin	Reputa	ItemID	Quantity	Desc
+3235	8	20	1200	30	1	1	0	5118	1	普通结婚仪式
+3236	8	50	2400	30	3	5	0	5118	1	华丽结婚仪式
+3237	8	100	3600	30	5	10	1	5118	1	奢华结婚仪式

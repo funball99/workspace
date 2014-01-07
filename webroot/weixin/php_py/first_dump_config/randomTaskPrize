@@ -1,0 +1,7 @@
+ListID	ItemID	LevelBegin	LevelEnd	Quantity	ItemNum	ChoiceNeed
+1	282	1	1	500	1	0
+1	1607	1	1	1	1	0
+2	282	2	2	500	1	0
+2	1607	2	2	2	1	0
+3	282	3	3	500	1	0
+3	1607	3	3	3	1	0

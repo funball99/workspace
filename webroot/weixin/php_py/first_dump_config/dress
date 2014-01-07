@@ -1,0 +1,5 @@
+type	dressMin	dressMax	factor	desc
+0	0	99	1	Avatar装扮度
+0	100	199	2	
+1	0	99	1	星球装扮度
+1	100	199	2	
