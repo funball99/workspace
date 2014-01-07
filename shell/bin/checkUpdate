@@ -1,5 +1,7 @@
 #!/bin/bash
+echo $PATH
 source ~/.bash_profile
+echo $PATH
 source /myDisk/wilson/workspace/shell/bin/settings.config
 #LOG="/myDisk/wilson/workspace/log"
 #BIN="/myDisk/wilson/workspace/shell/bin"
@@ -15,5 +17,5 @@ else
 	cp $BIN/setMyConfig /imcoming
 	echo "latest version at $(date +%Y%m%d%H%M) !"
 fi
-cd $GITSPACE && git add -A && git commit -m "$(date +%Y%m%d%H%M)" && git push git@github.com:funball99/workspace.git && echo "sync succeed at $(date +%Y%m%d%H%M)!" 
+echo $PATH && cd $GITSPACE && git add -A && git commit -m "$(date +%Y%m%d%H%M)" && git push git@github.com:funball99/workspace.git && echo "sync succeed at $(date +%Y%m%d%H%M)!" 
 echo "========================================================================="
