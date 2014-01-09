@@ -22106,3 +22106,13 @@ sync succeed at 201401072350!
 =========================================================================
 =========================201401082350========================
 latest version at 201401082350 !
+[master d05cc3f] 201401082350
+ 10 files changed, 13982 insertions(+)
+ create mode 100644 webroot/discuz/data/template/2_2_common_header_portal_index.tpl.php
+ create mode 100644 webroot/discuz/data/template/2_diy_portal_index.tpl.php
+To git@github.com:funball99/workspace.git
+   55cd972..d05cc3f  master -> master
+sync succeed at 201401082350!
+=========================================================================
+=========================201401092350========================
+latest version at 201401092350 !
