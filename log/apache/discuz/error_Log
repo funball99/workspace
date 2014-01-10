@@ -102,3 +102,15 @@
 [Thu Jan 09 17:30:10 2014] [error] [client 119.147.32.253] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 25
 [Thu Jan 09 17:30:10 2014] [error] [client 119.147.32.253] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 26
 [Thu Jan 09 17:30:10 2014] [error] [client 119.147.32.253] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 27
+[Fri Jan 10 07:26:44 2014] [error] [client 113.108.82.22] script '/myDisk/wilson/workspace/webroot/discuz/api/google.php' not found or unable to stat
+[Fri Jan 10 09:55:10 2014] [error] [client 119.147.32.253] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 24
+[Fri Jan 10 09:55:10 2014] [error] [client 119.147.32.253] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 25
+[Fri Jan 10 09:55:10 2014] [error] [client 119.147.32.253] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 25
+[Fri Jan 10 09:55:10 2014] [error] [client 119.147.32.253] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 26
+[Fri Jan 10 09:55:10 2014] [error] [client 119.147.32.253] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 27
+[Fri Jan 10 13:14:39 2014] [error] [client 162.220.65.143] File does not exist: /myDisk/wilson/workspace/webroot/discuz/user
+[Fri Jan 10 21:48:47 2014] [error] [client 66.171.248.228] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 24
+[Fri Jan 10 21:48:47 2014] [error] [client 66.171.248.228] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 25
+[Fri Jan 10 21:48:47 2014] [error] [client 66.171.248.228] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 25
+[Fri Jan 10 21:48:47 2014] [error] [client 66.171.248.228] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 26
+[Fri Jan 10 21:48:47 2014] [error] [client 66.171.248.228] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 27

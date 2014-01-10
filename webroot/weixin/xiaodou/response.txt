@@ -1,0 +1,8 @@
+<xml>
+    <ToUserName><![CDATA[oee6quAEGotsuFL-5LMoVzFzLzss]]></ToUserName>
+    <FromUserName><![CDATA[gh_7fd712c1a8b1]]></FromUserName>
+    <CreateTime>1389360027</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[我也想和我身边的人xxoo]]></Content>
+    <FuncFlag>0</FuncFlag>
+</xml>

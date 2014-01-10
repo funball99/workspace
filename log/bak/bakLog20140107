@@ -22116,3 +22116,47 @@ sync succeed at 201401082350!
 =========================================================================
 =========================201401092350========================
 latest version at 201401092350 !
+[master 4967358] 201401092350
+ 44 files changed, 10560 insertions(+)
+ create mode 100644 webroot/discuz/data/cache/style_2_forum_forumdisplay.css
+ create mode 100644 webroot/discuz/data/cache/style_2_forum_guide.css
+ create mode 100644 webroot/discuz/data/cache/style_2_forum_misc.css
+ create mode 100644 webroot/discuz/data/cache/style_2_home_magic.css
+ create mode 100644 webroot/discuz/data/cache/style_2_home_medal.css
+ create mode 100644 webroot/discuz/data/cache/style_2_home_space.css
+ create mode 100644 webroot/discuz/data/cache/style_2_home_task.css
+ create mode 100644 webroot/discuz/data/cache/style_2_member_lostpasswd.css
+ create mode 100644 webroot/discuz/data/cache/style_2_member_register.css
+ create mode 100644 webroot/discuz/data/cache/style_2_search_forum.css
+ create mode 100644 webroot/discuz/data/cache/style_2_search_portal.css
+ create mode 100644 webroot/discuz/data/template/2_2_common_header_forum_forumdisplay.tpl.php
+ create mode 100644 webroot/discuz/data/template/2_2_common_header_forum_guide.tpl.php
+ create mode 100644 webroot/discuz/data/template/2_2_common_header_forum_misc.tpl.php
+ create mode 100644 webroot/discuz/data/template/2_2_common_header_home_magic.tpl.php
+ create mode 100644 webroot/discuz/data/template/2_2_common_header_home_medal.tpl.php
+ create mode 100644 webroot/discuz/data/template/2_2_common_header_home_space.tpl.php
+ create mode 100644 webroot/discuz/data/template/2_2_common_header_home_task.tpl.php
+ create mode 100644 webroot/discuz/data/template/2_2_common_header_member_lostpasswd.tpl.php
+ create mode 100644 webroot/discuz/data/template/2_2_common_header_member_register.tpl.php
+ create mode 100644 webroot/discuz/data/template/2_2_common_header_plugin_genee_everydaymushroom.tpl.php
+ create mode 100644 webroot/discuz/data/template/2_2_common_header_search_forum.tpl.php
+ create mode 100644 webroot/discuz/data/template/2_2_forum_ajax_threadlist.tpl.php
+ create mode 100644 webroot/discuz/data/template/2_2_forum_forumdisplay_fastpost.tpl.php
+ create mode 100644 webroot/discuz/data/template/2_2_forum_guide.tpl.php
+ create mode 100644 webroot/discuz/data/template/2_2_forum_post_forumselect.tpl.php
+ create mode 100644 webroot/discuz/data/template/2_2_home_space_list.tpl.php
+ create mode 100644 webroot/discuz/data/template/2_2_home_space_medal.tpl.php
+ create mode 100644 webroot/discuz/data/template/2_2_home_space_menu.tpl.php
+ create mode 100644 webroot/discuz/data/template/2_2_home_space_profile.tpl.php
+ create mode 100644 webroot/discuz/data/template/2_2_member_register.tpl.php
+ create mode 100644 webroot/discuz/data/template/2_2_search_forum.tpl.php
+ create mode 100644 webroot/discuz/data/template/2_2_search_portal.tpl.php
+ create mode 100644 webroot/discuz/data/template/2_diy_forum_forumdisplay.tpl.php
+ create mode 100644 webroot/discuz/data/template/2_diy_home_space_friend.tpl.php
+ create mode 100644 webroot/discuz/data/template/2_genee_everydaymushroom_mgdr.tpl.php
+To git@github.com:funball99/workspace.git
+   d05cc3f..4967358  master -> master
+sync succeed at 201401092350!
+=========================================================================
+=========================201401102350========================
+latest version at 201401102350 !
