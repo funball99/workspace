@@ -1,8 +1,8 @@
 <xml>
-    <ToUserName><![CDATA[oee6quAEGotsuFL-5LMoVzFzLzss]]></ToUserName>
+    <ToUserName><![CDATA[oee6quEQPSkrura-dQ3SUiIroWoY]]></ToUserName>
     <FromUserName><![CDATA[gh_7fd712c1a8b1]]></FromUserName>
-    <CreateTime>1389360027</CreateTime>
+    <CreateTime>1389371859</CreateTime>
     <MsgType><![CDATA[text]]></MsgType>
-    <Content><![CDATA[我也想和我身边的人xxoo]]></Content>
+    <Content><![CDATA[我主人大象无形的QQ号94113786]]></Content>
     <FuncFlag>0</FuncFlag>
 </xml>

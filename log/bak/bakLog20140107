@@ -22160,3 +22160,12 @@ sync succeed at 201401092350!
 =========================================================================
 =========================201401102350========================
 latest version at 201401102350 !
+[master ae3a2e3] 201401102350
+ 10 files changed, 245 insertions(+)
+ create mode 100644 webroot/weixin/xiaodou/response.txt
+To git@github.com:funball99/workspace.git
+   4967358..ae3a2e3  master -> master
+sync succeed at 201401102350!
+=========================================================================
+=========================201401112350========================
+latest version at 201401112350 !
