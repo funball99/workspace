@@ -1,0 +1,1 @@
+{"0":"uid","1":"follow_uid","2":"add_time","3":"mutually","_autoinc":false,"_pk":"follow_uid","_type":{"uid":"int(10) unsigned","follow_uid":"int(10) unsigned","add_time":"int(10) unsigned","mutually":"tinyint(1) unsigned"}}

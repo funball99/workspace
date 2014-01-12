@@ -1,0 +1,1 @@
+{"0":"album_id","1":"item_id","2":"intro","3":"add_time","_autoinc":false,"_pk":"item_id","_type":{"album_id":"int(10) unsigned","item_id":"int(10) unsigned","intro":"varchar(255)","add_time":"int(10) unsigned"}}

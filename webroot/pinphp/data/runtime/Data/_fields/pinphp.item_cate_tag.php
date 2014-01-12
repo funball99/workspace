@@ -1,0 +1,1 @@
+{"0":"cate_id","1":"tag_id","2":"weight","_autoinc":false,"_pk":"tag_id","_type":{"cate_id":"smallint(4) unsigned","tag_id":"int(10) unsigned","weight":"tinyint(3) unsigned"}}

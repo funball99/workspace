@@ -1,0 +1,1 @@
+{"0":"item_id","1":"uid","2":"add_time","_autoinc":false,"_pk":"uid","_type":{"item_id":"int(10) unsigned","uid":"int(10) unsigned","add_time":"int(10)"}}
