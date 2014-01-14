@@ -2332,3 +2332,22 @@
 [Mon Jan 13 22:37:22 2014] [error] [client 61.135.187.52] File does not exist: /myDisk/wilson/workspace/webroot/discuz/rockitv
 [Mon Jan 13 22:37:22 2014] [error] [client 61.135.187.52] File does not exist: /myDisk/wilson/workspace/webroot/discuz/coco
 [Mon Jan 13 23:46:15 2014] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/webroot/discuz/data/cache/style_2_search_forum.css/asdf.php, referer: http://203.195.189.155
+[Tue Jan 14 01:12:28 2014] [error] [client 119.147.207.158] File does not exist: /myDisk/wilson/workspace/webroot/discuz/q.do, referer: http://b321.photo.store.qq.com/car_sent/geVJ41WkQ8/weAbuY45ZK*htStxB*eisDgETaaoydMU*wuyiBrE9Rg!/b/dHEUZL9CNgAA&bo=9AHeAQAAAAABAA0!&su=011536913&rf=2-9
+[Tue Jan 14 01:45:58 2014] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/webroot/discuz/data/cache/style_2_search_forum.css/asdf.php, referer: http://203.195.189.155
+[Tue Jan 14 03:43:57 2014] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/webroot/discuz/data/cache/style_2_search_forum.css/asdf.php, referer: http://203.195.189.155
+[Tue Jan 14 05:43:29 2014] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/webroot/discuz/data/cache/style_2_search_forum.css/asdf.php, referer: http://203.195.189.155
+[Tue Jan 14 07:25:29 2014] [error] [client 113.108.82.22] script '/myDisk/wilson/workspace/webroot/discuz/api/google.php' not found or unable to stat
+[Tue Jan 14 07:45:09 2014] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/webroot/discuz/data/cache/style_2_search_forum.css/asdf.php, referer: http://203.195.189.155
+[Tue Jan 14 09:45:51 2014] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/webroot/discuz/data/cache/style_2_search_forum.css/asdf.php, referer: http://203.195.189.155
+[Tue Jan 14 11:48:41 2014] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/webroot/discuz/data/cache/style_2_search_forum.css/asdf.php, referer: http://203.195.189.155
+[Tue Jan 14 13:46:05 2014] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/webroot/discuz/data/cache/style_2_search_forum.css/asdf.php, referer: http://203.195.189.155
+[Tue Jan 14 15:46:04 2014] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/webroot/discuz/data/cache/style_2_search_forum.css/asdf.php, referer: http://203.195.189.155
+[Tue Jan 14 16:13:06 2014] [error] [client 180.153.160.15] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 24
+[Tue Jan 14 16:13:06 2014] [error] [client 180.153.160.15] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 25
+[Tue Jan 14 16:13:06 2014] [error] [client 180.153.160.15] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 25
+[Tue Jan 14 16:13:06 2014] [error] [client 180.153.160.15] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 26
+[Tue Jan 14 16:13:06 2014] [error] [client 180.153.160.15] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 27
+[Tue Jan 14 17:46:22 2014] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/webroot/discuz/data/cache/style_2_search_forum.css/asdf.php, referer: http://203.195.189.155
+[Tue Jan 14 19:49:00 2014] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/webroot/discuz/data/cache/style_2_search_forum.css/asdf.php, referer: http://203.195.189.155
+[Tue Jan 14 21:47:24 2014] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/webroot/discuz/data/cache/style_2_search_forum.css/asdf.php, referer: http://203.195.189.155
+[Tue Jan 14 23:46:54 2014] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/webroot/discuz/data/cache/style_2_search_forum.css/asdf.php, referer: http://203.195.189.155

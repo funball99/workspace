@@ -22244,3 +22244,12 @@ sync succeed at 201401122350!
 =========================================================================
 =========================201401132350========================
 latest version at 201401132350 !
+[master be55c3f] 201401132350
+ 10 files changed, 5954 insertions(+)
+ create mode 100644 webroot/discuz/data/template/2_2_forum_post.tpl.php
+To git@github.com:funball99/workspace.git
+   600f036..be55c3f  master -> master
+sync succeed at 201401132350!
+=========================================================================
+=========================201401142350========================
+latest version at 201401142350 !
