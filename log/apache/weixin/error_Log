@@ -1654,3 +1654,33 @@
 [Thu Jan 16 22:08:54 2014] [error] [client 101.226.62.80] PHP Notice:  Undefined index: Content in /myDisk/wilson/workspace/webroot/weixin/xiaodou/index.php on line 116
 [Thu Jan 16 22:47:47 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
 [Thu Jan 16 23:48:55 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Fri Jan 17 00:50:03 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Fri Jan 17 01:51:11 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Fri Jan 17 02:52:19 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Fri Jan 17 03:53:27 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Fri Jan 17 04:54:35 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Fri Jan 17 05:55:43 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Fri Jan 17 06:56:50 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Fri Jan 17 07:57:58 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Fri Jan 17 08:59:05 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Fri Jan 17 10:00:14 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Fri Jan 17 10:39:10 2014] [error] [client 123.125.244.210] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Fri Jan 17 11:01:21 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Fri Jan 17 12:02:28 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Fri Jan 17 13:03:35 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Fri Jan 17 14:04:42 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Fri Jan 17 15:05:49 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Fri Jan 17 16:01:53 2014] [error] [client 123.125.244.209] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Fri Jan 17 16:06:56 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Fri Jan 17 16:39:10 2014] [error] [client 123.125.244.209] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Fri Jan 17 17:02:10 2014] [error] [client 101.226.103.146] File does not exist: /myDisk/wilson/workspace/webroot/weixin/zt2013
+[Fri Jan 17 17:04:07 2014] [error] [client 101.226.103.146] File does not exist: /myDisk/wilson/workspace/webroot/weixin/zt2013
+[Fri Jan 17 17:06:48 2014] [error] [client 101.226.103.146] File does not exist: /myDisk/wilson/workspace/webroot/weixin/zt2013
+[Fri Jan 17 17:08:03 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Fri Jan 17 17:15:27 2014] [error] [client 101.226.103.146] File does not exist: /myDisk/wilson/workspace/webroot/weixin/zt2012
+[Fri Jan 17 18:09:11 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Fri Jan 17 19:10:19 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Fri Jan 17 20:11:27 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Fri Jan 17 21:12:35 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Fri Jan 17 22:13:44 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/
+[Fri Jan 17 23:14:51 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/weixin/

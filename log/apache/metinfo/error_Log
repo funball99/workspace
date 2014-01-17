@@ -1320,3 +1320,7 @@
 [Wed Jan 15 03:04:20 2014] [error] [client 121.14.102.43] File does not exist: /myDisk/wilson/workspace/webroot/metinfo/sns
 [Wed Jan 15 03:04:20 2014] [error] [client 121.14.102.43] File does not exist: /myDisk/wilson/workspace/webroot/metinfo/scantestxxx
 [Wed Jan 15 03:04:20 2014] [error] [client 121.14.102.43] File does not exist: /myDisk/wilson/workspace/webroot/metinfo/scantestxxx
+[Fri Jan 17 17:02:15 2014] [error] [client 101.226.103.146] File does not exist: /myDisk/wilson/workspace/webroot/metinfo/zt2013
+[Fri Jan 17 17:04:29 2014] [error] [client 101.226.103.146] File does not exist: /myDisk/wilson/workspace/webroot/metinfo/zt2013
+[Fri Jan 17 17:07:08 2014] [error] [client 101.226.103.146] File does not exist: /myDisk/wilson/workspace/webroot/metinfo/zt2013
+[Fri Jan 17 17:15:39 2014] [error] [client 101.226.103.146] File does not exist: /myDisk/wilson/workspace/webroot/metinfo/zt2012
