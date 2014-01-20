@@ -13155,3 +13155,65 @@
 [Sun Jan 19 21:53:40 2014] [error] [client 54.254.143.127] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 27
 [Sun Jan 19 22:26:58 2014] [error] [client 201.161.37.93] File does not exist: /myDisk/wilson/workspace/webroot/discuz/manager
 [Sun Jan 19 23:46:48 2014] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/webroot/discuz/data/cache/style_2_search_forum.css/asdf.php, referer: http://203.195.189.155
+[Mon Jan 20 01:43:37 2014] [error] [client 200.183.132.2] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 24
+[Mon Jan 20 01:43:37 2014] [error] [client 200.183.132.2] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 25
+[Mon Jan 20 01:43:37 2014] [error] [client 200.183.132.2] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 25
+[Mon Jan 20 01:43:37 2014] [error] [client 200.183.132.2] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 26
+[Mon Jan 20 01:43:37 2014] [error] [client 200.183.132.2] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 27
+[Mon Jan 20 01:46:22 2014] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/webroot/discuz/data/cache/style_2_search_forum.css/asdf.php, referer: http://203.195.189.155
+[Mon Jan 20 02:44:18 2014] [error] [client 83.1.130.191] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 24
+[Mon Jan 20 02:44:18 2014] [error] [client 83.1.130.191] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 25
+[Mon Jan 20 02:44:18 2014] [error] [client 83.1.130.191] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 25
+[Mon Jan 20 02:44:18 2014] [error] [client 83.1.130.191] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 26
+[Mon Jan 20 02:44:18 2014] [error] [client 83.1.130.191] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 27
+[Mon Jan 20 02:44:22 2014] [error] [client 83.1.130.191] script not found or unable to stat: /var/www/cgi-bin/php
+[Mon Jan 20 02:44:26 2014] [error] [client 83.1.130.191] script not found or unable to stat: /var/www/cgi-bin/php5
+[Mon Jan 20 02:44:27 2014] [error] [client 83.1.130.191] script not found or unable to stat: /var/www/cgi-bin/php-cgi
+[Mon Jan 20 02:44:28 2014] [error] [client 83.1.130.191] script not found or unable to stat: /var/www/cgi-bin/php.cgi
+[Mon Jan 20 02:44:29 2014] [error] [client 83.1.130.191] script not found or unable to stat: /var/www/cgi-bin/php4
+[Mon Jan 20 03:45:21 2014] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/webroot/discuz/data/cache/style_2_search_forum.css/asdf.php, referer: http://203.195.189.155
+[Mon Jan 20 05:43:54 2014] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/webroot/discuz/data/cache/style_2_search_forum.css/asdf.php, referer: http://203.195.189.155
+[Mon Jan 20 07:34:53 2014] [error] [client 113.108.82.22] script '/myDisk/wilson/workspace/webroot/discuz/api/google.php' not found or unable to stat
+[Mon Jan 20 07:45:50 2014] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/webroot/discuz/data/cache/style_2_search_forum.css/asdf.php, referer: http://203.195.189.155
+[Mon Jan 20 08:33:19 2014] [error] [client 41.191.234.114] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 24
+[Mon Jan 20 08:33:19 2014] [error] [client 41.191.234.114] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 25
+[Mon Jan 20 08:33:19 2014] [error] [client 41.191.234.114] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 25
+[Mon Jan 20 08:33:19 2014] [error] [client 41.191.234.114] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 26
+[Mon Jan 20 08:33:19 2014] [error] [client 41.191.234.114] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 27
+[Mon Jan 20 09:38:26 2014] [error] [client 107.20.201.184] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 24
+[Mon Jan 20 09:38:26 2014] [error] [client 107.20.201.184] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 25
+[Mon Jan 20 09:38:26 2014] [error] [client 107.20.201.184] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 25
+[Mon Jan 20 09:38:26 2014] [error] [client 107.20.201.184] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 26
+[Mon Jan 20 09:38:26 2014] [error] [client 107.20.201.184] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 27
+[Mon Jan 20 09:46:12 2014] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/webroot/discuz/data/cache/style_2_search_forum.css/asdf.php, referer: http://203.195.189.155
+[Mon Jan 20 10:43:58 2014] [error] [client 200.129.216.11] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 24
+[Mon Jan 20 10:43:58 2014] [error] [client 200.129.216.11] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 25
+[Mon Jan 20 10:43:58 2014] [error] [client 200.129.216.11] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 25
+[Mon Jan 20 10:43:58 2014] [error] [client 200.129.216.11] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 26
+[Mon Jan 20 10:43:58 2014] [error] [client 200.129.216.11] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 27
+[Mon Jan 20 11:51:19 2014] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/webroot/discuz/data/cache/style_2_search_forum.css/asdf.php, referer: http://203.195.189.155
+[Mon Jan 20 13:48:47 2014] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/webroot/discuz/data/cache/style_2_search_forum.css/asdf.php, referer: http://203.195.189.155
+[Mon Jan 20 15:01:48 2014] [error] [client 85.214.211.30] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 24
+[Mon Jan 20 15:01:48 2014] [error] [client 85.214.211.30] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 25
+[Mon Jan 20 15:01:48 2014] [error] [client 85.214.211.30] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 25
+[Mon Jan 20 15:01:48 2014] [error] [client 85.214.211.30] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 26
+[Mon Jan 20 15:01:48 2014] [error] [client 85.214.211.30] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 27
+[Mon Jan 20 15:48:30 2014] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/webroot/discuz/data/cache/style_2_search_forum.css/asdf.php, referer: http://203.195.189.155
+[Mon Jan 20 17:50:58 2014] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/webroot/discuz/data/cache/style_2_search_forum.css/asdf.php, referer: http://203.195.189.155
+[Mon Jan 20 18:08:52 2014] [error] [client 201.56.128.2] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 24
+[Mon Jan 20 18:08:52 2014] [error] [client 201.56.128.2] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 25
+[Mon Jan 20 18:08:52 2014] [error] [client 201.56.128.2] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 25
+[Mon Jan 20 18:08:52 2014] [error] [client 201.56.128.2] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 26
+[Mon Jan 20 18:08:52 2014] [error] [client 201.56.128.2] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 27
+[Mon Jan 20 19:51:34 2014] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/webroot/discuz/data/cache/style_2_search_forum.css/asdf.php, referer: http://203.195.189.155
+[Mon Jan 20 20:14:21 2014] [error] [client 184.73.84.126] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 24
+[Mon Jan 20 20:14:21 2014] [error] [client 184.73.84.126] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 25
+[Mon Jan 20 20:14:21 2014] [error] [client 184.73.84.126] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 25
+[Mon Jan 20 20:14:21 2014] [error] [client 184.73.84.126] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 26
+[Mon Jan 20 20:14:21 2014] [error] [client 184.73.84.126] PHP Notice:  Undefined index: HTTP_HOST in /myDisk/wilson/workspace/webroot/discuz/index.php on line 27
+[Mon Jan 20 20:14:26 2014] [error] [client 184.73.84.126] script not found or unable to stat: /var/www/cgi-bin/php
+[Mon Jan 20 20:14:26 2014] [error] [client 184.73.84.126] script not found or unable to stat: /var/www/cgi-bin/php5
+[Mon Jan 20 20:14:27 2014] [error] [client 184.73.84.126] script not found or unable to stat: /var/www/cgi-bin/php-cgi
+[Mon Jan 20 20:14:27 2014] [error] [client 184.73.84.126] script not found or unable to stat: /var/www/cgi-bin/php.cgi
+[Mon Jan 20 20:14:28 2014] [error] [client 184.73.84.126] script not found or unable to stat: /var/www/cgi-bin/php4
+[Mon Jan 20 21:52:06 2014] [error] [client 101.227.131.143] File does not exist: /myDisk/wilson/workspace/webroot/discuz/data/cache/style_2_search_forum.css/asdf.php, referer: http://203.195.189.155
