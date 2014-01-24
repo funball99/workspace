@@ -22325,3 +22325,14 @@ sync succeed at 201401222350!
 =========================================================================
 =========================201401232350========================
 latest version at 201401232350 !
+[master 7945f88] 201401232350
+ 15 files changed, 54344 insertions(+)
+ create mode 100644 webroot/metinfo/cache/column_cn.inc.php
+ create mode 100644 webroot/metinfo/cache/lang_cn.php
+ create mode 100644 webroot/metinfo/cache/otherinfo_cn.inc.php
+To git@github.com:funball99/workspace.git
+   22ac56f..7945f88  master -> master
+sync succeed at 201401232350!
+=========================================================================
+=========================201401242350========================
+latest version at 201401242350 !
