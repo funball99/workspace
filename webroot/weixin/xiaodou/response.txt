@@ -1,8 +1,8 @@
 <xml>
-    <ToUserName><![CDATA[oee6quIOdzepeC-9S8xinYLvq7bk]]></ToUserName>
+    <ToUserName><![CDATA[oee6quHg6eagfPICRMUbBDiLCBgQ]]></ToUserName>
     <FromUserName><![CDATA[gh_7fd712c1a8b1]]></FromUserName>
-    <CreateTime>1390870751</CreateTime>
+    <CreateTime>1391004498</CreateTime>
     <MsgType><![CDATA[text]]></MsgType>
-    <Content><![CDATA[抱歉，小蔷还不能理解，求您教我,使用“问...答..”句式(木有标点)]]></Content>
+    <Content><![CDATA[请说点什么...]]></Content>
     <FuncFlag>0</FuncFlag>
 </xml>
