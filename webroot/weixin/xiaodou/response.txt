@@ -1,8 +1,8 @@
 <xml>
-    <ToUserName><![CDATA[oee6quLp-Rrj5Du-4zUV6nPosaMU]]></ToUserName>
+    <ToUserName><![CDATA[oee6quNsP5_5gqTvGfWelGNgVo6M]]></ToUserName>
     <FromUserName><![CDATA[gh_7fd712c1a8b1]]></FromUserName>
-    <CreateTime>1391154897</CreateTime>
+    <CreateTime>1391223483</CreateTime>
     <MsgType><![CDATA[text]]></MsgType>
-    <Content><![CDATA[没什么]]></Content>
+    <Content><![CDATA[请说点什么...]]></Content>
     <FuncFlag>0</FuncFlag>
 </xml>
