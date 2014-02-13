@@ -1,0 +1,45 @@
+[Thu Feb 13 00:34:58 2014] [error] [client 60.26.53.88] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/flappy/
+[Thu Feb 13 00:34:58 2014] [error] [client 60.26.53.88] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 00:35:06 2014] [error] [client 60.26.53.88] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 00:43:48 2014] [error] [client 60.26.53.88] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/flappy/
+[Thu Feb 13 00:43:48 2014] [error] [client 60.26.53.88] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 00:44:11 2014] [error] [client 60.26.53.88] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/flappy/
+[Thu Feb 13 00:44:11 2014] [error] [client 60.26.53.88] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 00:44:12 2014] [error] [client 60.26.53.88] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/flappy/
+[Thu Feb 13 00:44:12 2014] [error] [client 60.26.53.88] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 00:44:16 2014] [error] [client 60.26.53.88] File does not exist: /myDisk/wilson/workspace/webroot/flappy/index.html
+[Thu Feb 13 00:44:16 2014] [error] [client 60.26.53.88] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 00:44:27 2014] [error] [client 60.26.53.88] File does not exist: /myDisk/wilson/workspace/webroot/flappy/index.html
+[Thu Feb 13 00:44:27 2014] [error] [client 60.26.53.88] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 00:44:28 2014] [error] [client 60.26.53.88] File does not exist: /myDisk/wilson/workspace/webroot/flappy/index.html
+[Thu Feb 13 00:44:28 2014] [error] [client 60.26.53.88] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 00:44:58 2014] [error] [client 60.26.53.88] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 12:02:04 2014] [error] [client 183.60.77.84] Directory index forbidden by Options directive: /myDisk/wilson/workspace/webroot/flappy/
+[Thu Feb 13 12:03:37 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 12:03:46 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 12:04:12 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 12:04:19 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 12:05:05 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 12:05:22 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 12:06:56 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 13:21:18 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 13:23:53 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 13:23:54 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 13:24:11 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 13:24:45 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 13:24:50 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 13:25:11 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 13:26:11 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 13:26:13 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 13:26:14 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 13:27:01 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 13:27:02 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 13:28:11 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 13:28:22 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 13:29:00 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 13:29:00 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 13:29:01 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 13:31:41 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 13:32:12 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 19:26:20 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
+[Thu Feb 13 19:26:26 2014] [error] [client 123.151.155.114] File does not exist: /myDisk/wilson/workspace/webroot/flappy/favicon.ico
