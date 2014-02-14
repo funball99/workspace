@@ -22497,3 +22497,20 @@ sync succeed at 201402122350!
 =========================================================================
 =========================201402132350========================
 latest version at 201402132350 !
+[master e76ed21] 201402132350
+ 18 files changed, 10326 insertions(+), 2 deletions(-)
+ create mode 100755 log/apache/flappy/access_log
+ create mode 100755 log/apache/flappy/error_Log
+ create mode 100755 webroot/flappy/a.html
+ create mode 100755 webroot/flappy/atlas.png
+ create mode 100755 webroot/flappy/dcf6070a4ab7f3afbfd2809173e0824b.html
+ create mode 100755 webroot/flappy/flappy_right.png
+ create mode 100755 webroot/flappy/index.html
+ create mode 100755 webroot/flappy/index2.html
+ create mode 100755 webroot/flappy/main.js
+To git@github.com:funball99/workspace.git
+   342a5fe..e76ed21  master -> master
+sync succeed at 201402132350!
+=========================================================================
+=========================201402142350========================
+latest version at 201402142350 !
