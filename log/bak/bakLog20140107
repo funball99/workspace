@@ -22563,3 +22563,14 @@ sync succeed at 201402192350!
 =========================================================================
 =========================201402202350========================
 latest version at 201402202350 !
+[master 8f8ff59] 201402202350
+ 16 files changed, 7774 insertions(+), 2 deletions(-)
+ create mode 100755 log/apache/asoftmurmur/access_log
+ create mode 100755 log/apache/asoftmurmur/error_Log
+ create mode 100755 webroot/asoftmurmur/index.php
+To git@github.com:funball99/workspace.git
+   ed14f6b..8f8ff59  master -> master
+sync succeed at 201402202350!
+=========================================================================
+=========================201402212350========================
+latest version at 201402212350 !
